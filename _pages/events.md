@@ -4,7 +4,7 @@ title: Upcoming Events
 permalink: /events
 layout: page
 excerpt: We have a number of events through out the year. All are welcome to join us on our Open Days to get a taste and sense of what we do. Please contact us to book your place in the Open day session!
-highlight: The Next Open day is on Monday 29th April 2019.
+highlight: League nights! All are welcome to come see! 18th, 24th, 25th of June (Backsword, Sabre, Epee, Longsword)
 image: events.jpg
 background-image: fencing_banner.jpg
 ---
