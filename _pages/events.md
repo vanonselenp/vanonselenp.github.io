@@ -18,7 +18,7 @@ background-image: fencing_banner.jpg
 
 Four times a year we host an Open day. Our open days are a perfect time for you to join us! If you want to learn how to swing a sword, you are welcome to come!
 
-The next Open Day is: **Monday 29th April 2019**
+The next Open Day is: **Monday 5th August 2019**
 
 Cost is: **R50.00**
 
@@ -32,8 +32,9 @@ Contact David to book your spot!
 
 At the end of each term we set aside a day to test our skills in a series of league matches. This is a perfect oppurtunity to see how far you have come and to apply your hard won skills against your fellow fencers.
 
-Upcoming League Nights are:
+This term there are a number of League events happening! Spectators are welcome!
 
-* To be announced
-
-Cost is: **R50**
+* Open Backsword League: Tuesday 18th June
+* Beginner Sport Sabre League: Monday 24th June
+* Open Epee League: Tuesday 25th June
+* Advanced Steel and Intermediate Rawlings Longsword: Tuesday 25th June
