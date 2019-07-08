@@ -4,7 +4,7 @@ title: Upcoming Events
 permalink: /events
 layout: page
 excerpt: We have a number of events through out the year. All are welcome to join us on our Open Days to get a taste and sense of what we do. Please contact us to book your place in the Open day session!
-highlight: League nights! All are welcome to come see! 18th, 24th, 25th of June (Backsword, Sabre, Epee, Longsword)
+highlight: Our next open day is on the 15th of July 2019. Please contact David to book your spot!
 image: events.jpg
 background-image: fencing_banner.jpg
 ---
@@ -18,7 +18,7 @@ background-image: fencing_banner.jpg
 
 Four times a year we host an Open day. Our open days are a perfect time for you to join us! If you want to learn how to swing a sword, you are welcome to come!
 
-The next Open Day is: **Monday 5th August 2019**
+The next Open Day is: **Monday 15th July 2019**
 
 Cost is: **R50.00**
 
