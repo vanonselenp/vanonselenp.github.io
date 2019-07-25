@@ -4,7 +4,7 @@ title: Upcoming Events
 permalink: /events
 layout: page
 excerpt: We have a number of events through out the year. All are welcome to join us on our Open Days to get a taste and sense of what we do. Please contact us to book your place in the Open day session!
-highlight: Our next open day is on the 15th of July 2019. Please contact David to book your spot!
+highlight: Our next open day is on the 23rd of September 2019. Please contact David to book your spot!
 image: events.jpg
 background-image: fencing_banner.jpg
 ---
@@ -18,7 +18,7 @@ background-image: fencing_banner.jpg
 
 Four times a year we host an Open day. Our open days are a perfect time for you to join us! If you want to learn how to swing a sword, you are welcome to come!
 
-The next Open Day is: **Monday 15th July 2019**
+The next Open Day is: **Monday 23rd September 2019**
 
 Cost is: **R50.00**
 
@@ -34,7 +34,4 @@ At the end of each term we set aside a day to test our skills in a series of lea
 
 This term there are a number of League events happening! Spectators are welcome!
 
-* Open Backsword League: Tuesday 18th June
-* Beginner Sport Sabre League: Monday 24th June
-* Open Epee League: Tuesday 25th June
-* Advanced Steel and Intermediate Rawlings Longsword: Tuesday 25th June
+* HEMA League: Monday 23rd September
