@@ -34,4 +34,4 @@ At the end of each term we set aside a day to test our skills in a series of lea
 
 This term there are a number of League events happening! Spectators are welcome!
 
-* HEMA League: Monday 23rd September
+* HEMA League: Monday 2nd September
