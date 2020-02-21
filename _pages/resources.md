@@ -50,7 +50,7 @@ These are the crib notes made to give the lectures. YMMV.
 Pretoria Based:
 
 * [Medieval Armed Combat Society of Pretoria](http://armoury.co.za/)
-* [Esprit De Combat](espiritdecombat.wixsite.com/hemasa)
+* [Esprit De Combat](https://www.facebook.com/EspritDeCombatSA/)
 
 ## Facebook Groups
 
