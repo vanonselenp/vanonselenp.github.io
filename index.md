@@ -9,7 +9,9 @@ Hello! I'm **Peter van Onselen**, a technology professional based in **London, U
 With 14+ years of software development and team leadership, I'm passionate about creating scalable, efficient solutions and mentoring the next generation of developers. My expertise spans across backend engineering, cloud infrastructure, and developer experience, and I enjoy tackling complex technical challenges while maintaining a focus on user experience and business outcomes.
 
 **Current Focus:** Staff Engineer at the Economist 
+
 **Location:** London, UK  
+
 **Specialties:** Backend Engineering, Cloud Infrastructure (AWS), Performance Optimization, API Architecture, Team Leadership & Mentoring
 
 ## Quick Navigation
