@@ -33,11 +33,6 @@ With 14+ years of software development and team leadership, I'm passionate about
   </div>
   
   <div class="project-item">
-    <h3><a href="/resume/">Resume</a></h3>
-    <p>View my complete professional history and download my resume in PDF format.</p>
-  </div>
-  
-  <div class="project-item">
     <h3><a href="/contact/">Get in Touch</a></h3>
     <p>Connect with me for professional opportunities, collaboration, or technical discussions.</p>
   </div>

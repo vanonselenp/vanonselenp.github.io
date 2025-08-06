@@ -19,9 +19,8 @@ Let's build something great, and maybe a little weird, together.
 **Years of Experience:** 14+ years in software engineering and technical leadership  
 
 <div class="resume-header">
-<strong>Location:</strong> London, UK<br>
-<strong>LinkedIn:</strong> <a href="https://linkedin.com/in/peter-van-onselen-a46b1b2b" target="_blank">linkedin.com/in/peter-van-onselen-a46b1b2b</a><br>
-<strong>GitHub:</strong> <a href="https://github.com/vanonselenp" target="_blank">github.com/vanonselenp</a>
+    <p><strong>LinkedIn:</strong> <a href="https://linkedin.com/in/peter-van-onselen-a46b1b2b" target="_blank">linkedin.com/in/peter-van-onselen-a46b1b2b</a></p>
+    <p><strong>GitHub:</strong> <a href="https://github.com/vanonselenp" target="_blank">github.com/vanonselenp</a></p>
 </div>
 
 ## Notable Accomplishments

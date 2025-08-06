@@ -41,8 +41,6 @@ navigation:
     url: /projects/
   - title: Blog
     url: /blog/
-  - title: Resume
-    url: /resume/
   - title: Contact
     url: /contact/
 
