@@ -1,10 +1,8 @@
 ---
 layout: page
-title: About
+title: Hi!
 permalink: /about/
 ---
-
-# Hi!
 
 I'm Peter, a South African engineer living in the UK with a passion for building fast, resilient systems and helping others grow along the way. I work at the intersection of backend engineering, cloud infrastructure, and developer experience, with a love for clean code, TDD, and collaborative problem solving.
 
@@ -41,3 +39,4 @@ Created an affordable website for a HEMA club using Jekyll and GitHub Pages, foc
 - Cloud-native architecture and performance optimization
 - Mentoring and growing engineering teams
 - Cross-team collaboration and technical leadership
+`
