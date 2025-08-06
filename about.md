@@ -13,7 +13,9 @@ Outside of work, I'm a lifelong Doctor Who fan, avid board gamer, and book devou
 Let's build something great, and maybe a little weird, together.
 
 **Current Role:** Staff Engineer at The Economist 
+
 **Location:** London, England, United Kingdom  
+
 **Years of Experience:** 14+ years in software engineering and technical leadership  
 
 ## Notable Accomplishments
