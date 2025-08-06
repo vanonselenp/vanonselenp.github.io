@@ -1,0 +1,59 @@
+# Site settings
+title: Peter van Onselen
+description: > # this means to ignore newlines until "baseurl:"
+  Personal website and portfolio of Peter van Onselen
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://vanonselenp.github.io" # the base hostname & protocol for your site
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+theme: minima
+
+# GitHub Pages supported plugins
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - vendor/
+  - .bundle/
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Navigation
+navigation:
+  - title: Home
+    url: /
+  - title: About
+    url: /about/
+  - title: Projects
+    url: /projects/
+  - title: Blog
+    url: /blog/
+  - title: Resume
+    url: /resume/
+  - title: Contact
+    url: /contact/
+
+# Social links
+social:
+  github: vanonselenp
+  linkedin: peter-van-onselen-a46b1b2b
+  email: # Add your email here
+
+# Collections
+collections:
+  posts:
+    output: true
+    permalink: /:year/:month/:day/:title/

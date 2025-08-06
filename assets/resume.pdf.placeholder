@@ -1,0 +1,10 @@
+# Resume PDF Placeholder
+
+This is a placeholder file for your resume PDF. Please replace this with your actual resume PDF file.
+
+To add your resume PDF:
+1. Save your resume as `resume.pdf`
+2. Replace this file with your actual resume PDF
+3. The resume page will automatically link to this file
+
+The file should be accessible at: `/assets/resume.pdf`
