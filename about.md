@@ -29,6 +29,7 @@ Let's build something great, and maybe a little weird, together.
 ## Personal Projects
 
 ### Magic: The Gathering Jumpstart Cube Constructor
+
 An intelligent deck construction system that automatically builds themed Magic: The Gathering Jumpstart cubes with perfect theme coherence and balanced gameplay from any card pool. This project features automated theme extraction, balanced color distribution, and comprehensive performance analysis.
 
 **Key bits of fun:**
@@ -37,6 +38,7 @@ An intelligent deck construction system that automatically builds themed Magic: 
 - **Auto-Download System:** Zero-setup experience with automatic MTG data management and caching
 
 **Technical Implementation:**
+
 - **Technologies:** Python, Pandas, Jupyter, Machine Learning, Data Analysis
 - **Architecture:** Modular 5-phase construction algorithm with constraint management
 - **Output:** Comprehensive analysis including performance metrics, improvement suggestions, and exportable data
@@ -47,8 +49,11 @@ This was an experiment in "vibe coding" that solved a real problem I had at the 
 **Live Example:** [Pauper Jumpstart Cube](https://cubecobra.com/cube/list/pauper-jumpstart-06-2025)
 
 ### Table Mountain HEMA Website 
+
 Created an affordable website for a HEMA club using Jekyll and GitHub Pages, focusing on cost-effective hosting and maintenance.
+
 **Technologies:** Jekyll, GitHub, Ruby
+
 **URL:** https://www.tablemountainhema.co.za/
 
 ## Professional Interests
