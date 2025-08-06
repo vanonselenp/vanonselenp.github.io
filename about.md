@@ -6,7 +6,7 @@ permalink: /about/
 
 I'm Peter, a South African engineer living in the UK with a passion for building fast, resilient systems and helping others grow along the way. I work at the intersection of backend engineering, cloud infrastructure, and developer experience, with a love for clean code, TDD, and collaborative problem solving.
 
-In past lives, I've helped architect high-performance APIs, lead platform migrations, and drive culture shifts toward better engineering practices. I get excited by elegant abstractions, meaningful metrics, and mentoring other engineers to do their best work.
+In past lives, I've helped architect high-performance APIs, lead platform migrations, and driven culture shifts toward better engineering practices. I get excited by elegant abstractions, meaningful metrics, and mentoring other engineers to do their best work.
 
 Outside of work, I'm a lifelong Doctor Who fan, avid board gamer, and book devourer. I'm currently trying to teach myself urban sketching (with questionable success), and I still get emotional over great video game storytelling. I live in London with my wife and daughter, where we're figuring out the whole parenting thing one messy, wonderful day at a time.
 
