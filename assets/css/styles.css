@@ -218,7 +218,10 @@ hr {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
+  padding: 1.5rem;
+  background-color: var(--bg-light);
+  border-radius: var(--border-radius);
 }
 
 .resume-title {
@@ -229,6 +232,38 @@ hr {
 .resume-meta {
   color: var(--text-light);
   font-size: 0.9rem;
+}
+
+/* Enhanced resume styling */
+.resume-item ul {
+  margin-top: 0.5rem;
+}
+
+.resume-item ul li {
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.resume-item strong {
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+/* Categories and tags */
+.category {
+  background-color: var(--secondary-color);
+  color: white;
+  padding: 0.2rem 0.5rem;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.post-meta {
+  color: var(--text-light);
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
 }
 
 /* Project grid */
