@@ -54,7 +54,7 @@ Created an affordable website for a HEMA club using Jekyll and GitHub Pages, foc
 
 **Technologies:** Jekyll, GitHub, Ruby
 
-**URL:** https://www.tablemountainhema.co.za/
+**URL:** [Table Mountain HEMA](https://www.tablemountainhema.co.za/)
 
 ## Professional Interests
 
