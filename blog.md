@@ -4,8 +4,6 @@ title: A Blog of dubious intent
 permalink: /blog/
 ---
 
-Welcome to my blog! Here I share thoughts on technology, software development, leadership, and insights from my professional journey. Whether you're a fellow developer, a technology leader, or someone interested in the industry, I hope you find something valuable here.
-
 ## Recent Posts
 
 {% for post in site.posts limit:5 %}
