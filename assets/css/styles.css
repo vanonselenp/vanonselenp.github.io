@@ -305,6 +305,60 @@ hr {
   color: var(--text-light);
 }
 
+/* Blog post content styling */
+.post-content img,
+article img,
+.page-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1.5rem auto;
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow);
+}
+
+.post-content,
+article,
+.page-content {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* Block quote styling */
+.post-content blockquote,
+article blockquote,
+.page-content blockquote {
+  background-color: var(--bg-light);
+  border-left: 4px solid var(--secondary-color);
+  margin: 1.5rem 0;
+  padding: 1rem 1.5rem;
+  border-radius: 0 var(--border-radius) var(--border-radius) 0;
+  font-style: italic;
+  color: var(--text-light);
+  position: relative;
+}
+
+.post-content blockquote::before,
+article blockquote::before,
+.page-content blockquote::before {
+  content: """;
+  font-size: 3rem;
+  color: var(--secondary-color);
+  position: absolute;
+  left: 0.5rem;
+  top: -0.5rem;
+  font-family: Georgia, serif;
+  opacity: 0.3;
+}
+
+.post-content blockquote p,
+article blockquote p,
+.page-content blockquote p {
+  margin: 0;
+  padding-left: 1rem;
+}
+
 /* Responsive design */
 @media (max-width: 768px) {
   .site-header .container {

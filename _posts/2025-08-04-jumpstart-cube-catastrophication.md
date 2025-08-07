@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "The Zero-to-Jumpstart Cube Catastrophication"
-date: 2026-08-04 11:00:00 +0000
-categories: personal staffplus
+date: 2025-08-04 11:00:00 +0000
+categories: personal magic python
 ---
 
 *From Pauper to Pandemonium: Building a Magic Jumpstart cube when you can't change anything*
@@ -13,7 +13,7 @@ categories: personal staffplus
 
 ## The Problem: Jumpstarting a Pauper Cube
 
-This story starts, as with all good stories, with a bad idea that just would get out of my head.
+This story starts, as with all good stories, with a bad idea that just wouldn't get out of my head.
 
 I hadn’t played *Magic: The Gathering* in 20 years, but the idea of building a Pauper Jumpstart Cube was too enticing to ignore. It all started when I came across [this Reddit post](https://www.reddit.com/r/boardgames/comments/1l5a0f6/you_can_actually_play_tcg_like_a_board_game_and/) that described how trading card games like Magic could be treated as curated board game experiences. That led me to discover [thepaupercube.com](https://thepaupercube.com/), and I was captivated.
 
@@ -55,6 +55,8 @@ Wrong. Welcome to cube catastrophication.
 
 ### 🛠️ Step 1: Do It By Hand
 
+![Vibe coding evil so you don't have to](/assets/manual_deck.jpg)
+
 My first instinct was to patch in the decks manually. I started with Hasted’s archetypes and filled in gaps using leftover cards, trying to match themes as best as I could. It took hours. By the end, I had something that looked playable — but I had zero trust in it. Colors kind of matched, synergies sort of existed, and I kept second-guessing every choice. These were artisanal, hand-crafted, duct-taped abominations. They technically worked, but just how good (or bad) were they? I had no idea.
 
 ### 🤖 Step 2: Enter ChatGPT
@@ -63,9 +65,7 @@ Clearly it was time to bring out the big guns. AI to the rescue! It would magica
 
 So I chucked a CSV with a list of cards, Oracle text, and some additional metadata at ChatGPT, along with — in hindsight — an absurdly naive prompt:
 
-```
-I am considering making a jumpstart cube from a pauper cube (see attached file). I need themes for the decks given the pauper cube. Could you generate 20 mono-colour themes (4 of each colour) and 10 dual-colour themes? Could you also include a list of potential cards that would fit that theme given the cube list attached?
-```
+> I am considering making a jumpstart cube from a pauper cube (see attached file). I need themes for the decks given the pauper cube. Could you generate 20 mono-colour themes (4 of each colour) and 10 dual-colour themes? Could you also include a list of potential cards that would fit that theme given the cube list attached?
 
 What could go wrong?
 
@@ -81,18 +81,18 @@ It was becoming increasingly obvious that the prompt I had started with just was
 
 The new prompt:
 
-"Hi, you are a deck designer working on building game decks in Magic: The Gathering focusing on Jumpstart decks. You need to build a set of decks from a Pauper cube (see list of cards available in attached file).
-
-Your goal is to create 20 mono-color decks (4 of each type) and 10 dual-color decks. Each deck should follow the rules of Jumpstart deck construction.
-
-Let's start with creating themes for each of these decks and assigning some cards to match those themes. Key constraint is that we cannot assign a card more than once from the Pauper cube list as they are uniques.
-
-CONSTRAINTS:
-
-- You may only use a card once across all 30 decks
-- You may only use cards that are in the list of cards provided
-- You must ensure that the decks you construct are valid; cards in each deck should be usable with mana from that deck
-- You must ensure the chosen cards match the themes you have defined"
+> Hi, you are a deck designer working on building game decks in Magic: The Gathering focusing on Jumpstart decks. You need to build a set of decks from a Pauper cube (see list of cards available in attached file).
+>
+> Your goal is to create 20 mono-color decks (4 of each type) and 10 dual-color decks. Each deck should follow the rules of Jumpstart deck construction.
+>
+> Let's start with creating themes for each of these decks and assigning some cards to match those themes. Key constraint is that we cannot assign a card more than once from the Pauper cube list as they are uniques.
+>
+> CONSTRAINTS:
+>
+> - You may only use a card once across all 30 decks
+> - You may only use cards that are in the list of cards provided
+> - You must ensure that the decks you construct are valid; cards in each deck should be usable with mana from that deck
+> - You must ensure the chosen cards match the themes you have defined
 
 This time, I had a clearly defined role, concrete constraints, and structured tasks.
 
@@ -193,6 +193,8 @@ I came away from this with a bunch of learnings I didn’t anticipate — having
 Want to see the madness? The final codebase — notebooks, card lists, helpers, and all — is here:
 
 👉 [github.com/vanonselenp/magic-jumpstart](https://github.com/vanonselenp/magic-jumpstart)
+
+👉 [Cube Cobra: The actual cube generated](https://cubecobra.com/cube/list/pauper-jumpstart-06-2025)
 
 ---
 
