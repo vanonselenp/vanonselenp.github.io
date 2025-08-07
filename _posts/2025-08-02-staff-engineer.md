@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "What Does a Staff Engineer *Actually* Do?"
-date: 2025-08-05 10:00:00 +0000
+date: 2025-08-02 10:00:00 +0000
 categories: personal staffplus
 ---
 

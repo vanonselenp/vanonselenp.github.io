@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Charting a Path to Senior Staff Engineer"
-date: 2025-08-06 10:00:00 +0000
+date: 2025-08-03 10:00:00 +0000
 categories: personal staffplus
 ---
 
