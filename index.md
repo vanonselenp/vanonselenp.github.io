@@ -51,6 +51,7 @@ With 14+ years of software development and team leadership, I'm passionate about
 ## Quick Links
 
 - [About Me](/about/) - Professional background and experience
+- [Projects](/projects/) - Recent projects and technical contributions  
 - [Contact](/contact/) - Get in touch for opportunities or discussions
 
 ---

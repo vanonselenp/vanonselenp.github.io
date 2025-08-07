@@ -36,6 +36,7 @@ This site is automatically deployed to GitHub Pages via GitHub Actions when you 
 │   └── resume.pdf       # Your resume (to be added)
 ├── index.md             # Home page
 ├── about.md             # About page
+├── projects.md          # Projects/Portfolio
 ├── blog.md              # Blog index
 ├── resume.md            # Resume page
 ├── contact.md           # Contact page
@@ -56,6 +57,10 @@ Edit `_config.yml` to update:
 **About Page (`about.md`):**
 - Replace placeholder text with your actual LinkedIn information
 - Add your education, work experience, and skills
+
+**Projects Page (`projects.md`):**
+- Add your actual projects from your portfolio
+- Include GitHub links and live demo URLs
 
 **Resume Page (`resume.md`):**
 - Add your complete work history and skills
