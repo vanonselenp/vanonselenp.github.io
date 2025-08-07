@@ -1,9 +1,12 @@
 ---
 layout: post
 title: Charting a Path to Senior Staff Engineer
-date: 2025-08-08
-description: Reflections on defining and growing into a Senior Staff Engineer role at The Economist.
+date: 2025-08-08 10:00:00 +0000
 categories: personal staff+
+---
+
+*Reflections on defining and growing into a Senior Staff Engineer role at The Economist.*
+
 ---
 
 Over the last few months, I’ve been thinking a lot about where I want to grow next in my career. I’m currently a Staff Engineer at *The Economist*, and while the organisation doesn’t (yet) have a formal Senior Staff Engineer role, the shape of that next step has started to come into focus. Rather than wait for a title to be defined for me, I’ve been working to define what Senior Staff means in this context — and how I might grow into it.
