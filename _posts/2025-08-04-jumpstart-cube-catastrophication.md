@@ -164,30 +164,45 @@ The experience of vibe coding here was totally eye-opening. It required a differ
 ---
 
 ## Learnings
+Here’s a cleaned-up version of the **Learnings** section that ties everything together more clearly, avoids repetition, and brings forward the deeper themes:
 
-I came away from this with a bunch of learnings I didn’t anticipate — having used a wide variety of AI tools to solve problems in ways I never expected. Ultimately, this is a project I would not have undertaken without the aid of AI. The amount of work required to write and maintain this by hand would simply not have been feasible.
+---
+
+## Learnings
+
+I came away from this with a set of learnings I didn’t anticipate. Over the course of this project, I used a wide range of AI tools — ChatGPT, Claude, GitHub Copilot — not just as assistants but as creative collaborators. The work would’ve been infeasible to complete by hand; AI didn’t just make it possible, it changed *how* I approached the problem.
+
+### AI is a Force Multiplier — With Strings Attached
+
+* AI made exploration and iteration possible at speeds that felt impossible before.
+* But it was only effective once I provided structure: clear prompts, reusable functions, validations, and constraints.
+* It was never “write this for me”; it was “pair with me while I figure this out.”
 
 ### ChatGPT
 
-- Excellent for ideation, naming, and quick summaries — until complexity sets in.
-- Suffers heavily from context limitations; early iterations are fine, but performance decays fast.
-- Loves generating Python code — often duplicative, occasionally nonsensical.
-- Can’t reliably maintain memory of previous logic or outputs within a single session.
+* Great for brainstorming, naming, structure, and kicking off ideas.
+* Struggles with long-running logic or deeply stateful tasks.
+* Context limits are real — and painful. Once you hit them, coherence breaks.
+* Loves to generate Python, but not always consistently or responsibly.
 
-### IPython Notebooks + Claude
+### Claude + IPython
 
-- Empowering for iterative development: code is local, testable, and repeatable.
-- Larger context window means more stable multi-step reasoning.
-- However, lacks structure by default — notebooks can quickly balloon into unmanageable chaos.
-- Easy to lose track of logic unless rigorously refactored.
+* Being able to run, re-run, and inspect code locally was a game changer.
+* Having longer context helped — until the notebook turned into a 10k-line mess.
+* Still, this was my turning point: the shift from “AI as magic” to “AI as collaborator.”
 
 ### Vibe Coding
 
-- Surprisingly productive when treated like pairing with a junior engineer.
-- Encourages modular thinking, refactoring, and enforcing structure.
-- Helped transition from exploratory AI use to real engineering workflows.
-- Code hygiene (testing, red-green-refactor) is still necessary — skipping it leads to entropy.
-- Once structured, AI became a legitimate co-pilot for both data analysis and code architecture.
+* Treating the AI like a junior engineer was the breakthrough.
+* I focused on function-level design, modularity, and code smells — and the AI followed along.
+* Once the codebase was structured, the AI stopped hallucinating and started contributing meaningfully.
+* But skipping testing and refactoring led me right back into chaos. The rules of clean code still apply.
+
+### The Meta-Learning
+
+* The process changed how I think about coding, prompting, and problem-solving.
+* It wasn’t the model, or the prompt — it was the interaction between human intent and machine output.
+* I didn’t just build a cube. I learned how to *build with AI* — iteratively, imperfectly, and eventually successfully.
 
 ---
 
