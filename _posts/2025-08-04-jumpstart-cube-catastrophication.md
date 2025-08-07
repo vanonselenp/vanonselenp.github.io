@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Zero-to-Jumpstart Cube Catastrophication"
+title: "The Zero-to-Vibe Coding Jumpstart Cube Catastrophication"
 date: 2025-08-04 11:00:00 +0000
 categories: personal magic python
 ---
