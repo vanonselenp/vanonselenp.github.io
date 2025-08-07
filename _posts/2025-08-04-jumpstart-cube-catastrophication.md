@@ -150,11 +150,14 @@ As an ardent TDD advocate in my day job, I realized I was missing two critical p
 
 ### 🔁 Step 7: Start from Scratch, Methodically
 
+
 I decided to start from scratch, taking a leaf from Code Retreats and embracing the idea of throwing away code. I began with creating clean modules to construct a deck, refactored out constant values, and organized logic around key ideas. I added the ability to balance decks using different metrics, gave themes the ability to value cards differently, and even got the AI to extract themes from all existing Magic cards and map them against the cards I had available.
 
 This time, I embraced a conscious build-and-refactor loop, following many of the patterns and code-smell habits Uncle Bob Martin drilled into me back when I first read his books. Slowly, things started to click. I had a system that could take a list of cards and — hands-free — generate a Jumpstart cube that actually worked.
 
 And it was beautiful. The decks looked reasonable (at least to my untrained eye), and they respected the constraints of working within a limited cube.
+
+![Uploaded to Cube Cobra](/assets/cube_upload.png)
 
 The experience of vibe coding here was totally eye-opening. It required a different mindset — more like pairing with a junior engineer. There was back-and-forth about design patterns, code smells, duplication, and testing. It was a collaborative, iterative process, not what I had anticipated at all when I set out to "just get the AI to do it for me."
 
