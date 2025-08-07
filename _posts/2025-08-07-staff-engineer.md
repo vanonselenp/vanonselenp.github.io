@@ -1,11 +1,11 @@
 ---
 layout: post
 title: What Does a Staff Engineer *Actually* Do?
-date: 2025-08-01 10:00:00 +0000
-categories: personal welcome
+date: 2025-08-07 10:00:00 +0000
+categories: personal staff+
 ---
 
-*Originally written as an internal working spec while I was at Cazoo, this post is my take on the responsibilities and mindset of a Staff Engineer. It helped me reflect on what the role requires — not just in terms of technical ability, but also leadership, communication, and constant adaptation.*
+*Originally written as an internal working spec while I was at Cazoo, this post is my take on the responsibilities and mindset of a Staff Engineer. It helped me reflect on what the role requires, not just in terms of technical ability, but also leadership, communication, and constant adaptation.*
 
 ---
 
@@ -13,7 +13,7 @@ categories: personal welcome
 
 The Staff Engineer role can feel nebulous. It’s not quite management, but it’s also not just "Senior Engineer, but more so." When I stepped into the role, I found myself constantly questioning: *What should I be focusing on? What does success look like?*
 
-To answer that, I wrote down what I believed the role should encompass. This post is the cleaned-up version of that spec — part philosophy, part operating manual.
+To answer that, I wrote down what I believed the role should encompass. This post is the cleaned-up version of that spec. It's part philosophy, part operating manual.
 
 ---
 
