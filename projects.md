@@ -36,15 +36,36 @@ Created an affordable website for a HEMA club using Jekyll and GitHub Pages, foc
 
 ## Technical Skills Showcase
 
-Through these projects, I've demonstrated expertise in:
+Based on my 14+ years of experience as a Staff Engineer and technical leader, I've developed deep expertise across the full technology stack:
 
-- **Frontend Development:** React, Vue.js, Angular, TypeScript, CSS3, HTML5
-- **Backend Development:** Node.js, Python, Java, .NET, RESTful APIs, GraphQL
-- **Database Management:** PostgreSQL, MongoDB, Redis, MySQL, database design
-- **Cloud Platforms:** AWS, Azure, Google Cloud, serverless architectures
-- **DevOps & Infrastructure:** Docker, Kubernetes, CI/CD, Terraform, monitoring
-- **Mobile Development:** React Native, cross-platform development
-- **Data & Analytics:** Data processing, visualization, business intelligence
+### Programming Languages & Frameworks
+- **Primary Languages:** TypeScript, Python, Java, C#
+- **Backend Development:** Node.js, serverless architectures, microservices
+- **Frontend Technologies:** React, modern web development, responsive design
+- **Data Processing:** Python (Pandas, NumPy), data analysis and visualization
+
+### Cloud Infrastructure & DevOps
+- **AWS Ecosystem:** Lambda, CloudFormation, serverless framework, cloud architecture
+- **Infrastructure as Code:** Infrastructure automation and deployment
+- **Development Practices:** CI/CD pipelines, automated testing, deployment strategies
+- **Performance Optimization:** System performance tuning, scalability planning
+
+### Engineering Practices & Leadership
+- **Testing Methodologies:** Test-Driven Development (TDD), Behavior-Driven Development (BDD)
+- **Software Architecture:** Scalable system design, API architecture, microservices patterns
+- **Team Leadership:** Technical mentoring, code review practices, engineering culture
+- **Quality Assurance:** "Shift Left" approach, early quality integration
+
+### Databases & Data Management
+- **Database Design:** Relational and NoSQL database architecture
+- **Data Analysis:** Business intelligence, performance metrics, data-driven decisions
+- **API Development:** RESTful services, GraphQL, integration patterns
+
+### Specialized Expertise
+- **Developer Experience:** Tooling optimization, development workflow improvement
+- **Business Integration:** Technical strategy alignment with business objectives
+- **Problem Solving:** Complex system debugging, root cause analysis
+- **Communication:** Technical documentation, stakeholder management
 
 ---
 
