@@ -164,11 +164,6 @@ The experience of vibe coding here was totally eye-opening. It required a differ
 ---
 
 ## Learnings
-Here’s a cleaned-up version of the **Learnings** section that ties everything together more clearly, avoids repetition, and brings forward the deeper themes:
-
----
-
-## Learnings
 
 I came away from this with a set of learnings I didn’t anticipate. Over the course of this project, I used a wide range of AI tools — ChatGPT, Claude, GitHub Copilot — not just as assistants but as creative collaborators. The work would’ve been infeasible to complete by hand; AI didn’t just make it possible, it changed *how* I approached the problem.
 
