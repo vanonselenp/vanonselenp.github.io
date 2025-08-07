@@ -22,15 +22,13 @@ permalink: /blog/
 </div>
 {% endfor %}
 
+{% if site.posts.size > 5 %}
 ## Post Archive
 
-{% if site.posts.size > 5 %}
 ### All Posts
 {% for post in site.posts %}
 - [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%B %d, %Y" }}
 {% endfor %}
-{% else %}
-*Archive will appear here as more posts are published.*
 {% endif %}
 
 ## Subscribe & Stay Updated
