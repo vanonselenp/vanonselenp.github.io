@@ -311,12 +311,16 @@ hr {
   color: var(--text-light);
 }
 
-/* Blog post content styling */
+/* Blog post content styling - Force image containment */
 .post-content img,
 article img,
 .page-content img,
 .post img,
-article.post img {
+article.post img,
+.post-content p img,
+article p img,
+main img,
+.content img {
   max-width: 100% !important;
   width: auto !important;
   height: auto !important;
@@ -325,17 +329,21 @@ article.post img {
   border-radius: var(--border-radius);
   box-shadow: var(--shadow);
   box-sizing: border-box !important;
+  object-fit: contain !important;
 }
 
 .post-content,
 article,
 .page-content,
-.post {
-  max-width: 800px;
-  margin: 0 auto;
-  padding: 0 20px;
-  box-sizing: border-box;
-  overflow-x: hidden;
+.post,
+main .post-content,
+main article {
+  max-width: 800px !important;
+  margin: 0 auto !important;
+  padding: 0 20px !important;
+  box-sizing: border-box !important;
+  overflow-x: hidden !important;
+  word-wrap: break-word !important;
 }
 
 /* Block quote styling */
@@ -430,4 +438,29 @@ article blockquote p,
   h1 {
     font-size: 1.8rem;
   }
+}
+
+/* Final image override - highest specificity */
+.site-wrapper img,
+.wrapper img,
+body img,
+html img {
+  max-width: 100% !important;
+  height: auto !important;
+  box-sizing: border-box !important;
+}
+
+/* Ensure post content containers are properly constrained */
+.site-wrapper .post-content,
+.wrapper .post-content,
+.site-wrapper article,
+.wrapper article,
+body .post-content,
+body article {
+  max-width: 800px !important;
+  margin-left: auto !important;
+  margin-right: auto !important;
+  padding-left: 20px !important;
+  padding-right: 20px !important;
+  overflow-x: hidden !important;
 }
