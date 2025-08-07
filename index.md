@@ -4,80 +4,55 @@ layout: default
 
 Hello! I'm **Peter van Onselen**, a technology professional based in **London, UK**. I specialize in software development, technical leadership, and building innovative solutions that drive business value.
 
-## About Me
+With 14+ years of software development and team leadership, I'm passionate about creating scalable, efficient solutions and mentoring the next generation of developers. My expertise spans across backend engineering, cloud infrastructure, and developer experience.
 
-With 14+ years of software development and team leadership, I'm passionate about creating scalable, efficient solutions and mentoring the next generation of developers. My expertise spans across backend engineering, cloud infrastructure, and developer experience, and I enjoy tackling complex technical challenges while maintaining a focus on user experience and business outcomes.
-
-**Current Focus:** Staff Engineer at the Economist 
-
-**Location:** London, UK  
-
+**Current Focus:** Staff Engineer at the Economist  
 **Specialties:** Backend Engineering, Cloud Infrastructure (AWS), Performance Optimization, API Architecture, Team Leadership & Mentoring
 
-## Quick Navigation
+---
 
-<div class="projects-grid">
-  <div class="project-item">
-    <h3><a href="/about/">About Me</a></h3>
-    <p>Learn about my professional background, education, and experience in technology leadership and software development.</p>
+## Latest Blog Post
+
+{% if site.posts.size > 0 %}
+{% assign latest_post = site.posts.first %}
+<div class="card">
+  <h2><a href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a></h2>
+  <p class="post-meta">{{ latest_post.date | date: "%B %d, %Y" }}
+  {% if latest_post.categories.size > 0 %}
+  •
+  {% for category in latest_post.categories %}
+    <span class="category">{{ category }}</span>{% unless forloop.last %}, {% endunless %}
+  {% endfor %}
+  {% endif %}
+  </p>
+  <div class="post-excerpt">
+    {{ latest_post.excerpt }}
   </div>
-  
-  <div class="project-item">
-    <h3><a href="/projects/">Projects & Portfolio</a></h3>
-    <p>Explore my recent projects, technical contributions, and the technologies I work with.</p>
-  </div>
-  
-  <div class="project-item">
-    <h3><a href="/blog/">Blog & Insights</a></h3>
-    <p>Read my thoughts on technology trends, development practices, and lessons learned from my career.</p>
-  </div>
-  
-  <div class="project-item">
-    <h3><a href="/contact/">Get in Touch</a></h3>
-    <p>Connect with me for professional opportunities, collaboration, or technical discussions.</p>
-  </div>
+  <a href="{{ latest_post.url | relative_url }}" class="btn">Read full post →</a>
 </div>
 
-## Featured Highlights
+{% if site.posts.size > 1 %}
+{% assign next_post = site.posts[1] %}
+<p><strong>Previous post:</strong> <a href="{{ next_post.url | relative_url }}">{{ next_post.title }}</a></p>
+{% endif %}
 
-### Recent Work
-- **[Current Project/Role]:** [Brief description of what you're currently working on]
-- **[Recent Achievement]:** [Notable recent professional accomplishment]
-- **[Technology Focus]:** [Current technologies or methodologies you're exploring]
+<p><a href="/blog/">View all posts →</a></p>
 
-### Professional Interests
-- [Technology area you're passionate about]
-- [Industry trend you're following]
-- [Professional development focus]
+{% else %}
+<div class="card">
+  <h2>Welcome to My Blog</h2>
+  <p>I'm just getting started with this blog. Check back soon for posts on technology, software development, and lessons learned from my career.</p>
+  <p>In the meantime, feel free to <a href="/about/">learn more about me</a> or <a href="/contact/">get in touch</a>.</p>
+</div>
+{% endif %}
 
-### Community Involvement
-- [Open source contributions, speaking, or community work]
-- [Professional organizations or groups]
-- [Mentoring or educational activities]
+---
 
-## Latest Updates
+## Quick Links
 
-**Recent Blog Posts:**
-- Check out my [welcome post](/2025/08/01/welcome/) introducing this blog
-- More content coming soon covering [topic areas you plan to write about]
-
-**Professional Updates:**
-- [Any recent career moves, certifications, or achievements]
-- [Speaking engagements or publications]
-- [New projects or initiatives]
-
-## Let's Connect
-
-I'm always interested in connecting with fellow professionals and discussing:
-
-- **Technology & Innovation:** Emerging trends, best practices, and technical challenges
-- **Professional Opportunities:** Interesting roles, consulting projects, or collaborations
-- **Knowledge Sharing:** Speaking opportunities, mentoring, or technical discussions
-- **Community Building:** Local tech events, open source projects, or professional networking
-
-**Contact me:** [your.email@example.com](mailto:your.email@example.com)  
-**LinkedIn:** [Connect with me professionally](https://linkedin.com/in/peter-van-onselen-a46b1b2b)  
-**GitHub:** [View my code and contributions](https://github.com/vanonselenp)
+- [About Me](/about/) - Professional background and experience
+- [Projects](/projects/) - Recent projects and technical contributions  
+- [Contact](/contact/) - Get in touch for opportunities or discussions
 
 ---
 
