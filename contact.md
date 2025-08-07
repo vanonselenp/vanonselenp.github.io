@@ -1,10 +1,8 @@
 ---
 layout: page
-title: Contact
+title: Get in Touch
 permalink: /contact/
 ---
-
-# Get in Touch
 
 I'm always interested in connecting with fellow professionals, discussing new opportunities, collaborating on interesting projects, or simply having a conversation about technology and innovation.
 
