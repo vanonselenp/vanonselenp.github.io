@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Charting a Path to Senior Staff Engineer
-date: 2025-08-08 10:00:00 +0000
-categories: personal staff+
+title: "Charting a Path to Senior Staff Engineer"
+date: 2025-08-06 10:00:00 +0000
+categories: personal staffplus
 ---
 
 *Reflections on defining and growing into a Senior Staff Engineer role at The Economist.*
