@@ -217,4 +217,4 @@ This project started as a light-hearted return to Magic and spiraled into a less
 
 Would I do it again?
 
-Absolutely. But next time I’ll write the validators first.
+Absolutely. But next time I’ll write the tests first.
