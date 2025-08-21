@@ -81,7 +81,14 @@ One of the things I’ve been experimenting with is using **different AIs for di
 * I’d often workshop prompts and do deep exploratory discussions in **ChatGPT**, digging into mechanics and edge cases.
 * Then I’d switch to **Claude** when it came time to pair on writing code or fleshing out structured text.
 
-![Specs!](/assets/specs.jpeg)
+```
+~ ls ~/workspace/sky-islands/specs
+1-initial-feature.md              14-streamline-resources.md        5-creatrure-combat.md
+10-resource-management.md         15-streamline-upkeep.md           6-turn-structure.md
+11-indepth-turn-structure.md      2-pay-by-discard.md               7-leader-homebase.md
+12-upkeep-payment-supply-lines.md 3-sky-islands.md                  8-victory-conditions.md
+13-deck-composition.md            4-ui.md                           9-hand-size-and-draw-mechanics.md
+```
 
 The rhythm became clear: spend more time up front in detailed conversation about a single feature or mechanic, then move to execution.
 
