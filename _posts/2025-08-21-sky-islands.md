@@ -7,13 +7,19 @@ categories: personal python board-game
 
 ---
 
-About two weeks ago I wrapped up a project that had completely consumed me: figuring out how to create a Jumpstart cube from a Pauper cube. For a few weeks it was all I thought about in my spare time — basically just spent every free moment vibing on it, even when I was watching a TV show with my wife. But while I was busy tweaking code to generate decks, extract themes, and balance relative deck strengths, another idea was quietly percolating in the back of my mind.
+About two weeks ago I wrapped up a project that had completely consumed me: figuring out how to create a Jumpstart cube from a Pauper cube (I wrote about that here: [Jumpstart Cube Catastrophication](https://vanonselenp.github.io/2025/08/04/jumpstart-cube-catastrophication/)). For a few weeks it was all I thought about in my spare time — basically just spent every free moment vibing on it, even when I was watching a TV show with my wife. But while I was busy tweaking code to generate decks, extract themes, and balance relative deck strengths, another idea was quietly percolating in the back of my mind.
+
+---
+
+### Inspiration: Rediscovering NetStorm
 
 It started with a simple question: *do you remember NetStorm?*
 
-![Netstorm in action!](/assets/netstorm.png)
+![Netstorm in action](/assets/netstorm.png)
 
-For most people, the answer is no. It was a strange little RTS from the late 90s that barely anyone remembers today. But for me, it triggered an itch that just couldn’t be scratched — it’s impossible to play on modern tech without resorting to some dodgy site, but what if I could capture that vibe from a board game instead?
+For most people, the answer is no. [NetStorm](https://www.netstormhq.net/) was a quirky real-time strategy game from the late 90s where players built chains of bridges to connect floating islands, deployed priests to capture enemy units, and unleashed elemental spells to control the battlefield. Matches were fast, tactical, and strange in a way that made it unforgettable, even if few played it at the time.&#x20;
+
+But for me, it triggered an itch that just couldn’t be scratched. For the past year it’s been popping into my head like a song that gets stuck on repeat — especially the memory of floating islands, the roads stretching between them, and the chaos that ensued once those bridges connected. And since it’s impossible to play on modern tech without resorting to figuring out complicated emulation for a legacy Windows game on a modern Mac, I found myself wondering: what if I could capture that vibe from a board game instead?
 
 It was a ridiculous idea in some ways, rooted in nostalgia for something obscure. But it stuck. And once the cube project was done, I found myself diving headfirst into a new design challenge. This time, though, I wasn’t working alone.
 
@@ -35,15 +41,17 @@ That mindset became the foundation for the new board game project.
 
 ---
 
-### The Island Game Takes Shape
+### From Digital to Tabletop: Goals and Challenges
 
-The initial vision was a mashup:
+The initial vision that drove me was the feeling of **islands floating in the sky at war** — a mashup of inspirations:
 
-* Magic: The Gathering’s **Jumpstart** randomness,
+* Magic: The Gathering’s **Jumpstart** ease of deck building and fun with interesting themed decks,
 * Marvel Champions’ **card management**,
-* and Star Wars: The Deckbuilding Game’s **capital ships** — except in my version, those ships were islands.
+* and Star Wars: The Deckbuilding Game’s **capital ships** — which at first felt like they could fit the vibe I was imagining, but in my version, those ships were islands.
 
 I started with a speculative chat that led to a rough design doc — high-level, but with enough of a skeleton to start iterating toward a solution. Then I followed it up with discussions about resource management, card flow, and how creatures might interact with the islands.
+
+At each stage I translated these prompts ithrough Claude Code into a sprawling Python codebase, building rough but tangible systems so I could test how the mechanics meshed and influenced each other.
 
 And then came the breakthrough .... or perhaps it was a bombshell. This was the small decision that went on to change every other single decision, as the consequences kept cascading out from it.
 
@@ -72,6 +80,8 @@ One of the things I’ve been experimenting with is using **different AIs for di
 
 * I’d often workshop prompts and do deep exploratory discussions in **ChatGPT**, digging into mechanics and edge cases.
 * Then I’d switch to **Claude** when it came time to pair on writing code or fleshing out structured text.
+
+![Specs!](/assets/specs.jpeg)
 
 The rhythm became clear: spend more time up front in detailed conversation about a single feature or mechanic, then move to execution.
 
