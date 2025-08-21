@@ -81,6 +81,9 @@ One of the things I’ve been experimenting with is using **different AIs for di
 * I’d often workshop prompts and do deep exploratory discussions in **ChatGPT**, digging into mechanics and edge cases.
 * Then I’d switch to **Claude** when it came time to pair on writing code or fleshing out structured text.
 
+I have found that I have been writing specification files that are indepth dives into the game systems. I also have found 
+that the best place to keep them is in the code base next to the code itself.
+
 ```
 ~ ls ~/workspace/sky-islands/specs
 1-initial-feature.md              14-streamline-resources.md        5-creatrure-combat.md
