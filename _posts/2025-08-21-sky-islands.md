@@ -113,7 +113,7 @@ Those questions made the AI less of an idea generator and more of a **critical p
 
 At this point, I have a **partially refined board game** with a comprehensive set of rules that cover deck design, map interaction and play, resources, hand management, combat, magic, and more. I also have a **partially implemented working Pygame simulation** of the board game. It’s still very much a developer interface and only kind of works, but it’s there. It’s already over 24k lines of Python code.
 
-![Sky islands in action!](/assets/skyisland.png)
+![Sky islands in action!](/assets/skyisland2.png)
 
 What’s exciting is how the different systems impact each other in ways that feel earned and interesting — at least from my high-level thinking so far. I don’t yet have a fully functional version of the game, but the foundations are solid and interconnected. Every new rule or mechanic ripples through the system in a way that makes the design feel alive.
 
