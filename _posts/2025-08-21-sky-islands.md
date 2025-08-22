@@ -9,13 +9,9 @@ Or my on going adventures in playing with AI development tools ...
 
 ---
 
-About two weeks ago I wrapped up a project that had completely consumed me: figuring out how to create a Jumpstart cube from a Pauper cube (I wrote about that here: [Jumpstart Cube Catastrophication]([https://vanonselenp.github.io/2025/08/04/jumpstart-cube-catastrophication/](https://vanonselenp.github.io/2025/08/04/jumpstart-cube-catastrophication/))). For a few weeks it was all I thought about in my spare time — basically just spent every free moment vibing on it, even when I was watching a TV show with my wife. But while I was busy tweaking code to generate decks, extract themes, and balance relative deck strengths, another idea was quietly percolating in the back of my mind.
-
----
-
 ### Inspiration: Rediscovering NetStorm
 
-It started with a simple question: **do you remember NetStorm?**
+Sometimes the strangest of projects begin with a simple question: **do you remember NetStorm?**
 
 ![Netstorm in action](/assets/netstorm.png)
 
