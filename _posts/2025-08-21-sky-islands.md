@@ -5,19 +5,21 @@ date: 2025-08-21 11:00:00 +0000
 categories: personal python board-game
 ---
 
+Or my on going adventures in playing with AI development tools ...
+
 ---
 
-About two weeks ago I wrapped up a project that had completely consumed me: figuring out how to create a Jumpstart cube from a Pauper cube (I wrote about that here: [Jumpstart Cube Catastrophication](https://vanonselenp.github.io/2025/08/04/jumpstart-cube-catastrophication/)). For a few weeks it was all I thought about in my spare time — basically just spent every free moment vibing on it, even when I was watching a TV show with my wife. But while I was busy tweaking code to generate decks, extract themes, and balance relative deck strengths, another idea was quietly percolating in the back of my mind.
+About two weeks ago I wrapped up a project that had completely consumed me: figuring out how to create a Jumpstart cube from a Pauper cube (I wrote about that here: [Jumpstart Cube Catastrophication]([https://vanonselenp.github.io/2025/08/04/jumpstart-cube-catastrophication/](https://vanonselenp.github.io/2025/08/04/jumpstart-cube-catastrophication/))). For a few weeks it was all I thought about in my spare time — basically just spent every free moment vibing on it, even when I was watching a TV show with my wife. But while I was busy tweaking code to generate decks, extract themes, and balance relative deck strengths, another idea was quietly percolating in the back of my mind.
 
 ---
 
 ### Inspiration: Rediscovering NetStorm
 
-It started with a simple question: *do you remember NetStorm?*
+It started with a simple question: **do you remember NetStorm?**
 
 ![Netstorm in action](/assets/netstorm.png)
 
-For most people, the answer is no. [NetStorm](https://www.netstormhq.net/) was a quirky real-time strategy game from the late 90s where players built chains of bridges to connect floating islands, deployed priests to capture enemy units, and unleashed elemental spells to control the battlefield. Matches were fast, tactical, and strange in a way that made it unforgettable, even if few played it at the time.&#x20;
+For most people, the answer is no. [NetStorm]([https://www.netstormhq.net/](https://www.netstormhq.net/)) was a quirky real-time strategy game from the late 90s where players built chains of bridges to connect floating islands, deployed priests to capture enemy units, and unleashed elemental spells to control the battlefield. Matches were fast, tactical, and strange in a way that made it unforgettable, even if few played it at the time.;
 
 But for me, it triggered an itch that just couldn’t be scratched. For the past year it’s been popping into my head like a song that gets stuck on repeat — especially the memory of floating islands, the roads stretching between them, and the chaos that ensued once those bridges connected. And since it’s impossible to play on modern tech without resorting to figuring out complicated emulation for a legacy Windows game on a modern Mac, I found myself wondering: what if I could capture that vibe from a board game instead?
 
@@ -59,7 +61,7 @@ And then came the breakthrough .... or perhaps it was a bombshell. This was the 
 
 ### The Sky Island Moment
 
-The question that changed everything was deceptively simple: *what exactly are the islands, thematically?*
+The question that changed everything was deceptively simple: **what exactly are the islands, thematically?**
 
 Somewhere in that back-and-forth, the idea of **sky islands** emerged. The idea went from an abstract hand wave of “there is a thing” to grappling with how to tie them into gameplay — what does it mean to interact with them, and why does that even matter? Suddenly the game wasn’t just a dueling card game. It shifted into something closer to a **dueling wargame** — a clash of floating fortresses, each vying for control of the skies.
 
@@ -67,7 +69,7 @@ That one shift cascaded into every corner of the design:
 
 * **Creatures** became more than just units — they had roles tied to the islands themselves.
 * **Resources** weren’t just mana, they were generated through interactions between creatures, cards, and island abilities.
-* The **turn structure** morphed to resemble wargames like *Bolt Action* or even the action phases of *Terraforming Mars*.
+* The **turn structure** morphed to resemble wargames like **Bolt Action** or even the action phases of **Terraforming Mars**.
 * The definition of the **“player” avatar** in the game changed, along with how victory was determined.
 
 It was dramatic. The feel of the entire game had transformed. And it had all come out of a collaborative conversation with the AI.
@@ -81,10 +83,10 @@ One of the things I’ve been experimenting with is using **different AIs for di
 * I’d often workshop prompts and do deep exploratory discussions in **ChatGPT**, digging into mechanics and edge cases.
 * Then I’d switch to **Claude** when it came time to pair on writing code or fleshing out structured text.
 
-I have found that I have been writing specification files that are indepth dives into the game systems. And the best place 
-to keep them is in the code base next to the code itself.
+I’ve been leaning into a spec‑driven design philosophy: writing in‑depth specification files that dive into each game system, then keeping them directly in the codebase alongside the code itself. This way they act as living documents the AI can reference when implementing features or validating correctness.
 
 ```
+
 ~ ls ~/workspace/sky-islands/specs
 1-initial-feature.md              14-streamline-resources.md        5-creatrure-combat.md
 10-resource-management.md         15-streamline-upkeep.md           6-turn-structure.md
@@ -97,9 +99,11 @@ The rhythm became clear: spend more time up front in detailed conversation about
 
 The most valuable questions I asked were:
 
-* *Where are the gaps?*
-* *What doesn’t make sense?*
-* *What’s wrong with this design?*
+* **Where are the gaps?**
+
+* **What doesn’t make sense?**
+
+* **What’s wrong with this design?**
 
 Those questions made the AI less of an idea generator and more of a **critical partner**. And that’s when the collaboration felt most real.
 
