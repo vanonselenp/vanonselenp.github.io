@@ -15,7 +15,7 @@ Sometimes the strangest of projects begin with a simple question: **do you remem
 
 ![Netstorm in action](/assets/netstorm.png)
 
-For most people, the answer is no. [NetStorm]([https://www.netstormhq.net/](https://www.netstormhq.net/)) was a quirky real-time strategy game from the late 90s where players built chains of bridges to connect floating islands, deployed priests to capture enemy units, and unleashed elemental spells to control the battlefield. Matches were fast, tactical, and strange in a way that made it unforgettable, even if few played it at the time.;
+For most people, the answer is no. [NetStorm](https://www.netstormhq.net/) was a quirky real-time strategy game from the late 90s where players built chains of bridges to connect floating islands, deployed priests to capture enemy units, and unleashed elemental spells to control the battlefield. Matches were fast, tactical, and strange in a way that made it unforgettable, even if few played it at the time.;
 
 But for me, it triggered an itch that just couldn’t be scratched. For the past year it’s been popping into my head like a song that gets stuck on repeat — especially the memory of floating islands, the roads stretching between them, and the chaos that ensued once those bridges connected. And since it’s impossible to play on modern tech without resorting to figuring out complicated emulation for a legacy Windows game on a modern Mac, I found myself wondering: what if I could capture that vibe from a board game instead?
 
@@ -25,7 +25,7 @@ It was a ridiculous idea in some ways, rooted in nostalgia for something obscure
 
 ### Lessons from the Cube Project
 
-The [Jumpstart cube project]([https://vanonselenp.github.io/2025/08/04/jumpstart-cube-catastrophication/](https://vanonselenp.github.io/2025/08/04/jumpstart-cube-catastrophication/)) had taught me something important: **AI could be a collaborator, not just a tool.**
+The [Jumpstart cube project](https://vanonselenp.github.io/2025/08/04/jumpstart-cube-catastrophication/) had taught me something important: **AI could be a collaborator, not just a tool.**
 
 The breakthrough wasn’t about the right prompt or the cleverest model hack. It was about treating the AI like a **junior engineer** — someone who could help generate ideas, point out problems, and accelerate iteration, but who still needed guidance, context, and decisions.
 
