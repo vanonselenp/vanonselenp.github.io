@@ -9,8 +9,6 @@ _Why I Stopped Worrying and Learned to Love Chaos ...._
 
 ---
 
-![where i am so far](/assets/boardgame-to-digital/final.png)
-
 So… I’m supposed to be making a **board game**. At least, I think I am. Probably? Maybe?
 
 What started as a simple idea about floating islands locked in war has slowly mutated into something far stranger.
@@ -98,6 +96,8 @@ And I might still be making a physical version because drawing is fun and making
 ---
 
 ### Embracing the Weirdness
+
+![where i am so far](/assets/boardgame-to-digital/final.png)
 
 Maybe this project was never going to stay neat and tidy. Maybe my creative process just looks like a cloud of floating hexes.
 
