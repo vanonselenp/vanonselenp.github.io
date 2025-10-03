@@ -1,3 +1,9 @@
+---
+layout: page
+title: "Command Token Bag System Implementation"
+permalink: /articles/horizons-edge/5-command-token-bag-system.html
+---
+
 # Command Token Bag System Implementation
 
 ## Overview
