@@ -41,7 +41,7 @@ So, the *logical* next step was to pause the chaos and implement turn/round stru
 
 Here’s the interesting part: working with Claude (and Codex) has led me to generate deep planning docs for features. I’ll spend hours iterating back and forth, treating them like living documents. Each doc builds context for the next, and since I’m writing them *inside* the codebase, they get deeply grounded in the actual work. It’s been a surprisingly useful feedback loop.
 
-If you’re bored, you can peek at the [planning doc for Turn and Round Structure](/articles/horizons-edge/5-command-token-bag-system.md).  But spoiler: instead of building turns/rounds like a sane person, I realized maybe… just maybe… I should start small. Like, *test cards first.* Lego pieces before Royal Albert Hall.
+If you’re bored, you can peek at the [planning doc for Turn and Round Structure](/articles/horizons-edge/5-command-token-bag-system).  But spoiler: instead of building turns/rounds like a sane person, I realized maybe… just maybe… I should start small. Like, *test cards first.* Lego pieces before Royal Albert Hall.
 
 Small steps. Right?
 
