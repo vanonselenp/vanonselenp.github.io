@@ -4,8 +4,6 @@ title: "Command Token Bag System Implementation"
 permalink: /articles/horizons-edge/5-command-token-bag-system.html
 ---
 
-# Command Token Bag System Implementation
-
 ## Overview
 Implement a **Bolt Action-style command token bag system** for Horizon's Edge that creates dynamic, unpredictable turn order within each round. Players contribute command tokens to a shared bag, tokens are drawn randomly to determine who acts next, enabling tactical gameplay where players cannot predict exact action sequences.
 
