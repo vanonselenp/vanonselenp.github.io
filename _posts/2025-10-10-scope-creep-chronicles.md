@@ -14,6 +14,8 @@ Combat is a cornerstone of the game’s core loop — it’s a wargame after all
 You know that feeling when you promise yourself to build *just one simple feature*… and then accidentally end up building half a combat system?
 Yeah. That happened.
 
+![current wip](/assets/scope-creep/current.png)
+
 I set out to make creature movement and attack work. Just that. And technically… I did.
 
 But also…
@@ -47,8 +49,8 @@ Does it:
 
 * 🃏 Get discarded like a one-off spell?
 * 🏗️ Stay permanently on the battlefield, RTS-style?
-* 🧍 Act more like an ally in Marvel Champions?
-* ❄️ Or a unique character like in Undaunted?
+* 🧍 Act more like an ally in [Marvel Champions](https://boardgamegeek.com/boardgame/285774/marvel-champions-the-card-game|)?
+* ❄️ Or a unique character like in [Undaunted](https://boardgamegeek.com/boardgame/268864/undaunted-normandy)?
 
 I wasn’t sure which direction would be more fun, so I had a long chat with the AI to explore the implications of each — and in classic not-thinking-it-through fashion, this has the feeling of being a dramatic question that might shift the whole damn game all over again. Hello scope creep, my old friend. I’m trying to keep you in check this time, I promise — setting clearer boundaries for what belongs in the MVP and what gets kicked down the road for future me to deal with.
 
@@ -63,7 +65,7 @@ The sweet spot seems to be something like **Marvel Champions**: unique character
 
 This led me to thinking: what happens when you **win** a combat?
 
-That’s when Battle Realms came to mind — an underrated, vibey-as-hell RTS from way back, with samurai, werewolves, vampires, and mystical Eastern weirdness. It used combat to **generate resources for upgrades**.
+That’s when [Battle Realms](https://store.steampowered.com/app/1025600/Battle_Realms_Zen_Edition/) came to mind — an underrated, vibey-as-hell RTS from way back, with samurai, werewolves, vampires, and mystical Eastern weirdness. It used combat to **generate resources for upgrades**.
 
 I love that idea. It adds stakes and momentum to battles without punishing players for losing units. And in yet another stunning moment of self-realisation, I promptly undid all my changes related to this feature — because it was scope creep of the highest order!
 
@@ -78,6 +80,8 @@ Of course, I also got distracted by UI.
 Playing a card and then having it **disappear so you can see where to place it** just makes sense. So I ended up tinkering with creature display windows and UX polish far beyond what I planned. I also found myself wrestling with the active unit display — trying (and failing repeatedly) to get Claude and Codex to understand exactly what I wanted changed. It turns out it’s surprisingly difficult to use plain English to precisely specify how a UI element should behave.
 
 But I did get a shiny radial menu for unit actions out of it…
+
+![radial](/assets/scope-creep/radial.png)
 
 ---
 
