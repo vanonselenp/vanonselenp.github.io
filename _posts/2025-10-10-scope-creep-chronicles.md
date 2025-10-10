@@ -75,6 +75,8 @@ I love that idea. It adds stakes and momentum to battles without punishing playe
 
 UI clarity is what really shapes how the game *feels* to play, so making it intuitive is critical. When the interface gets in the way, the whole experience slows down, so I’ve been extra sensitive about how these elements work.
 
+![creature movement](/assets/scope-creep/movement.png)
+
 Of course, I also got distracted by UI.
 
 Playing a card and then having it **disappear so you can see where to place it** just makes sense. So I ended up tinkering with creature display windows and UX polish far beyond what I planned. I also found myself wrestling with the active unit display — trying (and failing repeatedly) to get Claude and Codex to understand exactly what I wanted changed. It turns out it’s surprisingly difficult to use plain English to precisely specify how a UI element should behave.
