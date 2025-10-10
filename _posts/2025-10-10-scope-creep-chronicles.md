@@ -49,7 +49,7 @@ Does it:
 
 * 🃏 Get discarded like a one-off spell?
 * 🏗️ Stay permanently on the battlefield, RTS-style?
-* 🧍 Act more like an ally in [Marvel Champions](https://boardgamegeek.com/boardgame/285774/marvel-champions-the-card-game|)?
+* 🧍 Act more like an ally in [Marvel Champions](https://boardgamegeek.com/boardgame/285774/marvel-champions-the-card-game)?
 * ❄️ Or a unique character like in [Undaunted](https://boardgamegeek.com/boardgame/268864/undaunted-normandy)?
 
 I wasn’t sure which direction would be more fun, so I had a long chat with the AI to explore the implications of each — and in classic not-thinking-it-through fashion, this has the feeling of being a dramatic question that might shift the whole damn game all over again. Hello scope creep, my old friend. I’m trying to keep you in check this time, I promise — setting clearer boundaries for what belongs in the MVP and what gets kicked down the road for future me to deal with.
