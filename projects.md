@@ -2,6 +2,7 @@
 layout: page
 title: Projects & Portfolio
 permalink: /projects/
+description: Portfolio of Peter van Onselen's software projects including an intelligent MTG Jumpstart Cube Constructor, web development, and expertise in Python, TypeScript, AWS, and cloud architecture.
 ---
 
 ## Magic: The Gathering Jumpstart Cube Constructor

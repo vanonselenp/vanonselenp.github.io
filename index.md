@@ -1,5 +1,6 @@
 ---
 layout: default
+description: Peter van Onselen - Staff Engineer specializing in backend engineering, AWS cloud infrastructure, and technical leadership. 14+ years building scalable systems at The Economist.
 ---
 
 Hello! I'm **Peter van Onselen**, a technology professional based in **London, UK**. I specialize in software development, technical leadership, and building innovative solutions that drive business value.

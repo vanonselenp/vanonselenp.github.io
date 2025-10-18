@@ -2,6 +2,7 @@
 layout: page
 title: A Blog of dubious intent
 permalink: /blog/
+description: Technical blog by Peter van Onselen covering software engineering, cloud infrastructure, technical leadership, TDD practices, and game development insights.
 ---
 
 ## Recent Posts
