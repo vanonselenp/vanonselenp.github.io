@@ -27,7 +27,9 @@ I couldn't get the damn thing out of my mind, so I vibe coded a [portfolio page]
 
 **The cost**: I'm paying £16/month for Claude Pro and £20/month for ChatGPT Pro. I use Claude as my primary coding assistant and switch between ChatGPT and Claude for thinking through problems. It's worth it—without AI, none of these projects would exist.
 
-Pre-AI, my side projects were timeboxed to a couple of days and small, achievable problems. Anything more would rapidly collapse under its own weight—too much code, too little time. AI changed that equation entirely.
+Pre-AI, my side projects were timeboxed to a couple of days and small, achievable problems. Anything more would rapidly collapse under its own weight—too much code, too little time. Basically I didn't do tech side projects. AI changed that equation entirely.
+
+![pre ai assisted tooling](/assets/github.png)
 
 ## What I've Learned: The Core Insights
 
