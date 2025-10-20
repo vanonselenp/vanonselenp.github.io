@@ -106,7 +106,7 @@ My eventual workflow:
 1. Get the AI to build the big stuff, toggles, switches, base structure
 2. Manually go through and tweak everything myself
 
-This led me to develop what I call "Git save-scumming", treating Git like a video game save system because AI will thoughtlessly overwrite correct solutions without remembering what worked.
+This led me to develop what I call "Git [save-scumming](https://tvtropes.org/pmwiki/pmwiki.php/Main/SaveScumming)", treating Git like a video game save system because AI will thoughtlessly overwrite correct solutions without remembering what worked.
 
 ## The Momentum Trap
 
