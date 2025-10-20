@@ -21,7 +21,13 @@ Then I got stuck on a problem. By simply following my curiosity, I went from not
 
 **TLDR**: I tried to make a Jumpstart cube. ChatGPT couldn't solve it. Co-pilot couldn't solve it. Co-pilot vibe coded a solution that kinda worked. I vibe coded a new solution that actually worked.
 
-I couldn't get the damn thing out of my mind, so I vibe coded a portfolio page to document what happened. Then I used AI to design a board game that has somehow, inexplicably, morphed into a video game that's far too complicated for the "get an MVP into prod fast and learn all the lessons" approach I keep trying to remind myself to follow.
+I couldn't get the damn thing out of my mind, so I vibe coded a portfolio page to document what happened. Then, while working on the cube, a board game idea struck—and I couldn't get it out any other way except by building it with AI. That board game has somehow morphed into a video game that's far too complicated for the "get an MVP into prod fast" approach I keep trying to follow.
+
+**The time investment**: 1-2 hours a day, either in the morning before work or while watching TV with my wife in the evening. This became an all-consuming obsession for four months. I sacrificed learning urban sketching, which I'd spent the first half of the year actively pursuing.
+
+**The cost**: I'm paying £16/month for Claude Pro and £20/month for ChatGPT Pro. I use Claude as my primary coding assistant and switch between ChatGPT and Claude for thinking through problems. It's worth it—without AI, none of these projects would exist.
+
+Pre-AI, my side projects were timeboxed to a couple of days and small, achievable problems. Anything more would rapidly collapse under its own weight—too much code, too little time. AI changed that equation entirely.
 
 ## What I've Learned: The Core Insights
 
@@ -78,7 +84,11 @@ My board game project is the perfect example. I set out one week to work on crea
 
 One feature became an ecosystem. And here's the thing: **it is beyond exceedingly simple to wander off on completely unrelated tangents** when the AI makes everything feel possible.
 
-I kept telling myself "get an MVP to prod fast" while simultaneously building procedural island generation with Wave Function Collapse algorithms. The momentum AI provides is a double-edged sword.
+I kept telling myself "get an MVP to prod fast" while simultaneously building procedural island generation with Wave Function Collapse algorithms. 
+
+But here's why I didn't stop: **AI provides so much momentum that even when it's frustrating, you can think about the problem slightly differently and feel like you're making progress.** When direct AI generation hits a wall, I switch to having it build the broad structure while I manually tweak settings. This makes working on side projects genuinely fun in a way they haven't been before.
+
+The momentum AI provides is a double-edged sword. It keeps you engaged through the frustration, but it also keeps you building when you should be stepping back and asking "is this the right thing?"
 
 ### The Direction Problem: AI's Spatial Blindness
 
@@ -111,13 +121,26 @@ The most remarkable thing about this journey isn't what I built—it's the speed
 **June 2025**: AI optimist, barely engaging
 **October 2025**: 24k lines of game code, active collaborator across multiple projects, writing blog posts documenting the journey in real-time
 
+Getting to the "treat AI like a junior engineer" mindset took about 2-3 weeks. I had to unlearn the "AI is magic" assumption and figure out how to actually use it.
+
 This wasn't gradual learning—it was catalytic. Each success made the next leap feel possible:
 - Magic cube problem → vibe coding solution
 - Couldn't stop thinking about it → portfolio site
 - One blog post → entire blog series
 - Board game idea → 24k lines of video game code
+- Video game reimplementation → another 24k lines of video game code
 
 The cascading confidence is real. Once you see AI help you solve one "impossible" problem, you start seeing possibilities everywhere.
+
+## Bringing It Back to the Day Job
+
+The spec-driven workflow I developed through these side projects has now become how I work professionally. I take tickets and reframe them into specs with task breakdowns. I use AI to analyze complex codebases I'm barely familiar with.
+
+Right now I'm refactoring a monolith written in Go into a commons library with five microservices, using the AI spec-driven workflow with AI-assisted code development, working in small increments. Everything I'm doing, I learned from these side projects.
+
+The irony: The Economist (where I work) has embraced AI tooling internally, while engineers in general remain reticent. I get it—I was there four months ago.
+
+But here's what changed for me: **I still do traditional hand-crafted coding in my day job. I regularly work through code katas, which are fun and enjoyable in and of themselves.** AI hasn't replaced my coding skills—it's multiplied what I can accomplish when I need to move fast or explore unfamiliar territory.
 
 ## Practical Workflows That Emerged
 
@@ -143,6 +166,24 @@ Set hard rules to counter AI's momentum:
 - Write tests even when AI makes it feel unnecessary
 - Question every tangent: "Is this the MVP?"
 
+## What About the Code Quality?
+
+Let's be honest: the code AI generates can be good, can be overly verbose, tends toward duplication. But it can be nudged in the right direction quite easily.
+
+The game currently works. It's not feature complete—not even a paired-down, super-trimmed version. But it's playable, testable, and iterating forward.
+
+That's the trade-off: you get speed and momentum in exchange for code that needs shepherding. You're not writing every line, but you're still responsible for the architecture, the patterns, and the quality.
+
+## Minimum Viable Prompt Literacy
+
+I have no idea what a "perfect prompt" looks like. But I know one rule that consistently works:
+
+**No matter what you ask the AI to make, the last sentence should be: "Ask me questions."**
+
+Get the AI to ask *you* questions. Ask it "what am I missing?" type questions. This back-and-forth is where the real value emerges—not in the first response, but in the dialogue.
+
+It took me 2-3 weeks to figure this out, but once I did, everything clicked.
+
 ## The Bottom Line
 
 AI hasn't replaced my thinking—it's changed how I work. The best analogy I've found: it's like pairing with a junior engineer who:
@@ -154,7 +195,17 @@ AI hasn't replaced my thinking—it's changed how I work. The best analogy I've 
 
 You have to bring the discipline, direction, and judgment. The AI brings speed, exploration, and momentum.
 
-After four months, I'm not worried about my career ending. I'm worried about not learning these tools fast enough.
+After four months of solo exploration—watching YouTube videos, AI Engineer conference talks, and lots of trial and error—I'm not worried about my career ending. I'm worried about not learning these tools fast enough.
+
+## Why This Matters (and Why I'm Writing This)
+
+I'm writing this for two audiences:
+
+**Future me**: So I can succinctly explain "this is what I learned" when the details fade.
+
+**You**: To give you an idea of how to approach AI development that's more than the nebulous "what the hell do I do here" feeling I had in June.
+
+This is an invitation. Not a tutorial, not a manifesto—an invitation to experiment, to treat side projects with these tools as "learn how to AI" projects, and to discover your own patterns through building.
 
 Because here's what I know now: the developers who learn to work effectively with AI aren't going to replace the ones who don't. They're going to outpace them by an order of magnitude.
 
@@ -165,3 +216,7 @@ The question is: "Am I learning to multiply my effectiveness, or am I just playi
 For me, the answer finally became clear somewhere between a Magic the Gathering cube and a procedurally generated sky island wargame.
 
 I'm building the plane while flying it. And documenting the journey as I go.
+
+Because maybe—just maybe—someone else is standing where I was in June, wondering "how does one actually vibe code?"
+
+And maybe this helps them take the first step.
