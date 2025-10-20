@@ -5,7 +5,7 @@ date: 2025-10-20 08:00:00 +0000
 categories: personal board-game godot video-game claudecode codex vibecoding
 ---
 
-_The Question That Started Everything... am I going to loose my job?_
+_The Question That Started Everything... am I going to lose my job?_
 
 ---
 
@@ -21,13 +21,13 @@ Then I got stuck on a problem. By simply following my curiosity, I went from not
 
 **TLDR**: I tried to make a [Jumpstart cube](https://vanonselenp.github.io/2025/08/04/jumpstart-cube-catastrophication/). ChatGPT couldn't solve it. Co-pilot couldn't solve it. Co-pilot vibe coded a solution that kinda worked. I vibe coded a new solution that actually worked.
 
-I couldn't get the damn thing out of my mind, so I vibe coded a [portfolio page](https://github.com/vanonselenp/vanonselenp.github.io) to document what happened. Then, while working on the cube, a [board game idea struck](https://vanonselenp.github.io/2025/08/21/sky-islands/)—and I couldn't get it out any other way except by building it with AI. That board game has somehow [morphed into a video game](https://vanonselenp.github.io/2025/09/07/boardgame-to-digital/) that's far too complicated for the "get an MVP into prod fast" approach I keep trying to follow.
+I couldn't get the damn thing out of my mind, so I vibe coded this [portfolio site](https://github.com/vanonselenp/vanonselenp.github.io) to document what happened. Then, while working on the cube, a [board game idea struck](https://vanonselenp.github.io/2025/08/21/sky-islands/), and I couldn't get it out any other way except by building it with AI. That board game has somehow [morphed into a video game](https://vanonselenp.github.io/2025/09/07/boardgame-to-digital/) that's far too complicated for the "get an MVP into prod fast" approach I keep trying to follow.
 
 **The time investment**: 1-2 hours a day, either in the morning before work or while watching TV with my wife in the evening. This became an all-consuming obsession for four months. I sacrificed learning urban sketching, which I'd spent the first half of the year actively pursuing.
 
-**The cost**: I'm paying £16/month for Claude Pro and £20/month for ChatGPT Pro. I use Claude as my primary coding assistant and switch between ChatGPT and Claude for thinking through problems. It's worth it—without AI, none of these projects would exist.
+**The cost**: I'm paying £16/month for Claude Pro and £20/month for ChatGPT Pro. I use Claude as my primary coding assistant and switch between ChatGPT and Claude for thinking through problems. It's worth it, without AI, none of these projects would exist.
 
-Pre-AI, my side projects were timeboxed to a couple of days and small, achievable problems. Anything more would rapidly collapse under its own weight—too much code, too little time. Basically I didn't do tech side projects. AI changed that equation entirely.
+Pre-AI, my side projects were timeboxed to a couple of days and small, achievable problems. Anything more would rapidly collapse under its own weight, too much code, too little time. Basically I didn't do tech side projects. AI changed that equation entirely.
 
 ![pre ai assisted tooling](/assets/github.png)
 
@@ -39,22 +39,24 @@ You have to treat AI not as a magic box that will automatically solve whatever y
 
 The best way to use this tool is to assume it doesn't actually know what you want. I've found the most effective approach is to start conversations with lots of negative validation questions: What am I missing? What could be improved? Be critical. Be objective. Get the AI to shoot holes through your ideas.
 
-Once you've had this conversation, write that plan to file. Congrats—you now have a high-level plan. This becomes useful context for future chats. However, this alone won't give you consistent, reasonable, progressive progress. Because basically, AIs like to write code, and they write an awful lot of it.
+Once you've had this conversation, write that plan to file. Congrats, you now have a high-level plan. This becomes useful context for future chats. However, this alone won't give you consistent, reasonable, progressive progress. Because basically, AIs like to write code, and they write an awful lot of it.
 
 So get it to make a todo list with a painful amount of tick boxes.
+
+![checklists!](/assets/checklist.png)
 
 When building, use that todo document to hold the AI accountable. It makes testing and building more predictable and manageable.
 
 ### The "Junior Engineer" Mental Model Goes Deeper Than You Think
 
-Treating AI like a junior engineer isn't just about tone—it's about workflow. Through my projects, I discovered I needed to:
+Treating AI like a junior engineer isn't just about tone, it's about workflow. Through my projects, I discovered I needed to:
 
 - **Use different AIs for different roles**: ChatGPT for exploration and brainstorming, Claude for implementation and code review
 - **Create specs as "shared memory"**: Documentation that gets committed to the repo so the AI can reference it across sessions
-- **Break work into granular todos**: Not just for you—for holding the AI accountable to what actually matters
+- **Break work into granular todos**: Not just for you, for holding the AI accountable to what actually matters
 - **Pair with it through code review**: Not just generation
 
-This evolved from my Magic cube project where I had specs numbered 1 through 15, each documenting a feature discussion. These weren't outputs—they were context that survived beyond individual chat sessions.
+This evolved from my Magic cube project where I had specs numbered 1 through 15, each documenting a feature discussion. These weren't outputs, they were context that survived beyond individual chat sessions.
 
 ## The Dangerous Patterns: What They Don't Tell You
 
@@ -66,13 +68,13 @@ During my Magic cube project, I went from manually patching decks to having a 10
 
 As an ardent TDD advocate in my day job, I realized I was missing two critical pieces of the red-green-refactor cycle: I was just writing code. No tests. No cleanups. Rookie mistake.
 
-I had to start from scratch, consciously embracing a build-and-refactor loop, following the code smell patterns that years of clean code practices had drilled into me. AI doesn't just multiply your output—**it multiplies your technical debt if you're not careful.**
+I had to start from scratch, consciously embracing a build-and-refactor loop, following the code smell patterns that years of clean code practices had drilled into me. AI doesn't just multiply your output, **it multiplies your technical debt if you're not careful.**
 
 The game dev project repeated this pattern. I'd run `git ls-files | grep '\.gd$' | xargs wc -l` and see files well over 2k lines. I'd missed refactor cycles again.
 
 ### The Tangent Amplification Problem
 
-AI doesn't just enable scope creep—**it actively encourages it by making every side quest feel achievable.**
+AI doesn't just enable scope creep, **it actively encourages it by making every side quest feel achievable.**
 
 My board game project is the perfect example. I set out one week to work on creature combat. By the end of the week, I had:
 - Created test creatures
@@ -101,10 +103,10 @@ When work involves orientation, rotation, or physical space, the AI's sense of d
 And if the AI ever accidentally gets something right, it will immediately overwrite it in the next change.
 
 My eventual workflow:
-1. Get the AI to build the big stuff—toggles, switches, base structure
+1. Get the AI to build the big stuff, toggles, switches, base structure
 2. Manually go through and tweak everything myself
 
-This led me to develop what I call "Git save-scumming"—treating Git like a video game save system because AI will thoughtlessly overwrite correct solutions without remembering what worked.
+This led me to develop what I call "Git save-scumming", treating Git like a video game save system because AI will thoughtlessly overwrite correct solutions without remembering what worked.
 
 ## The Momentum Trap
 
@@ -118,14 +120,14 @@ The momentum is addictive even when it's pulling you away from your goal. You ha
 
 ## The Transformation: Four Months, Everything Changed
 
-The most remarkable thing about this journey isn't what I built—it's the speed of transformation.
+The most remarkable thing about this journey isn't what I built, it's the speed of transformation.
 
 **June 2025**: AI optimist, barely engaging
 **October 2025**: 24k lines of game code, active collaborator across multiple projects, writing blog posts documenting the journey in real-time
 
 Getting to the "treat AI like a junior engineer" mindset took about 2-3 weeks. I had to unlearn the "AI is magic" assumption and figure out how to actually use it.
 
-This wasn't gradual learning—it was catalytic. Each success made the next leap feel possible:
+This wasn't gradual learning, it was catalytic. Each success made the next leap feel possible:
 - Magic cube problem → vibe coding solution
 - Couldn't stop thinking about it → portfolio site
 - One blog post → entire blog series
@@ -140,9 +142,9 @@ The spec-driven workflow I developed through these side projects has now become 
 
 Right now I'm refactoring a monolith written in Go into a commons library with five microservices, using the AI spec-driven workflow with AI-assisted code development, working in small increments. Everything I'm doing, I learned from these side projects.
 
-The irony: The Economist (where I work) has embraced AI tooling internally, while engineers in general remain reticent. I get it—I was there four months ago.
+The irony: The Economist (where I work) has embraced AI tooling internally, while engineers in general remain reticent. I get it, I was there four months ago.
 
-But here's what changed for me: **I still do traditional hand-crafted coding in my day job. I regularly work through code katas, which are fun and enjoyable in and of themselves.** AI hasn't replaced my coding skills—it's multiplied what I can accomplish when I need to move fast or explore unfamiliar territory.
+But here's what changed for me: **I still do traditional hand-crafted coding in my day job. I regularly work through code katas, which are fun and enjoyable in and of themselves.** AI hasn't replaced my coding skills, it's multiplied what I can accomplish when I need to move fast or explore unfamiliar territory.
 
 ## Practical Workflows That Emerged
 
@@ -172,7 +174,7 @@ Set hard rules to counter AI's momentum:
 
 Let's be honest: the code AI generates can be good, can be overly verbose, tends toward duplication. But it can be nudged in the right direction quite easily.
 
-The game currently works. It's not feature complete—not even a paired-down, super-trimmed version. But it's playable, testable, and iterating forward.
+The game currently works. It's not feature complete, not even a paired-down, super-trimmed version. But it's playable, testable, and iterating forward.
 
 That's the trade-off: you get speed and momentum in exchange for code that needs shepherding. You're not writing every line, but you're still responsible for the architecture, the patterns, and the quality.
 
@@ -182,13 +184,13 @@ I have no idea what a "perfect prompt" looks like. But I know one rule that cons
 
 **No matter what you ask the AI to make, the last sentence should be: "Ask me questions."**
 
-Get the AI to ask *you* questions. Ask it "what am I missing?" type questions. This back-and-forth is where the real value emerges—not in the first response, but in the dialogue.
+Get the AI to ask *you* questions. Ask it "what am I missing?" type questions. This back-and-forth is where the real value emerges, not in the first response, but in the dialogue.
 
 It took me 2-3 weeks to figure this out, but once I did, everything clicked.
 
 ## The Bottom Line
 
-AI hasn't replaced my thinking—it's changed how I work. The best analogy I've found: it's like pairing with a junior engineer who:
+AI hasn't replaced my thinking, it's changed how I work. The best analogy I've found: it's like pairing with a junior engineer who:
 - Never gets tired
 - Has read everything
 - Has no memory between sessions
@@ -197,7 +199,7 @@ AI hasn't replaced my thinking—it's changed how I work. The best analogy I've 
 
 You have to bring the discipline, direction, and judgment. The AI brings speed, exploration, and momentum.
 
-After four months of solo exploration—watching YouTube videos, AI Engineer conference talks, and lots of trial and error—I'm not worried about my career ending. I'm worried about not learning these tools fast enough.
+After four months of solo exploration,watching YouTube videos, AI Engineer conference talks, and lots of trial and error,I'm not worried about my career ending. I'm worried about not learning these tools fast enough.
 
 ## Why This Matters (and Why I'm Writing This)
 
@@ -207,7 +209,7 @@ I'm writing this for two audiences:
 
 **You**: To give you an idea of how to approach AI development that's more than the nebulous "what the hell do I do here" feeling I had in June.
 
-This is an invitation. Not a tutorial, not a manifesto—an invitation to experiment, to treat side projects with these tools as "learn how to AI" projects, and to discover your own patterns through building.
+This is an invitation. Not a tutorial, not a manifesto,an invitation to experiment, to treat side projects with these tools as "learn how to AI" projects, and to discover your own patterns through building.
 
 Because here's what I know now: the developers who learn to work effectively with AI aren't going to replace the ones who don't. They're going to outpace them by an order of magnitude.
 
@@ -219,6 +221,6 @@ For me, the answer finally became clear somewhere between a Magic the Gathering 
 
 I'm building the plane while flying it. And documenting the journey as I go.
 
-Because maybe—just maybe—someone else is standing where I was in June, wondering "how does one actually vibe code?"
+Because maybe, just maybe, someone else is standing where I was in June, wondering "how does one actually vibe code?"
 
 And maybe this helps them take the first step.
