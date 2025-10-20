@@ -174,7 +174,7 @@ Set hard rules to counter AI's momentum:
 
 Let's be honest: the code AI generates can be good, can be overly verbose, tends toward duplication. But it can be nudged in the right direction quite easily.
 
-The game currently works. It's not feature complete, not even a paired-down, super-trimmed version. But it's playable, testable, and iterating forward.
+The game currently works. It's not feature complete, not even a pared-down, super-trimmed version. But it's playable, testable, and iterating forward.
 
 That's the trade-off: you get speed and momentum in exchange for code that needs shepherding. You're not writing every line, but you're still responsible for the architecture, the patterns, and the quality.
 
