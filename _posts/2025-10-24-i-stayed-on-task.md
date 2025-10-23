@@ -55,4 +55,4 @@ See? Like I told you. Todo list! Let's see if I can do it again?
 - 508 deletions
 - Net addition of ~2,500 lines of code
 
-For an hour and a bit each night, the progress here is just downright furious.
+For an hour and a bit each night, the progress here is just downright fierce.
