@@ -15,7 +15,7 @@ Yeah, about that.
 
 If you've been reading the wonderful adventures of the tangent king over here, I know what you're thinking. He can't do that.
 
-**For context:** I'm building Horizon's Edge — a turn-based tactical wargame inspired by NetStorm where floating islands battle for control of the skies. I've been developing it with AI assistance in Godot, and staying focused has been... a journey. Previous highlights include: diving into Wave Function Collapse procedural generation instead of finishing game rules, and a grand refactor that ate five entire evenings because I accidentally committed the `.godot` cache folder.
+**For context:** I'm building Horizon's Edge: a turn-based tactical wargame inspired by NetStorm where floating islands battle for control of the skies. I've been developing it with AI assistance in Godot, and staying focused has been... a journey. Previous highlights include: diving into Wave Function Collapse procedural generation instead of finishing game rules, and a grand refactor that ate five entire evenings because I accidentally committed the `.godot` cache folder.
 
 Well, I will have you know... that this week I set out to get a bunch of combat systems up and running. Working tip top. No funny business with wave function algorithms or hexes or anything! And I managed, for the first time in almost 4 months, to stay on task and not meander (too much) and actually get some things *completed*. 
 
