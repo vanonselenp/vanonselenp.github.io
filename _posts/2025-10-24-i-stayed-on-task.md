@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "I Actually Stayed On Task (For Once): A Dev Miracle"
-date: 2025-10-20 08:00:00 +0000
+date: 2025-10-24 08:00:00 +0000
 categories: personal board-game godot video-game claudecode codex vibecoding
 ---
 
