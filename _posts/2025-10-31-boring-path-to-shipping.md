@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "The Boring Path to Actually Shipping"
+title: "The Boring Path to Actually Shipping with AI"
 date: 2025-10-31 08:00:00 +0000
 categories: personal godot video-game claudecode vibecoding
 ---
