@@ -30,8 +30,6 @@ By basically all metrics... productive?
 
 It comes down to what following the spec driven development process has actually become. Now that I'm being militant about making AI follow a todo list, what I've functionally done is put on multiple hats:
 
-![too many hats](/assets/boring/hats.png)
-
 **Product Manager hat:** Created a complete game design doc. High-level, aspirational, covering combat systems, creatures, abilities, victory conditions — the whole vision thing.
 
 **Delivery/Feature Lead hat:** Took one section (the combat system) and broke it down into actual features. Not just "build combat" but "what does combat *need*? Movement? Attacks? Status effects? Death?" The unglamorous work of turning vibes into verbs.
