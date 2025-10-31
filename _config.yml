@@ -17,6 +17,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
 
+# Feed settings
+feed:
+  posts_limit: 20
+
 # Exclude from processing
 exclude:
   - vendor/
