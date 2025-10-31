@@ -46,7 +46,7 @@ Let's build something great, and maybe a little weird, together.
     "@type": "Organization",
     "name": "The Economist"
   },
-  "url": "https://vanonselenp.github.io",
+  "url": "https://www.petervanonselen.com",
   "sameAs": [
     "https://github.com/vanonselenp",
     "https://www.linkedin.com/in/peter-van-onselen-a46b1b2b"

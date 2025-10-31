@@ -25,7 +25,7 @@ It was a ridiculous idea in some ways, rooted in nostalgia for something obscure
 
 ### Lessons from the Cube Project
 
-The [Jumpstart cube project](https://vanonselenp.github.io/2025/08/04/jumpstart-cube-catastrophication/) had taught me something important: **AI could be a collaborator, not just a tool.**
+The [Jumpstart cube project](https://www.petervanonselen.com/2025/08/04/jumpstart-cube-catastrophication/) had taught me something important: **AI could be a collaborator, not just a tool.**
 
 The breakthrough wasn’t about the right prompt or the cleverest model hack. It was about treating the AI like a **junior engineer** — someone who could help generate ideas, point out problems, and accelerate iteration, but who still needed guidance, context, and decisions.
 

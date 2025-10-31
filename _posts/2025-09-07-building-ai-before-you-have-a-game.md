@@ -13,7 +13,7 @@ _The curious case of Sky Islands and the Endless Roads leading nowhere ...._
 
 ![When Agentic programs go wrong](/assets/agentic_gone_wrong.png)
 
-I’ve been on a mission to design a board game — [*Sky Islands*](https://vanonselenp.github.io/2025/08/21/sky-islands/) — and build a simulation of it in Pygame so I can playtest it digitally.
+I've been on a mission to design a board game — [*Sky Islands*](https://www.petervanonselen.com/2025/08/21/sky-islands/) — and build a simulation of it in Pygame so I can playtest it digitally.
 
 As a seasoned engineer with 14+ years of experience, you’d think I’d take a well-organized, disciplined approach to building my game: a clear Trello board, carefully prioritized tasks, and a smooth, methodical path from prototype to polish.
 

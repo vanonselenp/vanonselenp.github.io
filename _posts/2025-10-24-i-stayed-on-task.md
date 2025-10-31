@@ -9,7 +9,7 @@ _Breaking news: Developer completes planned features ... who would have thought?
 
 ---
 
-Remember all those high-minded ideas I had about [staying on task with AI-assisted development](https://vanonselenp.github.io/2025/10/20/what-i-have-learnt/)? All that big game I've been talking about "this is how you do dev with an AI and keep it on task" and "this is the way you got to do it"? 
+Remember all those high-minded ideas I had about [staying on task with AI-assisted development](https://www.petervanonselen.com/2025/10/20/what-i-have-learnt/)? All that big game I've been talking about "this is how you do dev with an AI and keep it on task" and "this is the way you got to do it"? 
 
 Yeah, about that.
 

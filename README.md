@@ -102,7 +102,7 @@ categories: category1 category2
 The site automatically deploys to GitHub Pages when you:
 1. Push changes to the `master` branch
 2. GitHub Actions builds and deploys the site
-3. Your site is available at `https://vanonselenp.github.io`
+3. Your site is available at `https://www.petervanonselen.com`
 
 ### Manual Deployment
 

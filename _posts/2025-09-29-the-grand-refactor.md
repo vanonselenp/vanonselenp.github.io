@@ -13,7 +13,7 @@ _From Buttons to Cards: A Sideways Journey_
 
 ![current look](/assets/grand-refactor/current.png)
 
-[Last time we chatted](https://vanonselenp.github.io/2025/09/07/boardgame-to-digital/) I was making excellent progress with the video game implementation of a board game I’m randomly working on. I had island placement, roads, chunking, waveform-collapse procedural generation. It was smoking. I was learning how to get Claude to code well. The way of the Force was strong.
+[Last time we chatted](https://www.petervanonselen.com/2025/09/07/boardgame-to-digital/) I was making excellent progress with the video game implementation of a board game I'm randomly working on. I had island placement, roads, chunking, waveform-collapse procedural generation. It was smoking. I was learning how to get Claude to code well. The way of the Force was strong.
 
 And then I ran a little terminal command:
 

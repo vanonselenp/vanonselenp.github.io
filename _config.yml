@@ -3,7 +3,7 @@ title: Peter van Onselen
 description: > # this means to ignore newlines until "baseurl:"
   Personal website and portfolio of Peter van Onselen
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://vanonselenp.github.io" # the base hostname & protocol for your site
+url: "https://www.petervanonselen.com" # the base hostname & protocol for your site
 google_analytics: G-WVL7NL8PB9
 
 # Build settings
@@ -53,7 +53,7 @@ navigation:
 author:
   name: Peter van Onselen
   email: augury_upsurge.17@icloud.com
-  uri: "https://vanonselenp.github.io"
+  uri: "https://www.petervanonselen.com"
 
 # Social links
 social:

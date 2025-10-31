@@ -9,7 +9,7 @@ _Last Time on Madness Boulevard..._
 
 ---
 
-Last time on the wonderful adventures of a random walk down the boulevard of madness in making a ~~board~~ video game, I was busy [refactoring cards and trying to get them to actually work](https://vanonselenp.github.io/2025/09/29/the-grand-refactor/).
+Last time on the wonderful adventures of a random walk down the boulevard of madness in making a ~~board~~ video game, I was busy [refactoring cards and trying to get them to actually work](https://www.petervanonselen.com/2025/09/29/the-grand-refactor/).
 
 ![Cards Cards CARDS!](/assets/cards-chaos-claude/cards.png)
 

@@ -9,7 +9,7 @@ _A brief summary of what I have learnt_
 
 ---
 
-This is an exert of [From AI Skeptic to Constant Collaborator: What I Learned Vibe Coding](https://vanonselenp.github.io/2025/10/20/what-i-have-learnt/). 
+This is an exert of [From AI Skeptic to Constant Collaborator: What I Learned Vibe Coding](https://www.petervanonselen.com/2025/10/20/what-i-have-learnt/). 
 
 ## Practical Workflows
 

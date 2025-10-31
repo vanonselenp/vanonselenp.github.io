@@ -19,9 +19,9 @@ Then I got stuck on a problem. By simply following my curiosity, I went from not
 
 ## The Catalyst: Magic the Gathering (Naturally)
 
-**TLDR**: I tried to make a [Jumpstart cube](https://vanonselenp.github.io/2025/08/04/jumpstart-cube-catastrophication/). ChatGPT couldn't solve it. Co-pilot couldn't solve it. Co-pilot vibe coded a solution that kinda worked. I vibe coded a new solution that actually worked.
+**TLDR**: I tried to make a [Jumpstart cube](https://www.petervanonselen.com/2025/08/04/jumpstart-cube-catastrophication/). ChatGPT couldn't solve it. Co-pilot couldn't solve it. Co-pilot vibe coded a solution that kinda worked. I vibe coded a new solution that actually worked.
 
-I couldn't get the damn thing out of my mind, so I vibe coded this [portfolio site](https://github.com/vanonselenp/vanonselenp.github.io) to document what happened. Then, while working on the cube, a [board game idea struck](https://vanonselenp.github.io/2025/08/21/sky-islands/), and I couldn't get it out any other way except by building it with AI. That board game has somehow [morphed into a video game](https://vanonselenp.github.io/2025/09/07/boardgame-to-digital/) that's far too complicated for the "get an MVP into prod fast" approach I keep trying to follow.
+I couldn't get the damn thing out of my mind, so I vibe coded this [portfolio site](https://github.com/vanonselenp/vanonselenp.github.io) to document what happened. Then, while working on the cube, a [board game idea struck](https://www.petervanonselen.com/2025/08/21/sky-islands/), and I couldn't get it out any other way except by building it with AI. That board game has somehow [morphed into a video game](https://www.petervanonselen.com/2025/09/07/boardgame-to-digital/) that's far too complicated for the "get an MVP into prod fast" approach I keep trying to follow.
 
 **The time investment**: 1-2 hours a day, either in the morning before work or while watching TV with my wife in the evening. This became an all-consuming obsession for four months. I sacrificed learning urban sketching, which I'd spent the first half of the year actively pursuing.
 

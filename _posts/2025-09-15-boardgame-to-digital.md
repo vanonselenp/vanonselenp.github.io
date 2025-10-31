@@ -17,7 +17,7 @@ What started as a simple idea about floating islands locked in war has slowly mu
 
 ### Where We Left Off
 
-If you caught my last post, [Building AI Before Building the Game: A Cautionary Tale](https://vanonselenp.github.io/2025/09/07/building-ai-before-you-have-a-game/), you’ll know I’d been trying to simulate *Sky Islands* in Pygame. The goal was to playtest the rules, track combat and control, and maybe get some balance insights. Then I got ambitious and plugged an LLM in to act as an AI player.
+If you caught my last post, [Building AI Before Building the Game: A Cautionary Tale](https://www.petervanonselen.com/2025/09/07/building-ai-before-you-have-a-game/), you'll know I'd been trying to simulate *Sky Islands* in Pygame. The goal was to playtest the rules, track combat and control, and maybe get some balance insights. Then I got ambitious and plugged an LLM in to act as an AI player.
 
 ![silly ai](/assets/road_to_nowhere.png)
 
