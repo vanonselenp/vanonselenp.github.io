@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "AI Spec Driven Development"
-date: 2025-10-24 08:00:00 +0000
+date: 2025-10-30 08:00:00 +0000
 categories: personal claudecode vibecoding
 ---
 

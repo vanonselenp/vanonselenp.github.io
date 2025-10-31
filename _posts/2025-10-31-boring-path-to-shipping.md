@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Boring Path to Actually Shipping"
-date: 2025-10-24 08:00:00 +0000
+date: 2025-10-31 08:00:00 +0000
 categories: personal board-game godot video-game claudecode codex vibecoding
 ---
 
