@@ -17,7 +17,7 @@ Okay okay, for reals though, following this process of using a spec and a clear 
 
 **In the past week I have:**
 - Created 3 new creatures: one that moves fast, hits hard and stuns enemies; another that spawns minions and multiplies when it dies; and one that shoots a bolt that blows things up and destroys land all over the place
-- Around 9 abilities created and working
+- Around 9 new abilities created and working
 - Got the AI to hack some terrible models together so they would be unique enough to be playable
 - Made the islands generate more interestingly
 - Completed a horde of UI cleanups
