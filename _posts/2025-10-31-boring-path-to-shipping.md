@@ -2,7 +2,7 @@
 layout: post
 title: "The Boring Path to Actually Shipping"
 date: 2025-10-31 08:00:00 +0000
-categories: personal board-game godot video-game claudecode codex vibecoding
+categories: personal godot video-game claudecode vibecoding
 ---
 
 _Or: How I Learned to Stop Vibing and Love the Spec"_
@@ -28,7 +28,9 @@ By basically all metrics... productive?
 
 ## So Where Did the "Boring" Comment Come From?
 
-It comes down to what following the spec process has actually become. Now that I'm being militant about making AI follow a todo list, what I've functionally done is put on multiple hats:
+It comes down to what following the spec driven development process has actually become. Now that I'm being militant about making AI follow a todo list, what I've functionally done is put on multiple hats:
+
+![too many hats](/assets/boring/hats.png)
 
 **Product Manager hat:** Created a complete game design doc. High-level, aspirational, covering combat systems, creatures, abilities, victory conditions — the whole vision thing.
 
