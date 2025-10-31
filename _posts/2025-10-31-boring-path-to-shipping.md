@@ -9,7 +9,7 @@ _Or: How I Learned to Stop Vibing and Love the Spec"_
 
 ---
 
-OMG. This process is BORING!
+OMG. This [spec driven development](https://vanonselenp.github.io/2025/10/24/exert-of-what-i-learnt/) process is BORING!
 
 Okay okay, for reals though, following this process of using a spec and a clear breakdown of tasks is tangibly yielding results and making remarkable progress forward in the game.
 
