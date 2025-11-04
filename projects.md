@@ -43,6 +43,8 @@ Created an affordable website for a HEMA club using Jekyll and GitHub Pages, foc
 
 ### Horizon's Edge
 
+![splash](/assets/splash.png)
+
 A tactical wargame built in Godot exploring floating islands locked in conflict. What started as a simple board game prototype evolved into a digital game with procedural island generation, sophisticated combat systems, and height-based tactical gameplay.
 
 **Current Features:**
