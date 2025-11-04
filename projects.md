@@ -100,7 +100,6 @@ Based on my 14+ years of experience as a Staff Engineer and technical leader, I'
 - **Business Integration:** Technical strategy alignment with business objectives
 - **Problem Solving:** Complex system debugging, root cause analysis
 - **Communication:** Technical documentation, stakeholder management
-- **Game Development:** Godot engine, game design, procedural generation (Wave Function Collapse), tactical game mechanics
 - **AI-Assisted Development:** Spec-driven development, AI collaboration workflows, prompt engineering for code generation
 
 ---
