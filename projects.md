@@ -7,6 +7,8 @@ description: Portfolio of Peter van Onselen's software projects including an int
 
 ## Magic: The Gathering Jumpstart Cube Constructor
 
+![magic splash](/assets/magic-splash.png)
+
 An intelligent deck construction system that automatically builds themed Magic: The Gathering Jumpstart cubes with perfect theme coherence and balanced gameplay from any card pool. This project features automated theme extraction, balanced color distribution, and comprehensive performance analysis.
 
 **Key bits of fun:**
