@@ -31,6 +31,8 @@ This was an experiment in "vibe coding" that solved a real problem I had at the 
 
 ## Table Mountain HEMA Website
 
+![hema](/assets/hema.png)
+
 Created an affordable website for a HEMA club using Jekyll and GitHub Pages, focusing on cost-effective hosting and maintenance. I have now handed this over to the club and they have been running with it ever since.
 
 **Technologies:** Jekyll, GitHub, Ruby
