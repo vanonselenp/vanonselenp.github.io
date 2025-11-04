@@ -53,8 +53,6 @@ A tactical wargame built in Godot exploring floating islands locked in conflict.
 
 **Technologies:** Godot, GDScript, Procedural Generation, Game Design
 
-**Repository:** [github.com/vanonselenp/horizons-edge](https://github.com/vanonselenp/horizons-edge)
-
 **Related Reading:**
 - [Sky Islands](https://www.petervanonselen.com/2025/08/21/sky-islands/) - Initial game design concept
 - [From Boardgame to Digital](https://www.petervanonselen.com/2025/09/15/boardgame-to-digital/) - Why I ended up building both versions
