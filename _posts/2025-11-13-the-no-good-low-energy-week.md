@@ -39,7 +39,7 @@ That's where the magic happens.
 
 ![tank](/assets/no-energy-week/tank.png)
 
-The Biomass Tank's parasitic bond is a perfect example. It started as a triggered ability, shifted into an activated passive that heals the Tank whenever *any* nearby enemy creature takes damage. That single design decision cascaded: upkeep suddenly mattered. Rounds had weight. Generator buildings became far more valuable, and vunerable. The creature went from decent to a potential powerhouse with two different healing methods and the ability to stay safe at range.
+The Biomass Tank's parasitic bond is a perfect example. It started as a triggered ability, shifted into an activated passive that heals the Tank whenever *any* nearby enemy creature takes damage. That single design decision cascaded: upkeep suddenly mattered. Rounds had weight. Generator buildings became far more valuable, and vulnerable. The creature went from decent to a potential powerhouse with two different healing methods and the ability to stay safe at range.
 
 The design got better not because I worked harder on it, but because I paused to think about what it *was* and what it *could be*.
 
@@ -57,4 +57,6 @@ When you have nothing left, you find out what actually works. This week proved t
 
 I might not have had the energy. But the system did.
 
-Next week, fingers crossed, I will hopefully be finished the creature cards and start working on spells like Meteor and Lightning and getting some more buildings working correctly.
+## Next week
+
+Fingers crossed, I will hopefully be finished the creature cards and start working on spells like Meteor and Lightning and getting some more buildings working correctly.
