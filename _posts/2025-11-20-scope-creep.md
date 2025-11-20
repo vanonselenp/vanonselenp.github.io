@@ -27,16 +27,18 @@ I then built ten creatures with twenty-nine abilities. I added procedural island
 
 Looking at that list now, that should have been a warning sign. And it gets worse: my remaining feature list for MVP includes five more buildings, five more spells, multiple win conditions, fog of war, proper turn behavior, UI polish.
 
-Looking at my remaining feature list, I realize I'm _still_ overscoping. Scope creep doesn't stop after one round of cuts. It's persistent. Even when you're actively trying to think in MVP terms, there's a pull to add one more building, one more spell, one more system. Each one feels necessary. But they compound.
+It's only now that I am looking at my remaining feature list (I wrote up the list for this very blog post), that I realize the entirely obvious thing. I am _still_ overscoping. Scope creep doesn't stop after one round of cuts. It's persistent. Even when you're actively trying to think in MVP terms, there's a pull to add one more building, one more spell, one more system. Each one feels necessary. But they compound.
 
-So what is the real MVP? **Validate the core loop with minimal systems**. Get one or two creature types with a handful of abilities working. One building. One spell. Basic island control. Prove the concept works, then iterate.
+I should have picked this up sooner with that grinding feeling. I have been having with the creatures and abilities. It has felt like motivation leeching away in the never ending drudgery. It was a clear warning sign I was off the path.
+
+So what should the real MVP actually be? **One or two creature types. A handful of abilities. One building. One spell. Island control. Prove it works, then iterate.**
 
 Instead, I've been building toward a feature-complete prototype when I should be building toward the **smallest** thing that proves the game is playable and interesting.
 
-I am redefining the MVP down even further. Just one spell (meteor), Fog of War, one win condition, UI elements, and two decks using existing systems. This focuses on the core systems still missing and gets to something playable I can put in front of someone.
+So here's my actual MVP: one spell (meteor), Fog of War, one win condition, UI, and two decks. Nothing more! Just the core systems missing, playable, shippable.
 
 ## The lesson keeps teaching itself
 
 There's a valuable lesson here about scope discipline. I thought I'd learned it when I cut factions and campaigns. But you keep learning it, over and over, if you're paying attention. Every time you build something, you get a clearer picture of what actually matters. And every time, you realize you could have cut further.
 
-The game is starting to have shape because I've been building and learning. But I'm also learning—again—that shipping something small and real beats shipping something comprehensive and theoretical. Time to cut deeper.
+The game is starting to have shape because I've been building and learning. But I'm also learning—again—that shipping something small and real beats shipping something comprehensive and theoretical. Time to cut deeper. And I need to get a prototype finished before adding a single feature more.
