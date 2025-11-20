@@ -31,9 +31,9 @@ Looking at that list now, that should have been a warning sign. And it gets wors
 
 It's only now that I am looking at my remaining feature list (I wrote up the list for this very blog post), that I realize the entirely obvious thing. I am _still_ overscoping. Scope creep doesn't stop after one round of cuts. It's persistent. Even when you're actively trying to think in MVP terms, there's a pull to add one more building, one more spell, one more system. Each one feels necessary. But they compound.
 
-I should have picked this up sooner—that grinding feeling I've been having with the creatures and abilities. It has felt like motivation leeching away in the never ending drudgery. It was a clear warning sign I was off the path.
+I should have picked this up sooner: that grinding feeling I've been having with the creatures and abilities. It has felt like motivation leeching away in the never ending drudgery. It was a clear warning sign I was off the path.
 
-So here's my actual MVP: one spell (meteor), Fog of War, one win condition, UI, and two decks. That's it. Just the core systems missing, playable, shippable. This is what I should have built from the start—the smallest thing that proves the concept works.
+So here's my actual MVP: one spell (meteor), Fog of War, one win condition, UI, and two decks. That's it. Just the core systems missing, playable, shippable. This is what I should have built from the start, the smallest thing that proves the concept works.
 
 ![simple](/assets/scope-creep-november/simple.webp)
 
@@ -41,4 +41,4 @@ So here's my actual MVP: one spell (meteor), Fog of War, one win condition, UI, 
 
 I keep learning the same lesson over and over. I thought I'd solved scope creep when I cut factions and campaigns. Three months later, with ten creatures and twenty-nine abilities built, I realized I'd just learned the lesson at a different scale. Every time I ship something, I understand a little better what actually mattered. And every time, I realize I could have cut further.
 
-The game is starting to have shape because I've been building and learning. But I'm also learning—again—that shipping something small and real beats shipping something comprehensive and theoretical. Time to cut deeper. This time, I'm shipping the prototype before I convince myself I need more.
+The game is starting to have shape because I've been building and learning. But I'm also learning, again, that shipping something small and real beats shipping something comprehensive and theoretical. Time to cut deeper. This time, I'm shipping the prototype before I convince myself I need more.
