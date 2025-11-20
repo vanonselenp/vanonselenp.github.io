@@ -9,13 +9,15 @@ _Scope Creep Keeps Teaching Me..._
 
 ---
 
-![banner](/assets/no-energy-week/banner.png)
+![banner](/assets/scope-creep-november/banner.png)
 
 # Scope Creep Keeps Teaching Me
 
 Have you ever had one of those weeks where you suddenly have to be traveling a lot and don't really have any time for personal projects? This has been my week. I still managed to get two creatures and six abilities created.
 
 The Flux Chaos controls the board by moving creatures into and out of position, swapping them from behind enemy lines or randomly teleporting them somewhere (maybe even off into the void). The Flux Storm does massive area damage while locking down the area preventing anyone from teleporting in and out. Watching these creatures interact with the existing systems is delightful. The abilities are beginning to feel like they synergize and interact together nicely.
+
+![chaos and storm](/assets/scope-creep-november/chaos-storm.png)
 
 I've been on a mission to prototype this strange game idea for a while now. I started the repo on September 4th. Three months later, I'm watching a prototype that's actually starting to feel like a game with interesting systems.
 
@@ -32,6 +34,8 @@ It's only now that I am looking at my remaining feature list (I wrote up the lis
 I should have picked this up sooner—that grinding feeling I've been having with the creatures and abilities. It has felt like motivation leeching away in the never ending drudgery. It was a clear warning sign I was off the path.
 
 So here's my actual MVP: one spell (meteor), Fog of War, one win condition, UI, and two decks. That's it. Just the core systems missing, playable, shippable. This is what I should have built from the start—the smallest thing that proves the concept works.
+
+![simple](/assets/scope-creep-november/simple.webp)
 
 ## The lesson keeps teaching itself
 
