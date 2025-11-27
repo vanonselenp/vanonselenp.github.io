@@ -25,7 +25,7 @@ The spell was easy. Just another ability, and make it bigger, cost more and have
 ![meteor](/assets/long-road/meteor.gif)
 
 The victory condition, however, has turned into a far more crunchy problem. Turns out wiring up ownership, health tracking, and win conditions across multiple systems was messier than I thought. I've built:
-- A game over screen to start a new game
+- A **game over** screen to start a new game
 - Health on the core island node
 - A UI display to see that health
 - A manager to track who owns the islands and a way to change ownership
