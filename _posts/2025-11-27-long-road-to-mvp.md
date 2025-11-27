@@ -11,7 +11,7 @@ _How I learned to stop overthinking and ship the damn thing..._
 
 ![banner](/assets/long-road/banner.png)
 
-[Last week I had a sudden but inevitable realisation](https://www.petervanonselen.com/2025/11/20/scope-creep/). Basically my MVP was completely not an MVP but rather a bloated over-built system that should have been moving to release sooner. Which in hindsight I should have realised... 4 weeks ago. Lesson learned.
+[Last week I had a sudden but inevitable realisation](https://www.petervanonselen.com/2025/11/20/scope-creep/). Basically my MVP was completely not an MVP but rather a bloated over-built system that I should have been moving to release sooner. Which in hindsight I should have realised... 4 weeks ago. Lesson learned.
 
 So this week I started with yet another plan where I detailed out a new spec that broke down the exact things I needed to do. And then... I did just that! Everything else is deferred.
 
