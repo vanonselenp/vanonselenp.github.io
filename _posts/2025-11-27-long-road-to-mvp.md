@@ -18,7 +18,7 @@ So, this week I started with yet another plan where I detailed out a new spec th
 **Broad plan for MVP:**
 - 1 Spell: Meteor - DONE
 - 1 Victory condition: own all the islands - IN PROGRESS
-- 2 Unique Decks: TODO
+- 2 Unique Decks - TODO
 
 The spell was easy. Just another ability, and make it bigger, cost more and have an animation that then removes a massive amount of real estate. Big, flashy, simple.
 
