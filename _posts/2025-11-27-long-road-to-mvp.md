@@ -16,7 +16,7 @@ _How I learned to stop overthinking and ship the damn thing..._
 So, this week I started with yet another plan where I detailed out a new spec that broke down the exact things I needed to do. And then... I did just that! Everything else is deferred.
 
 **Broad plan for MVP:**
-- 1 Spell: Meteor (DONE)
+- 1 Spell: Meteor - DONE
 - 1 Victory condition: own all the islands - IN PROGRESS
 - 2 Unique Decks: TODO
 
