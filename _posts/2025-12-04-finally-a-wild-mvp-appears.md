@@ -23,7 +23,7 @@ Writing a clear specification before diving head first into a vibe changed every
 
 ## Months of Education
 
-What I've learned so far is this: it's entirely possible to make working software with AI tools. You can keep momentum even when you're completely out of energy or time. But the most important thing ... the thing that actually matters ... is that you have to always verify what the AI outputs. Automated unit tests are your best friend here. A Quality Engineers mindset and thinking about edge cases is fundamental.
+What I've learned so far is this: it's entirely possible to make working software with AI tools. You can keep momentum even when you're completely out of energy or time. But the most important thing ... the thing that actually matters ... is that you have to always verify what the AI outputs. Automated unit tests are your best friend here. A Quality first mindset and thinking about edge cases is fundamental.
 
 ![waveform generation](/assets/mvp/waveform.gif)
 
