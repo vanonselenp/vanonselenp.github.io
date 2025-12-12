@@ -1,61 +1,29 @@
 ---
 layout: page
-title: A Blog of dubious intent
+title: Blog
 permalink: /blog/
 description: Technical blog by Peter van Onselen covering software engineering, cloud infrastructure, technical leadership, TDD practices, and game development insights.
 ---
 
-## What's This All About?
-
-This blog exists in the spirit of Austin Kleon's *Show Your Work* - documenting the messy, chaotic, tangent-filled reality of learning to build with AI.
-
-You won't find polished tutorials here. Instead, you'll find:
-
-- **The tangents** - like accidentally implementing Wave Function Collapse when you should be playtesting a board game
-- **The failures** - five evenings lost to a refactor because the `.godot` folder was in git
-- **The learning** - from AI skeptic to treating Claude like a junior engineer in four months
-- **The meandering** - building 24k lines of Python for a game that probably should have been paper-prototyped first
-
-**Why document this publicly?** Three reasons:
-
-1. **For future me** - so I can remember what I learned when the details fade
-2. **For you** - in case you're standing where I was in June, wondering "how does one actually vibe code?"
-3. **For accountability** - nothing keeps you honest like documenting your scope creep in real-time
-
-This isn't about showcasing expertise. It's about learning in public, sharing the process (not just the wins), and treating side projects as "learn how to AI" experiments rather than products.
-
-If you're looking for clean, professional advice, my day job is Staff Engineering at The Economist. If you want to see what happens when curiosity meets AI-assisted development meets a nostalgic itch for a 90s RTS game... well, you're in the right place.
-
-Welcome to the chaos.
+{% assign latest_post = site.posts | first %}
+<h3><a href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a></h3>
+<p class="post-meta">{{ latest_post.date | date: "%B %d, %Y" }}
+{% if latest_post.categories.size > 0 %}
+•
+{% for category in latest_post.categories %}
+  <span class="category">{{ category }}</span>{% unless forloop.last %}, {% endunless %}
+{% endfor %}
+{% endif %}
+</p>
+{{ latest_post.content }}
 
 ---
 
-## Recent Posts
+## Previous Posts
 
-{% for post in site.posts limit:5 %}
-<div class="card">
-  <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-  <p class="post-meta">{{ post.date | date: "%B %d, %Y" }}
-  {% if post.categories.size > 0 %}
-  •
-  {% for category in post.categories %}
-    <span class="category">{{ category }}</span>{% unless forloop.last %}, {% endunless %}
-  {% endfor %}
-  {% endif %}
-  </p>
-  <p>{{ post.excerpt | strip_html | truncatewords:30 }}</p>
-  <a href="{{ post.url | relative_url }}">Read more →</a>
-</div>
-{% endfor %}
-
-{% if site.posts.size > 5 %}
-## Post Archive
-
-### All Posts
-{% for post in site.posts %}
+{% for post in site.posts offset:1 %}
 - [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%B %d, %Y" }}
 {% endfor %}
-{% endif %}
 
 ## Subscribe & Stay Updated
 
