@@ -67,4 +67,6 @@ Meeting transcripts feed the context layer. The context layer produces better ac
 
 There's a Sam Altman interview from about a year ago where he describes people using AI as "an operating system for how they think." At the time I had absolutely no idea what he meant. Now I think I do, and the uncomfortable truth is that I'm probably barely scratching the surface of where this goes.
 
+So here is my take away action for you. Next meeting you are in with a transcript, ask an LLM for some honest feedback. Let me know if you learn anything interesting!
+
 I'm still figuring it out. As usual, you'll hear about it when I do.
