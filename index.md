@@ -5,18 +5,28 @@ description: Peter van Onselen - Staff Engineer specializing in backend engineer
 
 {% if site.posts.size > 0 %}
 {% assign latest_post = site.posts.first %}
-<h3><a href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a></h3>
-<p class="post-meta">{{ latest_post.date | date: "%B %d, %Y" }}
-{% if latest_post.categories.size > 0 %}
-•
-{% for category in latest_post.categories %}
-  <span class="category">{{ category }}</span>{% unless forloop.last %}, {% endunless %}
-{% endfor %}
-{% endif %}
-</p>
-{{ latest_post.content }}
+<article class="post">
+    <header class="post-header">
+        <h1><a href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a></h1>
+        <p class="post-meta">
+            <time datetime="{{ latest_post.date | date_to_xmlschema }}">{{ latest_post.date | date: "%B %d, %Y" }}</time>
+            {% if latest_post.categories.size > 0 %}
+            in
+            {% for category in latest_post.categories %}
+                <span class="category">{{ category }}</span>{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+            {% endif %}
+        </p>
+    </header>
 
-<p><a href="/blog/">All posts →</a></p>
+    <div class="post-content">
+        {{ latest_post.content }}
+    </div>
+
+    <footer class="post-footer">
+        <p><a href="{{ '/blog/' | relative_url }}">&larr; All posts</a></p>
+    </footer>
+</article>
 
 {% else %}
 <p>No posts yet. Check back soon!</p>
