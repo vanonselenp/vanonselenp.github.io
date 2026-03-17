@@ -5,23 +5,7 @@ permalink: /blog/
 description: Technical blog by Peter van Onselen covering software engineering, cloud infrastructure, technical leadership, TDD practices, and game development insights.
 ---
 
-{% assign latest_post = site.posts | first %}
-<h3><a href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a></h3>
-<p class="post-meta">{{ latest_post.date | date: "%B %d, %Y" }}
-{% if latest_post.categories.size > 0 %}
-•
-{% for category in latest_post.categories %}
-  <span class="category">{{ category }}</span>{% unless forloop.last %}, {% endunless %}
-{% endfor %}
-{% endif %}
-</p>
-{{ latest_post.content }}
-
----
-
-## Previous Posts
-
-{% for post in site.posts offset:1 %}
+{% for post in site.posts %}
 - [{{ post.title }}]({{ post.url | relative_url }}) - {{ post.date | date: "%B %d, %Y" }}
 {% endfor %}
 
