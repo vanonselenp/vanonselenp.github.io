@@ -49,7 +49,7 @@ The feature that had consumed a week and a half of thrashing? After that day of 
 
 ## The Council of AIs (or: Going Wide)
 
-Meanwhile, on the other side of my life, I've been doing something completely different with AI tooling.
+Meanwhile, on the other side of my work life, I've been doing something completely different with AI tooling.
 
 To support the contracting team building out a new feature, I've been running what is essentially a council of AIs to review their design documents. OpenCode, Codex CLI, and Claude Code running simultaneously so I can verify, validate, and cross-compare. Deep-dive analysis with Claude and ChatGPT for architectural decisions and historical context. Complex investigation into bugs that were first logged two years ago and never properly resolved.
 
