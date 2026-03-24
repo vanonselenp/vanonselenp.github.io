@@ -9,6 +9,8 @@ _High high hope for the code, shooting for a PR when I couldn't even make a comm
 
 ---
 
+![Panic at the keyboard](/assets/panic.png)
+
 Over the past few weeks I have been increasingly panicked. That's probably the only honest way to frame it.
 
 I've been juggling a lot. Supporting a team building out a new payment method. Handing over deep knowledge of an existing payment method to another team working outside our scope but integrating with systems we own. Helping yet another team figure out how to break a backend platform service from a monolith into microservices. And somewhere in between all of that, trying to actually deliver a feature myself: a seemingly straightforward change to one of our frontend purchase journeys to make it faster.
