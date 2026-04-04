@@ -440,6 +440,72 @@ article blockquote p,
   }
 }
 
+/* Homepage hero / tagline */
+.site-tagline {
+  font-size: 1.25rem;
+  color: var(--text-light);
+  font-weight: 400;
+  line-height: 1.5;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.start-here {
+  margin: 2rem 0;
+}
+
+.start-here h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+
+.start-here ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.start-here li {
+  margin-bottom: 0.75rem;
+  padding-left: 0;
+}
+
+.start-here li strong {
+  color: var(--primary-color);
+}
+
+.latest-post {
+  margin-top: 2.5rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.latest-post h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+  color: var(--text-light);
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 0.85rem;
+}
+
+/* Blog thread sections */
+.thread-section {
+  margin-bottom: 2.5rem;
+}
+
+.thread-section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 0.5rem;
+}
+
+.thread-description {
+  color: var(--text-light);
+  font-size: 0.95rem;
+  margin-bottom: 1rem;
+  font-style: italic;
+}
+
 /* Final image override - highest specificity */
 .site-wrapper img,
 .wrapper img,
