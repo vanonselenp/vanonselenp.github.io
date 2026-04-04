@@ -506,6 +506,22 @@ article blockquote p,
   font-style: italic;
 }
 
+/* Post author bio */
+.post-author {
+  margin: 2rem 0;
+  padding: 1.25rem;
+  background-color: var(--bg-light);
+  border-radius: var(--border-radius);
+  border-left: 3px solid var(--secondary-color);
+}
+
+.post-author p {
+  margin: 0;
+  font-size: 0.95rem;
+  color: var(--text-light);
+  line-height: 1.6;
+}
+
 /* Final image override - highest specificity */
 .site-wrapper img,
 .wrapper img,
