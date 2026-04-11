@@ -9,6 +9,8 @@ _In which our narrator, locked out of his usage limits on holiday, learns that e
 
 ---
 
+![hero hotel](/assets/grand-plugin-trap/hero.png)
+
 It's day two of my holiday and I'm staring at a Claude Code session that won't do anything. Pro limit hit. Three days until it resets. There's a personal project sitting open in another window that I'd been quite enjoying poking at, and now I can't poke at it, and the bit of my brain that had been having a perfectly nice time is suddenly very loud about the £20 of extra credit I'd burned through in a single afternoon earlier in the week.
 
 This is the story of how that lockout forced me to do a small piece of unglamorous setup work I'd been avoiding for months, and what I found on the other side of it.
