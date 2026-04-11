@@ -51,6 +51,8 @@ But it also means I've been quietly reinstalling the same plugins and the same m
 
 Then the personal Pro lockout happened, and suddenly the background noise was the only thing in the room.
 
+![darkness](/assets/grand-plugin-trap/darkness.png)
+
 ## Doing the unglamorous thing
 
 So I went and found [open-ralph-wiggum](https://github.com/Th0rgal/open-ralph-wiggum), worked out how to wire it up properly, and wrote [a small zsh function](https://github.com/vanonselenp/zsh-functions/blob/main/functions/ralph-loop.zsh) that wraps it so I can just type `ralph-loop` from any project directory and have the thing kick off without me having to remember any flags. None of this was hard. None of this was interesting. It was the kind of work I had been actively avoiding because I'd already spent a week earlier that month fiddling around with Codex and OpenCode and trying to make various things play nicely together, and the last thing I wanted was *more* yak shaving.
