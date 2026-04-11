@@ -25,7 +25,7 @@ PRD becomes JSON. JSON gets fed to a Ralph loop. Off we go.
 
 Here's the dirty secret. I'd never actually set up the Ralph loop the way you're supposed to set it up. I'd been running it via a plugin inside Claude Code. Plugins are wonderful. You install them, they work, you're productive in ninety seconds. Why would you write a bash script when you can install a plugin?
 
-The honest answer is: you wouldn't. And that's the trap. The problem isn't plugins. The problem is when your workflow only exists inside one of them.
+The honest answer is: you wouldn't. *And that's the trap. The problem isn't plugins. The problem is when your workflow only exists inside one of them.*
 
 Plugins feel like the harness rewarding you for committing to it. Every plugin install is a small vote for staying inside that one ecosystem, and those votes compound quietly until one day you look up and notice you've stopped being portable. You're not running a workflow anymore. You're running a workflow *that only exists inside Claude Code*. Which is fine, until it isn't.
 
