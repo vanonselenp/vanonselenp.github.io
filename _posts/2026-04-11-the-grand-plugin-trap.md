@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Grand Plugin Trap"
-date: 2026-04-03 08:00:00 +0000
+date: 2026-04-11 08:00:00 +0000
 categories: aios claudecode softwarecraftsmanship
 ---
 
@@ -65,7 +65,7 @@ That's the prize. Not the lockout workaround. Not the bash script. The portabili
 
 ## What I'm sitting with
 
-I'm going to keep using plugins. They're genuinely useful and I'm not about to LARP as someone too principled to install convenient things. But I'm going to be more suspicious of how easy they make the first ninety seconds feel, because I now have a much clearer sense of what they cost on the back end. Every plugin ecosystem is a small gravity well. The more you commit, the harder it is to leave, and — this is the part that bothers me most — the less you can even see what you're missing on the outside.
+I'm going to keep using plugins. They're genuinely useful and I'm not about to LARP as someone too principled to install convenient things. But I'm going to be more suspicious of how easy they make the first ninety seconds feel, because I now have a much clearer sense of what they cost on the back end. Every plugin ecosystem is a small gravity well. The more you commit, the harder it is to leave, and, this is the part that bothers me most, the less you can even see what you're missing on the outside.
 
 The unglamorous wrapper script turns out to be a small act of resistance against that. Not a heroic one. Just a vote for keeping the exits visible.
 
