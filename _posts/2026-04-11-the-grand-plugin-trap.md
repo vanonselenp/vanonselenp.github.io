@@ -5,7 +5,7 @@ date: 2026-04-11 08:00:00 +0000
 categories: aios claudecode softwarecraftsmanship
 ---
 
-_In which our narrator, locked out of his usage limits on holiday, learns that every grand hotel has only one front door._
+_A modest meditation on plugins, portability, and the peculiar sorrow of a workflow that cannot leave the building._
 
 ---
 
