@@ -9,6 +9,8 @@ _On discovering that your favourite tool got measurably worse, that you'd been b
 
 ---
 
+![The Canary in the Harness](/assets/canary-hero.png)
+
 ## A tale of two Ralph loops
 
 A couple of weeks ago I was playing with Newshound, a personal project of mine that pulls together a digest of interesting things from a list of about thirty sources on the internet. I wanted to add a feature that was a little more involved than the usual yak shave. Spec conversation. PRD skill. JSON. Ralph loop. The full ceremony.
