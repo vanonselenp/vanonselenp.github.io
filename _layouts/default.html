@@ -9,9 +9,6 @@
     <!-- CSS -->
     <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
     
-    <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
-    
     <!-- SEO -->
     {% seo %}
 
@@ -30,10 +27,11 @@
     {% feed_meta %}
 </head>
 <body>
+    <a href="#main-content" class="skip-link">Skip to main content</a>
     <header class="site-header">
         <div class="container">
             <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
-            <nav class="site-nav">
+            <nav class="site-nav" aria-label="Main navigation">
                 <ul>
                     {% for item in site.navigation %}
                     <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
@@ -43,13 +41,13 @@
         </div>
     </header>
 
-    <main>
+    <main id="main-content">
         <div class="container">
             {{ content }}
         </div>
     </main>
 
-    <footer class="site-footer">
+    <footer class="site-footer" aria-label="Site footer">
         <div class="container">
             <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
             <p>

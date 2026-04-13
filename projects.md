@@ -63,7 +63,7 @@ A tactical wargame built in Godot exploring floating islands locked in conflict.
 - [Sky Islands](https://www.petervanonselen.com/2025/08/21/sky-islands/) - Initial game design concept
 - [From Boardgame to Digital](https://www.petervanonselen.com/2025/09/15/boardgame-to-digital/) - Why I ended up building both versions
 - [Road to Combat Paved with Blink](https://www.petervanonselen.com/2025/10/17/road-to-combat-paved-with-blink/) - Combat system development
-- [The Boring Path to Shipping with AI](https://www.petervanonselen.com/2025/10/31/boring-path-to-shipping.md/) - Spec-driven development approach
+- [The Boring Path to Shipping with AI](https://www.petervanonselen.com/2025/10/31/boring-path-to-shipping/) - Spec-driven development approach
 - [From AI Skeptic to Constant Collaborator](https://www.petervanonselen.com/2025/10/20/what-i-have-learnt/) - How AI-assisted development enabled this project
 
 ---

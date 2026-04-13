@@ -40,6 +40,32 @@ img {
   height: auto;
 }
 
+/* Skip link */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 1rem;
+  padding: 0.5rem 1rem;
+  background-color: var(--secondary-color);
+  color: white;
+  border-radius: var(--border-radius);
+  z-index: 200;
+  font-weight: 500;
+}
+
+.skip-link:focus {
+  top: 0.5rem;
+  color: white;
+  text-decoration: none;
+}
+
+/* Focus indicators */
+a:focus-visible,
+.btn:focus-visible {
+  outline: 2px solid var(--secondary-color);
+  outline-offset: 2px;
+}
+
 /* Container */
 .container {
   max-width: var(--max-width);
