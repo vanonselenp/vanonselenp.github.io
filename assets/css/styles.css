@@ -520,9 +520,30 @@ article blockquote p,
   margin-bottom: 2.5rem;
 }
 
+.thread-section summary {
+  cursor: pointer;
+  list-style: none;
+}
+
+.thread-section summary::-webkit-details-marker {
+  display: none;
+}
+
+.thread-section summary::before {
+  content: '▶ ';
+  font-size: 0.8rem;
+  display: inline-block;
+  transition: transform 0.2s;
+}
+
+.thread-section[open] summary::before {
+  transform: rotate(90deg);
+}
+
 .thread-section h2 {
   font-size: 1.4rem;
   margin-bottom: 0.5rem;
+  display: inline;
 }
 
 .thread-description {
