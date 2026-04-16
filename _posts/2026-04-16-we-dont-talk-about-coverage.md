@@ -17,7 +17,7 @@ And even there, in the most craft-soaked environment I’d ever been in, the ide
 
 Then I joined the Economist, and the team I landed on had 100% coverage as a hard rule.
 
-They didn’t do TDD. They didn’t pair. They hadn’t been on the agile bootcamps. They hadn’t done code retreats or code katas. By every measure of either the London or Chicago school of craftsmanship tradition would care about, they were doing less of the work. But they had the 100% rule, and they enforced it, and at first I assumed they’d inherited a metric without fully understanding it.
+While they did write tests, they didn’t do TDD. They didn’t pair. They hadn’t been on the agile bootcamps. They hadn’t done code retreats or code katas. By every measure of either the London or Chicago school of craftsmanship tradition would care about, they were doing less of the work. But they had the 100% rule, and they enforced it, and at first I assumed they’d inherited a metric without fully understanding it.
 
 They hadn’t. Turns out I hadn't understood it. And by the time I left that team, I’d come around entirely. Not reluctantly, not with caveats, but genuinely: 100% coverage, properly understood, is mandatory. I held that position for years before agentic coding was a thing anyone was thinking about. The agents haven’t changed my mind. They’ve just taken a position I already held and made the case for it screamingly, urgently obvious in a way it previously wasn’t.
 
