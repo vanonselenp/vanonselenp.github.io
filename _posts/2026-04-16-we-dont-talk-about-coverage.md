@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Concious Coverage"
+title: "Conscious Coverage"
 date: 2026-04-16 08:00:00 +0000
 categories: aios claudecode softwarecraftsmanship
 ---
