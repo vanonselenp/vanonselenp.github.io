@@ -1,13 +1,15 @@
 ---
 layout: post
-title: "We don't talk about Code Coverage"
+title: "Concious Coverage"
 date: 2026-04-16 08:00:00 +0000
 categories: aios claudecode softwarecraftsmanship
 ---
 
-_On discovering that your favourite tool got measurably worse, that you'd been blaming yourself for it, and that the only reason you noticed at all was because another harness was sitting right next to it behaving normally._
+_We don't talk about Code coverage, no no no, we don't talk about coverage..._
 
 ---
+
+![code coverage matters](/assets/coverage.png)
 
 When I joined Cazoo, it was the first place I’d ever worked that explicitly, actively, aggressively embraced software craftsmanship. Pair programming. Test-driven development. Domain-driven design. Extreme programming. The whole kitchen sink. They sent us on agile training courses that a startup founder would weep at the cost of. We had an agile coach in the room every day. We did code katas regularly.
 
