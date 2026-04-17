@@ -51,6 +51,7 @@ AI-Assisted Engineering — the craft
 - [The Council Will See You Now...](/2026/04/03/the-council-will-see-you-now/) — April 2026
 - [The Grand Plugin Trap](/2026/04/11/the-grand-plugin-trap/) — April 2026
 - [The Canary in the Harness](/2026/04/12/the-inevitable-lobotomisation-of-claude/) — April 2026
+- [Conscious Coverage](/2026/04/16/concious-coverage/) — April 2026
 
 </details>
 
