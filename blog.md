@@ -68,6 +68,7 @@ Career & Meta
 - [What Does a Staff Engineer *Actually* Do?](/2025/08/02/staff-engineer/) — August 2025
 - [Charting a Path to Senior Staff Engineer](/2025/08/03/senior-staff-engineer/) — August 2025
 - [The Zero-to-Vibe Coding Jumpstart Cube Catastrophication](/2025/08/04/jumpstart-cube-catastrophication/) — August 2025
+- [I Built This In A Prompt Window! With A Box Of Filament!](/2026/04/22/vibe-coding-reality/) — April 2026
 
 </details>
 
