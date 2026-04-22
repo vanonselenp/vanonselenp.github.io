@@ -11,7 +11,7 @@ _I Vibe Coded A Model Into My House_
 
 There is a 3D printed World War II German infantryman sitting on my desk. He is about the size of my thumb, slightly chibi in the proportions, with a helmet a touch too large for his head. He looks, frankly, adorable. _He is also not a copy of anything_. Nobody designed him. Nobody sculpted him. Nobody even sketched him. I typed some words at a screen, pressed a button on a different screen, and twenty minutes later he was sitting on my desk. On the left pure vibes, on the right reality.
 
-![hero](/assets/reality/hero.png)
+![hero](/assets/reality/hero.jpg)
 
 I have been writing this blog for a while now about adventures in applying AI to dev related problems. Writing code. Building software. Making things. It has taken me through a Magic jumpstart cube generated with code, a board game prototype, a re-implementation of that prototype in Godot, a stealth tactics turn based game also in Godot, a news digest SaaS that is still somewhere in the middle of becoming itself, and a frankly embarrassing pile of bash scripts accumulated from deep dives into my coding harnesses. Along the way I have taken what I have learned and applied it at work. It has been a wonderful, bizarre road.
 
@@ -39,17 +39,17 @@ I saw a [blog post a while back by a guy making models out of Fimo clay and EVA 
 
 On a whim, I took the photo the original guy had taken of his model and fed it into Gemini Pro. "This style. World War II Germans."
 
-![all](/assets/reality/all.png)
+![all](/assets/reality/all.jpg)
 
 Gemini came back with something that looked astonishingly good. Cute, chibi, right proportions, right register. Something that immediately felt like what I had been trying to describe for years without quite having the vocabulary for it. I then started giving it more structured prompts. Give me a commanding officer. Give me an NCO. Give me a machine gunner.
 
-![Meshy produced a 3D model](/assets/reality/meshy.png)
+![Meshy produced a 3D model](/assets/reality/meshy.jpg)
 
 I took one of these entirely hallucinated images, cropped it, and fed it into Meshy, which is a generative tool that takes an image and produces a 3D model.
 
 I then, mostly out of morbid curiosity, copied the file over to the printer and clicked print.
 
-![hot off the print bead](/assets/reality/first.png)
+![hot off the print bead](/assets/reality/first.jpg)
 
 ## This confounds me
 
@@ -73,7 +73,7 @@ I am now in the middle of printing a 500 point German army and a 500 point Sovie
 
 Something I have been idly wanting for two or three years is just there now, in a box, because the pipeline finally closed.
 
-![current printed](/assets/reality/current.png)
+![current printed](/assets/reality/current.jpg)
 
 ## What I can't get out of my mind
 
