@@ -63,4 +63,4 @@ Here is the thing though. I am not actually sure I have done myself any favours.
 
 The phone, as previously established, is the world's ultimate distraction device. I am, very slowly and with mixed results, trying to make mine less of one. And what I have done here is take that device, the one that is already eating more of my attention than I would like, and given it a brand new way to consume me. Now it is not just a thing I pick up to check the time and put down forty minutes later wondering where the time went. Now it is also a thing I can pick up to "just quickly check on the agent" and put down forty minutes later wondering where the time went, except this time I have shipped half a feature I had not actually decided I wanted to ship yet.
 
-I was so busy thinking about whether I could that I did not stop to ask whether I should. Reader, I should not have. Your mileage may vary.
+I was so busy thinking about whether I could that I did not stop to ask whether I should. Friends, I should not have. Your mileage may vary.
