@@ -9,6 +9,8 @@ _That they forgot to ask whether SSHing into an AI coding agent from a phone was
 
 ---
 
+![phone distraction device of doom](/assets/phone-doom.png)
+
 This is a thing you should not do. I want to say that up front, before any of the rest of it, because the rest of it is a reasonably well-considered guide to doing the thing, and I do not want anyone reading the guide bit and thinking that I am endorsing what comes after it.
 
 The phone is already a distraction device of doom. I have spent a non-trivial amount of effort over the last couple of years trying to make mine less of one, with limited success. What I am about to describe takes that distraction device of doom and turns it into a distraction device of doom that can also write and ship code. This is, on every reasonable axis I can think of, a worse situation than the one I started in.
