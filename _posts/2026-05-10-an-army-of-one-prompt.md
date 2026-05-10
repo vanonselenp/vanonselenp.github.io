@@ -137,21 +137,17 @@ This is a tiny change and it made a disproportionate difference to how often I a
 
 ## The discipline transfers
 
-This is the actual reason I am writing this post.
-
 What I just described, concept, iteration, refinement, codification into a reusable artefact, production pipeline, quality controls, delivery, is not a 3D printing process. It is a software development process. It is the same process I have been writing about for months in the context of agentic coding. Product thinking first. Iterate to find the brief. Codify the brief into something reusable. Treat each output as one of many. Build the production pipeline so the next thing is trivial.
 
 The German army was vibe coding without discipline. Lots of energy, lots of output, no consistency, mounting technical debt with every model. The Soviet army was the same domain, the same tools, the same person, with a *process* in between. The result is not a small improvement. It is a different category of thing. Adding a new unique sculpt to the Soviet army from this point forward is virtually trivial. It is stupid how simple it is. It should not be this simple.
 
 I have spent a year writing about how the harness matters more than the model, how tests and constraints are really a discipline of conscious decisions about every line, how multi-harness workflows surface regressions you would otherwise eat. I thought I was writing about software. It turns out I was writing about a way of working that translates, more or less unchanged, the moment the output head changes from "code" to "plastic."
 
-What broke my brain about the first printed soldier was that the loop existed at all. The thing that is breaking my brain about this post is that the *discipline* transfers. Whatever I figure out about working well with these tools in software is, apparently, immediately applicable to a domain I have no formal training in. And whatever someone else figures out in their domain is presumably applicable to mine.
+What broke my brain about the first printed soldier was that the loop existed at all. The thing that is breaking my brain about this post is that the *discipline* transfers. Whatever I figure out about working well with these tools in software is, apparently, immediately applicable to a domain I have no formal training in.
 
-I do not know what to do with that observation yet. I suspect it is bigger than I think it is. A lot of people are about to discover this in a lot of different domains, and the people who have already built discipline somewhere are going to have a strange, unfair head start everywhere else.
+I sat down to write a blog post about printing little Soviet soldiers. I ended up writing one about how surprised I am that what I thought I knew about working with these tools in code worked, unchanged, in plastic.
 
-I sat down to write a blog post about printing little Soviet soldiers. I think I might have written a blog post about why every craft is about to start looking like every other craft.
-
-I will let you know what the Germans look like on the rerun.
+I do not want to make that bigger than it is. One person, one weekend, one transfer. But it is the kind of small surprise that makes me look sideways at every other thing I think I know about my own discipline. Some of it is presumably about software. Some of it, evidently, is not.
 
 ## Appendix: things that will save you time if you are doing this
 
