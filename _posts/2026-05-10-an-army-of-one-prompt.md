@@ -145,7 +145,7 @@ The German army was vibe coding without discipline. Lots of energy, lots of outp
 
 I have spent a year writing about how the harness matters more than the model, how tests and constraints are really a discipline of conscious decisions about every line, how multi-harness workflows surface regressions you would otherwise eat. I thought I was writing about software. It turns out I was writing about a way of working that translates, more or less unchanged, the moment the output head changes from "code" to "plastic."
 
-The thing that broke my brain about the first printed soldier was that the loop existed at all. The thing that is breaking my brain about this post is that the *discipline* transfers. Whatever I figure out about working well with these tools in software is, apparently, immediately applicable to a domain I have no formal training in. And whatever someone else figures out in their domain is presumably applicable to mine.
+What broke my brain about the first printed soldier was that the loop existed at all. The thing that is breaking my brain about this post is that the *discipline* transfers. Whatever I figure out about working well with these tools in software is, apparently, immediately applicable to a domain I have no formal training in. And whatever someone else figures out in their domain is presumably applicable to mine.
 
 I do not know what to do with that observation yet. I suspect it is bigger than I think it is. A lot of people are about to discover this in a lot of different domains, and the people who have already built discipline somewhere are going to have a strange, unfair head start everywhere else.
 
