@@ -5,7 +5,7 @@ date: 2026-05-10 08:00:00 +0000
 categories: aios claudecode opencode
 ---
 
-_On discovering that the process matters more than the plastic.”_
+_On discovering that good process survives the jump from code to plastic._
 
 ---
 
