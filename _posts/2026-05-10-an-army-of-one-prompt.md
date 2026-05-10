@@ -21,7 +21,7 @@ That is ... insane. I want to write this down because I think it is genuinely in
 
 A couple of weeks ago I wrote about [vibe coding a model into my house](https://www.petervanonselen.com/2026/04/22/vibe-coding-reality/). That was the moment when a chain of generative tools produced a 3D printed World War II infantryman on my desk and quietly broke my brain. That post was about the astonishment. This one is about what happened when I stopped being astonished and started actually trying to build something at scale.
 
-The orignal plan was two armies at 500 points each for Bolt Action v3. Thanks to wildly over achieving and the madness that only comes with AI enhanced momentum ... the plan became somewhat more. Germans and Soviets, a thousand points each, scaled down to centimetres so they fit on a kitchen table instead of a garage floor. The toolchain was simple. ChatGPT for concept images, Meshy to turn front and back images into 3D models, Bambu Studio to prepare them for printing, and a Bambu printer to make them real. The Germans came first. The Germans were an education ...
+The original plan was two armies at 500 points each for Bolt Action v3. Thanks to wildly over achieving and the madness that only comes with AI enhanced momentum ... the plan became somewhat more. Germans and Soviets, a thousand points each, scaled down to centimetres so they fit on a kitchen table instead of a garage floor. The toolchain was simple. ChatGPT for concept images, Meshy to turn front and back images into 3D models, Bambu Studio to prepare them for printing, and a Bambu printer to make them real. The Germans came first. The Germans were an education ...
 
 ## The German army taught me everything by being slightly wrong
 
