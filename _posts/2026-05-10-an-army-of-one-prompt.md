@@ -15,7 +15,7 @@ That is how long it took to go from nothing to a printed 1000 point Soviet army 
 
 That is ... insane. I want to write this down because I think it is genuinely insane and I want to figure out on the page how it happened, because the *how* is the part I find more interesting than the *what*.
 
-![soviet army](/assets/army-of-prompts/soviets.png)
+![soviet army](/assets/army-of-prompts/soviets.jpg)
 
 ## A quick recap, for anyone arriving cold
 
@@ -37,7 +37,7 @@ So each model I made, I added another constraint to the prompt. Mistake on a mod
 
 Somewhere around the lieutenant or the sniper, the penny dropped.
 
-![german lieutenant](/assets/army-of-prompts/german-lieutenant.png)
+![german lieutenant](/assets/army-of-prompts/german-lieutenant.jpg)
 
 ## Separate the style from the pose
 
@@ -59,7 +59,7 @@ That is the move. The seed image arrives after the thinking has already happened
 
 For the Soviets I used the commissar as the seed. The kind of cartoon menace whose whole vibe is "shoot anyone who tries to run away." That image carried the entire visual identity of the army. Every other model would be made to match it.
 
-![commissar](/assets/army-of-prompts/commisar.png)
+![commissar](/assets/army-of-prompts/commisar.jpg)
 
 Here is the prompt I used, every time, varying only the unit description. I will paste it in full because the prompt itself is the artefact. I spent half a German army learning how to write it.
 
