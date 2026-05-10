@@ -5,7 +5,7 @@ date: 2026-05-10 08:00:00 +0000
 categories: aios claudecode opencode
 ---
 
-_On discovering that “show your work” is not the same thing as “do the work well.”_
+_On discovering that the process matters more than the plastic.”_
 
 ---
 
