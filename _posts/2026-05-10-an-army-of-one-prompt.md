@@ -29,13 +29,15 @@ I built the Germans the way I imagine most people would on first contact with th
 
 The starting reference image was a Fimo clay figure I had found from a random guy on Facebook. Cute, chubby, slightly weird proportions. I liked it. I started by feeding that image to Gemini and going "more of these, but Germans." Somewhere along the way I started telling it I wanted that mixed with Metal Slug. The chunky comic-game vibe, oversized weapons, exaggerated everything. That was the visual register I was reaching for.
 
-It mostly worked. The models came out. They were even, broadly, recognisable as German infantry. But every one of them was slightly off in a different way. The proportions drifted between models. The base treatment changed. One had a helmet that read as a beret. Another had a rifle thinner than the soldier's wrist, which would have snapped off the print bed if I had even looked at it sideways. The whole army had the visual coherence of a costume party.
+It mostly worked. The models came out. They were even, broadly, recognisable as German infantry. But every one of them was slightly off in a different way. The proportions drifted between models. The base treatment changed. One had a helmet that read as a beret. Another had a rifle thinner than the soldier's wrist, which would have snapped off the print bed if I had even looked at it sideways. It was a constant fight with the LLMs to get anything consistent.
 
 What I was doing, every single time, was asking the model to invent the style and the pose simultaneously, in the same prompt, with no shared context between sessions. Of course the army drifted. I was running fifty independent experiments and then complaining that they did not match.
 
 So each model I made, I added another constraint to the prompt. Mistake on a model, add a constraint. Mistake on the next model, add a constraint. No thin protrusions. Round integrated base. Chibi proportions. Single solid silhouette. The prompt got longer. The models got slightly more consistent. I was slowly, painfully, by hand, reverse-engineering a brief and not realising that was what I was doing.
 
 Somewhere around the lieutenant or the sniper, the penny dropped.
+
+![german lieutenant](/assets/army-of-prompts/german-lieutenant.png)
 
 ## Separate the style from the pose
 
@@ -57,7 +59,7 @@ That is the move. The seed image arrives after the thinking has already happened
 
 For the Soviets I used the commissar as the seed. The kind of cartoon menace whose whole vibe is "shoot anyone who tries to run away." That image carried the entire visual identity of the army. Every other model would be made to match it.
 
-![placeholder: the commissar seed image, front and back]()
+![commissar](/assets/army-of-prompts/commisar.png)
 
 Here is the prompt I used, every time, varying only the unit description. I will paste it in full because the prompt itself is the artefact. I spent half a German army learning how to write it.
 
@@ -90,15 +92,40 @@ I am also, very explicitly, telling it that front and back are the same sculpt s
 
 Then the seed image goes in, the style locks, and the image generation begins. And here the "suggest three variations" framing pays off again. Not one. Three. Because once the chat is preloaded with the right context, generating variations is essentially free, and what you actually want is a buffet of options. Generate three poses. Look at them. Generate three more. Look again. Generate three more. Within ten minutes I had a wall of fricking images for any given unit and I could just go yeah, that one, that one, not that one, that one. Pick the pose that looked most like what was in my head and move on.
 
-![placeholder: a screenshot of multiple Soviet rifleman variations from ChatGPT]()
+<div class="nco-carousel" style="position: relative; width: 100%; max-width: 800px; margin: 1.5rem auto; text-align: center;">
+  <div class="nco-carousel-track" style="display: grid; border-radius: 4px; overflow: hidden;">
+  {% assign ncos = site.static_files | where_exp: "f", "f.path contains '/assets/army-of-prompts/ncos/'" %}
+  {% for file in ncos %}
+    <img src="{{ file.path | relative_url }}" alt="NCO variation {{ forloop.index }}" data-idx="{{ forloop.index0 }}" style="grid-area: 1 / 1; width: 100%; height: auto; opacity: {% if forloop.first %}1{% else %}0{% endif %}; transition: opacity 0.25s;" />
+  {% endfor %}
+  </div>
+  <button type="button" class="nco-prev" aria-label="Previous" style="position: absolute; top: 50%; left: 0.5rem; transform: translateY(-50%); background: rgba(0,0,0,0.55); color: #fff; border: 0; border-radius: 50%; width: 2.25rem; height: 2.25rem; font-size: 1.25rem; cursor: pointer;">‹</button>
+  <button type="button" class="nco-next" aria-label="Next" style="position: absolute; top: 50%; right: 0.5rem; transform: translateY(-50%); background: rgba(0,0,0,0.55); color: #fff; border: 0; border-radius: 50%; width: 2.25rem; height: 2.25rem; font-size: 1.25rem; cursor: pointer;">›</button>
+  <div class="nco-counter" style="margin-top: 0.5rem; font-size: 0.85rem; color: #666;"><span class="nco-current">1</span> / {{ ncos | size }}</div>
+</div>
+<script>
+(function () {
+  var root = document.currentScript.previousElementSibling;
+  var imgs = root.querySelectorAll('.nco-carousel-track img');
+  var counter = root.querySelector('.nco-current');
+  var i = 0;
+  function show(n) {
+    i = (n + imgs.length) % imgs.length;
+    imgs.forEach(function (img, idx) { img.style.opacity = idx === i ? '1' : '0'; });
+    counter.textContent = i + 1;
+  }
+  root.querySelector('.nco-prev').addEventListener('click', function () { show(i - 1); });
+  root.querySelector('.nco-next').addEventListener('click', function () { show(i + 1); });
+})();
+</script>
 
 Once I picked a pose, I screenshotted the front and back, dropped both into Meshy, and let it generate. With both views provided, Meshy had much less room to invent. It was joining up two views I had already approved, rather than hallucinating the missing half of the model.
 
-![placeholder: a Meshy.ai generation screen showing the model being built from front and back inputs]()
+![meshy models](/assets/army-of-prompts/meshy.png)
 
 After that it was mechanical. Export STL, not 3MF, because 3MF kept giving me non-manifold errors no matter what Meshy claimed about the export. Import to Bambu Studio. Scale to 2 centimetres. Simplify the mesh by 96 percent, which is an insane level of deformation that nonetheless came out at perfectly decent resolution given the size I was printing at. Slice. Print. Move on.
 
-![placeholder: printed Soviet riflemen, lined up]()
+![riflemen](/assets/army-of-prompts/riflemen.jpeg)
 
 ## Print plates as units, not as inventory
 
@@ -110,7 +137,7 @@ This is a tiny change and it made a disproportionate difference to how often I a
 
 ## The discipline transfers
 
-This bit has been rattling around my head and is the actual reason I am writing this post.
+This is the actual reason I am writing this post.
 
 What I just described, concept, iteration, refinement, codification into a reusable artefact, production pipeline, quality controls, delivery, is not a 3D printing process. It is a software development process. It is the same process I have been writing about for months in the context of agentic coding. Product thinking first. Iterate to find the brief. Codify the brief into something reusable. Treat each output as one of many. Build the production pipeline so the next thing is trivial.
 
