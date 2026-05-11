@@ -9,6 +9,8 @@ _On discovering that good process survives the jump from code to plastic._
 
 ---
 
+![hero](/assets/army-of-prompts/hero.jpg)
+
 Three days. Evenings only. Not particularly stressed about it.
 
 That is how long it took to go from nothing to a printed 1000 point Soviet army for Bolt Action. Roughly fifty models, around forty of them unique sculpts, fully designed, generated, modelled, sliced, printed, and sitting on my desk. Concept to physical thing in my hand, three evenings, in my spare time, while doing everything else I usually do.
