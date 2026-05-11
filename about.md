@@ -15,13 +15,11 @@ I am Peter, a South African engineer living in London and a Staff Engineer at Th
 
 Expect irregular essays, not tutorials. Some posts are about code, some about games, some about the uncomfortable bit where process, judgement, and tooling collide. There will be no promotional content, no neat victory laps, and no pretend certainty. If something worked, I will say so. If it went sideways, that is usually the better post.
 
-<!-- TODO: replace contact email with a domain-matched address (e.g. hello@petervanonselen.com) once DNS/forwarding is set up. Out of scope for this change. -->
-
 ## Elsewhere
 
 - [LinkedIn](https://www.linkedin.com/in/peter-van-onselen-a46b1b2b)
 - [GitHub](https://github.com/vanonselenp)
-- [Email](mailto:augury_upsurge.17@icloud.com)
+- [Email](mailto:hello@petervanonselen.com)
 - [RSS](/feed.xml)
 
 <script type="application/ld+json">
@@ -39,7 +37,7 @@ Expect irregular essays, not tutorials. Some posts are about code, some about ga
     "https://github.com/vanonselenp",
     "https://www.linkedin.com/in/peter-van-onselen-a46b1b2b"
   ],
-  "email": "augury_upsurge.17@icloud.com",
+  "email": "hello@petervanonselen.com",
   "address": {
     "@type": "PostalAddress",
     "addressLocality": "London",
