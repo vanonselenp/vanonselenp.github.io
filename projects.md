@@ -66,6 +66,18 @@ A tactical wargame built in Godot exploring floating islands locked in conflict.
 - [The Boring Path to Shipping with AI](https://www.petervanonselen.com/2025/10/31/boring-path-to-shipping/) - Spec-driven development approach
 - [From AI Skeptic to Constant Collaborator](https://www.petervanonselen.com/2025/10/20/what-i-have-learnt/) - How AI-assisted development enabled this project
 
+### Bolt Action 3D Print Pipeline
+
+![Soviet army for Bolt Action](/assets/army-of-prompts/hero.jpg)
+
+A side project that turned into a process experiment: using a chain of generative tools to go from concept to physical miniature for the tabletop wargame Bolt Action. ChatGPT for concept images, Meshy to turn front-and-back views into 3D models, Bambu Studio to prepare them, and a Bambu printer to make them real. Two 1000-point armies, around fifty unique sculpts each, scaled down to centimetres so they fit on a kitchen table.
+
+**Toolchain:** ChatGPT (concepts), Meshy (image-to-3D), Bambu Studio (slicing), Bambu printer (FDM)
+
+**Related Reading:**
+- [I Built This In A Prompt Window! With A Box Of Filament!](https://www.petervanonselen.com/2026/04/22/vibe-coding-reality/) - The moment the pipeline first worked end-to-end
+- [An Army of One Prompt](https://www.petervanonselen.com/2026/05/10/an-army-of-one-prompt/) - Scaling the process from one model to whole armies
+
 ---
 
 ## Technical Skills Showcase
