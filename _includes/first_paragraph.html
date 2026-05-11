@@ -1,0 +1,26 @@
+{%- assign paragraphs = include.post.content | split: "</p>" -%}
+{%- assign first_paragraph = "" -%}
+{%- for paragraph in paragraphs -%}
+  {%- assign candidate = paragraph | strip -%}
+  {%- assign starts_with_paragraph = candidate | slice: 0, 3 -%}
+  {%- if first_paragraph == "" and starts_with_paragraph == "<p>" -%}
+    {%- unless candidate contains "<img" -%}
+      {%- unless candidate contains "<p><em>" -%}
+        {%- assign plain = candidate | strip_html | strip -%}
+        {%- assign word_count = plain | split: " " | size -%}
+        {%- if word_count >= 15 -%}
+          {%- assign first_paragraph = candidate -%}
+        {%- endif -%}
+      {%- endunless -%}
+    {%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}
+{{- first_paragraph
+  | strip_html
+  | replace_regex: '\[([^\]]+)\]\([^\)]+\)', '\1'
+  | replace_regex: '\*\*([^\*]+)\*\*', '\1'
+  | replace_regex: '__([^_]+)__', '\1'
+  | replace_regex: '\*([^\*]+)\*', '\1'
+  | replace_regex: '_([^_]+)_', '\1'
+  | strip
+-}}

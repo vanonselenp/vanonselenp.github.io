@@ -47,7 +47,7 @@ AI-Assisted Engineering — the craft
 - [14 PRs, 6 Repos, 1 Button: A Tale of Tumbling Down the Rabbit Hole](/2026/02/12/rabbit-holes/) — February 2026
 - [How I Learnt to Stop Worrying and Love Agentic Katas](/2026/03/05/learn-to-love-agentic-coding/) — March 2026
 - [The Feedback That Doesn't Care About Your Title](/2026/03/05/the-feedback-that-doesnt-kill-you/) — March 2026
-- [The Smell of Panic When You Context Thrash](/2026/03/24/the-smell-of-panic-while-you-thrash/) — March 2026
+- [The Smell of Panic When You Context Thrash](/2026/03/24/the-smell-of-panic-when-you-context-thrash/) — March 2026
 - [The Council Will See You Now...](/2026/04/03/the-council-will-see-you-now/) — April 2026
 - [The Grand Plugin Trap](/2026/04/11/the-grand-plugin-trap/) — April 2026
 - [The Canary in the Harness](/2026/04/12/the-inevitable-lobotomisation-of-claude/) — April 2026

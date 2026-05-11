@@ -52,6 +52,8 @@ I will spare you the full grid. Each run was scored out of 20 hidden tests, and 
 | codex           |       85/100 |          2/5 |         863 |
 | opencode-gpt    |       85/100 |          2/5 |         732 |
 
+*Median diff is measured in lines changed per run.*
+
 Claude Code won on correctness. Four perfect runs out of five. The harness I had been quietly resenting for going silent on me produced the most reliable code in the experiment. I sat with that for a bit. The chatty junior I missed had grown up into the engineer who just gets it done and hands you the result, and apparently the result is good.
 
 Opencode-opus came in essentially tied on correctness, one point behind. But look at the median diff. 628 lines vs 1157. Same task, same spec, near identical scores, and opencode-opus did it in a little over half the code. If you measure tests passed per hundred lines of diff, opencode-opus is comfortably the best of the lot at around three. Claude Code is a touch under two. Pi-opus is at one and change. It is a crude metric, obviously. Fewer lines are not inherently better, and there are plenty of ways to cheat at it. But when two runs are almost tied on correctness and one gets there with half the diff, I pay attention. Claude Code is most reliable. Opencode-opus is most efficient. I am genuinely not sure which I value more in a real engineering context.

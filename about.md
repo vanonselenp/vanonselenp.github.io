@@ -2,30 +2,27 @@
 layout: page
 title: About
 permalink: /about/
-description: About this blog — learning in public about AI-assisted engineering, game development, and the craft of working alongside AI agents.
+description: "About this blog: learning in public about AI-assisted engineering, game development, and the craft of working alongside AI agents."
 ---
 
-## What this blog is
+This is a learning-in-public blog about figuring out AI-assisted engineering from the inside, with all the flattering lighting turned off. I am not trying to sell you a framework, a course, or the idea that the future has conveniently resolved itself. I am trying to notice what actually changes when you work with AI tools every day, what stays stubbornly human, and where the craft gets stranger than expected.
 
-This is a learning-in-public blog about figuring out AI-assisted development. I started it in August 2025 in the spirit of Austin Kleon's *Show Your Work* — not to showcase expertise, but to document the messy, honest process of learning something new.
+That means the posts are usually written from the middle of the mess. Sometimes that mess is a tactical wargame that started as a sensible board game prototype and immediately grew legs. Sometimes it is an agentic coding kata, a benchmark harness, or a production-shaped problem from the day job that made me realise I had been using the tool wrong. The point is not to emerge looking clever. The point is to leave a trail that another engineer can recognise.
 
-The through-lines are:
+If you are sceptical of AI hype but still using the tools, you are probably who I am writing for. If you have an agent open in one window and a growing suspicion that your process matters more than your prompt, definitely. If you lead engineers and are trying to separate useful change from theatre, also yes. I do not have the clean answers. I do have receipts, false starts, and a habit of overbuilding small experiments until they become educational.
 
-- **Horizon's Edge** — a tactical wargame I'm building in Godot, which started as a board game and became my main laboratory for learning to work with AI. Procedural island generation, card-driven combat, and more scope creep than any human should tolerate.
-- **Agentic katas** — structured coding exercises I designed for practising AI-assisted development, born out of the same instinct that taught me TDD through code retreats years ago.
-- **The craft of AI-assisted engineering** — what actually changes when you work alongside an AI agent every day. Not the hype, not the fear. The practical reality of specs, verification, context management, and knowing when to slow down.
+I am Peter, a South African engineer living in London and a Staff Engineer at The Economist, working on the e-commerce funnel. That perspective leaks into the writing: production constraints, real users, old systems, team context, and the boring verification work that decides whether a clever idea survives contact with reality.
 
-If you're looking for polished tutorials, this isn't it. If you want to see what happens when curiosity meets AI-assisted development meets a nostalgic itch for a 90s RTS game — you're in the right place.
+Expect irregular essays, not tutorials. Some posts are about code, some about games, some about the uncomfortable bit where process, judgement, and tooling collide. There will be no promotional content, no neat victory laps, and no pretend certainty. If something worked, I will say so. If it went sideways, that is usually the better post.
 
-## Who I am
+<!-- TODO: replace contact email with a domain-matched address (e.g. hello@petervanonselen.com) once DNS/forwarding is set up. Out of scope for this change. -->
 
-I'm Peter, a South African engineer living in London. By day I'm a Staff Engineer at The Economist, where I work on backend systems, cloud infrastructure, and developer experience. I've been writing software professionally for 14+ years, and the through-line of my career has been TDD, clean code, and helping other engineers grow.
+## Elsewhere
 
-The day job informs the blog. The questions I wrestle with here — how to verify AI output, how to write specs that give agents useful guardrails, how to stay sharp when the tools keep shifting — are the same questions I'm navigating at work. The difference is that here I get to be honest about the failures.
-
-Outside of code, I'm a lifelong Doctor Who fan, avid board gamer, and book devourer. I'm currently trying to teach myself urban sketching (with questionable success), and I still get emotional over great video game storytelling. I live in London with my wife and daughter, where we're figuring out the whole parenting thing one messy, wonderful day at a time.
-
-Let's build something great, and maybe a little weird, together.
+- [LinkedIn](https://www.linkedin.com/in/peter-van-onselen-a46b1b2b)
+- [GitHub](https://github.com/vanonselenp)
+- [Email](mailto:augury_upsurge.17@icloud.com)
+- [RSS](/feed.xml)
 
 <script type="application/ld+json">
 {
@@ -64,6 +61,6 @@ Let's build something great, and maybe a little weird, together.
     "Python",
     "Node.js"
   ],
-  "description": "Staff Engineer at The Economist. Writes about AI-assisted development, game development, and learning in public."
+  "description": "Staff Engineer at The Economist. Writes learning-in-public essays about AI-assisted engineering, real systems, and the craft of working with AI tools."
 }
 </script>

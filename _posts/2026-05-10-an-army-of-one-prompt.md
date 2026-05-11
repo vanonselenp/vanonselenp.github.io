@@ -123,7 +123,7 @@ Then the seed image goes in, the style locks, and the image generation begins. A
 
 Once I picked a pose, I screenshotted the front and back, dropped both into Meshy, and let it generate. With both views provided, Meshy had much less room to invent. It was joining up two views I had already approved, rather than hallucinating the missing half of the model.
 
-![meshy models](/assets/army-of-prompts/meshy.png)
+![meshy models](/assets/army-of-prompts/meshy.jpg)
 
 After that it was mechanical. Export STL, not 3MF, because 3MF kept giving me non-manifold errors no matter what Meshy claimed about the export. Import to Bambu Studio. Scale to 2 centimetres. Simplify the mesh by 96 percent, which is an insane level of deformation that nonetheless came out at perfectly decent resolution given the size I was printing at. Slice. Print. Move on.
 

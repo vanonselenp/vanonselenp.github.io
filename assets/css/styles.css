@@ -453,6 +453,15 @@ article blockquote p,
   .container {
     padding: 0 15px;
   }
+
+  .recently li {
+    display: block;
+  }
+
+  .recently time {
+    display: block;
+    margin-top: 0.1rem;
+  }
 }
 
 @media (max-width: 480px) {
@@ -513,6 +522,47 @@ article blockquote p,
   text-transform: uppercase;
   letter-spacing: 1px;
   font-size: 0.85rem;
+}
+
+.recently {
+  margin-top: 1.75rem;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--border-color);
+}
+
+.recently h2 {
+  margin-top: 0;
+  margin-bottom: 0.75rem;
+  color: var(--text-light);
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.recently ul {
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0.75rem;
+}
+
+.recently li {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-bottom: 0.45rem;
+  font-size: 0.95rem;
+}
+
+.recently time {
+  flex: 0 0 auto;
+  color: var(--text-light);
+  font-size: 0.85rem;
+}
+
+.recently p {
+  margin-bottom: 0;
+  font-size: 0.9rem;
 }
 
 /* Blog thread sections */

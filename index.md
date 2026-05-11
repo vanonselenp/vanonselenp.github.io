@@ -14,7 +14,7 @@ This blog exists in the spirit of Austin Kleon's *Show Your Work*. You won't fin
 - **The origin story** — [A Blog of Dubious Intent](/2025/08/01/a-blog-of-dubious-intent/) — why this exists and what you'll find
 - **The game** — [Finally... A Wild MVP Appears](/2025/12/04/finally-a-wild-mvp-appears/) — three months of building a tactical wargame with AI
 - **The katas** — [How I Learnt to Stop Worrying and Love Agentic Katas](/2026/03/05/learn-to-love-agentic-coding/) — structured practice for AI-assisted development
-- **The craft** — [The Smell of Panic When You Context Thrash](/2026/03/24/the-smell-of-panic-while-you-thrash/) — what goes wrong when you skip understanding
+- **The craft** — [The Smell of Panic When You Context Thrash](/2026/03/24/the-smell-of-panic-when-you-context-thrash/) — what goes wrong when you skip understanding
 
 </div>
 
@@ -27,8 +27,24 @@ This blog exists in the spirit of Austin Kleon's *Show Your Work*. You won't fin
     <time datetime="{{ latest_post.date | date_to_xmlschema }}">{{ latest_post.date | date: "%B %d, %Y" }}</time>
 </p>
 
-{{ latest_post.excerpt }}
+<p>{% include first_paragraph.html post=latest_post %}</p>
 
 <p><a href="{{ latest_post.url | relative_url }}">Read more &rarr;</a></p>
 </div>
+
+{% if site.posts.size > 1 %}
+<section class="recently">
+<h2>Recently</h2>
+{% assign recent_posts = site.posts | slice: 1, 3 %}
+<ul>
+{% for post in recent_posts %}
+<li>
+<a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+</li>
+{% endfor %}
+</ul>
+<p><a href="{{ '/blog/' | relative_url }}">See all posts &rarr;</a></p>
+</section>
+{% endif %}
 {% endif %}
