@@ -52,6 +52,8 @@ AI-Assisted Engineering — the craft
 - [The Grand Plugin Trap](/2026/04/11/the-grand-plugin-trap/) — April 2026
 - [The Canary in the Harness](/2026/04/12/the-inevitable-lobotomisation-of-claude/) — April 2026
 - [Conscious Coverage](/2026/04/16/concious-coverage/) — April 2026
+- [Your Scientists Were So Preoccupied](/2026/05/04/your-scientists-were-preoccupied/) — May 2026
+- [Show Your Work](/2026/05/06/show-your-work/) — May 2026
 
 </details>
 
@@ -69,6 +71,7 @@ Career & Meta
 - [Charting a Path to Senior Staff Engineer](/2025/08/03/senior-staff-engineer/) — August 2025
 - [The Zero-to-Vibe Coding Jumpstart Cube Catastrophication](/2025/08/04/jumpstart-cube-catastrophication/) — August 2025
 - [I Built This In A Prompt Window! With A Box Of Filament!](/2026/04/22/vibe-coding-reality/) — April 2026
+- [An Army of One Prompt](/2026/05/10/an-army-of-one-prompt/) — May 2026
 
 </details>
 
