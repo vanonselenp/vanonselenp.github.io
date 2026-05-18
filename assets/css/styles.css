@@ -453,15 +453,6 @@ article blockquote p,
   .container {
     padding: 0 15px;
   }
-
-  .recently li {
-    display: block;
-  }
-
-  .recently time {
-    display: block;
-    margin-top: 0.1rem;
-  }
 }
 
 @media (max-width: 480px) {
@@ -540,29 +531,21 @@ article blockquote p,
   text-transform: uppercase;
 }
 
-.recently ul {
-  list-style: none;
-  padding-left: 0;
-  margin-bottom: 0.75rem;
+.recently-post {
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
 }
 
-.recently li {
-  display: flex;
-  justify-content: space-between;
-  gap: 1rem;
-  margin-bottom: 0.45rem;
-  font-size: 0.95rem;
+.recently-post:last-of-type {
+  border-bottom: none;
+  margin-bottom: 1rem;
+  padding-bottom: 0.5rem;
 }
 
-.recently time {
-  flex: 0 0 auto;
-  color: var(--text-light);
-  font-size: 0.85rem;
-}
-
-.recently p {
-  margin-bottom: 0;
-  font-size: 0.9rem;
+.recently-post h3 {
+  margin-top: 0;
+  margin-bottom: 0.25rem;
 }
 
 /* Blog thread sections */

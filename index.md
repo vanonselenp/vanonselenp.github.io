@@ -36,14 +36,18 @@ This blog exists in the spirit of Austin Kleon's *Show Your Work*. You won't fin
 <section class="recently">
 <h2>Recently</h2>
 {% assign recent_posts = site.posts | slice: 1, 3 %}
-<ul>
 {% for post in recent_posts %}
-<li>
-<a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-<time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-</li>
+<div class="recently-post">
+<h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
+<p class="post-meta">
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+</p>
+
+<p>{% include first_paragraph.html post=post %}</p>
+
+<p><a href="{{ post.url | relative_url }}">Read more &rarr;</a></p>
+</div>
 {% endfor %}
-</ul>
 <p><a href="{{ '/blog/' | relative_url }}">See all posts &rarr;</a></p>
 </section>
 {% endif %}
