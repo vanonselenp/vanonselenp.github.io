@@ -9,6 +9,8 @@ categories: aios claudecode opencode
 
 ---
 
+![hero image](/assets/best-part/hero.png)
+
 A friend of mine just got a 3D printer. He read my last post, the one about building a Soviet army in three evenings, and quite reasonably wanted to know how to do it himself. We were on our phones. He could not really sit and read the prompt in full, could not digest the style-versus-pose distinction, could not work through the order of operations. He got the idea but not the practice, and so he was rediscovering most of it from scratch.
 
 I sat on a train, somewhere in the middle of nowhere between Birmingham and London, forty minutes delayed, and thought: I should build an app for this.
