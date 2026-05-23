@@ -1,0 +1,22 @@
+{%- assign paragraphs = include.post.content | split: "</p>" -%}
+{%- assign tagline = "" -%}
+{%- for paragraph in paragraphs -%}
+  {%- assign candidate = paragraph | strip -%}
+  {%- if tagline == "" -%}
+    {%- assign starts_em = candidate | slice: 0, 7 -%}
+    {%- if starts_em == "<p><em>" -%}
+      {%- assign inner = candidate | remove_first: "<p><em>" | strip -%}
+      {%- if inner contains "</em>" -%}
+        {%- assign ends = inner | split: "</em>" | first | strip -%}
+        {%- assign tagline = ends -%}
+      {%- endif -%}
+    {%- elsif starts_em == "<p><i>" -%}
+      {%- assign inner = candidate | remove_first: "<p><i>" | strip -%}
+      {%- if inner contains "</i>" -%}
+        {%- assign ends = inner | split: "</i>" | first | strip -%}
+        {%- assign tagline = ends -%}
+      {%- endif -%}
+    {%- endif -%}
+  {%- endif -%}
+{%- endfor -%}
+{{- tagline | strip_html | strip -}}

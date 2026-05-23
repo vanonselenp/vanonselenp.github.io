@@ -27,6 +27,9 @@ This blog exists in the spirit of Austin Kleon's *Show Your Work*. You won't fin
     <time datetime="{{ latest_post.date | date_to_xmlschema }}">{{ latest_post.date | date: "%B %d, %Y" }}</time>
 </p>
 
+{% assign latest_tagline = nil %}{% capture latest_tagline %}{% include tagline.html post=latest_post %}{% endcapture %}{% assign latest_tagline = latest_tagline | strip %}
+{% if latest_tagline != "" %}<p class="post-tagline"><em>{{ latest_tagline }}</em></p>{% endif %}
+
 <p>{% include first_paragraph.html post=latest_post %}</p>
 
 <p><a href="{{ latest_post.url | relative_url }}">Read more &rarr;</a></p>
@@ -42,6 +45,9 @@ This blog exists in the spirit of Austin Kleon's *Show Your Work*. You won't fin
 <p class="post-meta">
     <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
 </p>
+
+{% capture post_tagline %}{% include tagline.html post=post %}{% endcapture %}{% assign post_tagline = post_tagline | strip %}
+{% if post_tagline != "" %}<p class="post-tagline"><em>{{ post_tagline }}</em></p>{% endif %}
 
 <p>{% include first_paragraph.html post=post %}</p>
 

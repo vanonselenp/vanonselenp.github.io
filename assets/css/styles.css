@@ -298,6 +298,12 @@ hr {
   margin-bottom: 1rem;
 }
 
+.post-tagline {
+  color: var(--text-light);
+  margin-top: -0.5rem;
+  margin-bottom: 1rem;
+}
+
 /* Project grid */
 .projects-grid {
   display: grid;
