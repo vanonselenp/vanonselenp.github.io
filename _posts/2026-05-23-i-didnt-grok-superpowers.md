@@ -17,7 +17,7 @@ I've spent the last year holding back. Not because I think any of these are bad.
 
 Recently I have been feeling like it is time to start experimenting with skills.
 
-I started with Superpowers...
+I started with Obra's Superpowers...
 
 And it made my experience significantly worse. Bad enough that I uninstalled it, purged the cache, and deleted it from every machine I could touch. Why this failed is particularly interesting. At work I spend a lot of time debugging things that cross multiple repositories, pulling in context from New Relic, GitHub, Atlassian and more, doing this rich synthetic conversation where I'm trying to _understand_ a problem before I do anything about it. With superpowers installed, the agent _kept_ trying to write documents. Reach for structured outputs. Produce artefacts. While I was still trying to investigate. It defaulted to choices I wouldn't have made and actively got in the way of what I was trying to do.
 
