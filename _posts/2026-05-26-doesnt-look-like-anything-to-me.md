@@ -40,38 +40,7 @@ Which means I can give the same concept image to multiple models, line the outpu
 
 ## The half-track
 
-{% assign halftruck_images = site.static_files | where_exp: "f", "f.path contains '/assets/doesnt-look-like-anything/halftruck/'" | sort: "name" %}
-<div class="model-carousel" style="position: relative; width: 100%; max-width: 800px; margin: 1.5rem auto; text-align: center;">
-  <div class="model-carousel-track" style="display: grid; border-radius: 4px; overflow: hidden;">
-  {% for file in halftruck_images %}
-    {% assign filename = file.path | split: "/" | last | remove_first: ".png" %}
-    {% assign leading = filename | slice: 0, 1 %}
-    {% assign label = filename | remove_first: leading | remove_first: "-" %}
-    <img src="{{ file.path | relative_url }}" alt="Half-track — {{ label }}" data-label="{{ label }}" style="grid-area: 1 / 1; width: 100%; height: auto; opacity: {% if forloop.first %}1{% else %}0{% endif %}; transition: opacity 0.25s;" />
-  {% endfor %}
-  </div>
-  <button type="button" class="model-prev" aria-label="Previous" style="position: absolute; top: 50%; left: 0.5rem; transform: translateY(-50%); background: rgba(0,0,0,0.55); color: #fff; border: 0; border-radius: 50%; width: 2.25rem; height: 2.25rem; font-size: 1.25rem; cursor: pointer;">‹</button>
-  <button type="button" class="model-next" aria-label="Next" style="position: absolute; top: 50%; right: 0.5rem; transform: translateY(-50%); background: rgba(0,0,0,0.55); color: #fff; border: 0; border-radius: 50%; width: 2.25rem; height: 2.25rem; font-size: 1.25rem; cursor: pointer;">›</button>
-  <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;"><span class="model-label"></span> &middot; <span class="model-current">1</span> / {{ halftruck_images | size }}</div>
-</div>
-<script>
-(function () {
-  var root = document.currentScript.previousElementSibling;
-  var imgs = root.querySelectorAll('.model-carousel-track img');
-  var counter = root.querySelector('.model-current');
-  var label = root.querySelector('.model-label');
-  var i = 0;
-  function show(n) {
-    i = (n + imgs.length) % imgs.length;
-    imgs.forEach(function (img, idx) { img.style.opacity = idx === i ? '1' : '0'; });
-    counter.textContent = i + 1;
-    label.textContent = imgs[i].dataset.label || '';
-  }
-  root.querySelector('.model-prev').addEventListener('click', function () { show(i - 1); });
-  root.querySelector('.model-next').addEventListener('click', function () { show(i + 1); });
-  show(0);
-})();
-</script>
+{% include model-carousel.html path="/assets/doesnt-look-like-anything/halftruck/" alt_prefix="Half-track" %}
 
 Same input image. Four very different hosts running the same loop.
 

@@ -1,0 +1,46 @@
+{%- assign carousel_path = include.path -%}
+{%- assign carousel_images = site.static_files | where_exp: "f", "f.path contains carousel_path" | sort: "name" -%}
+<div class="model-carousel" style="position: relative; width: 100%; max-width: 800px; margin: 1.5rem auto; text-align: center;">
+  <div class="model-carousel-track" style="display: grid; border-radius: 4px; overflow: hidden;">
+  {%- for file in carousel_images -%}
+    {%- assign filename = file.path | split: "/" | last | remove_first: ".png" -%}
+    {%- assign leading = filename | slice: 0, 1 -%}
+    {%- assign label = filename | remove_first: leading | remove_first: "-" -%}
+    <img src="{{ file.path | relative_url }}" alt="{{ include.alt_prefix }} — {{ label }}" data-label="{{ label }}" style="grid-area: 1 / 1; width: 100%; height: auto; opacity: {% if forloop.first %}1{% else %}0{% endif %}; transition: opacity 0.25s;" />
+  {%- endfor -%}
+  </div>
+  <button type="button" class="model-prev" aria-label="Previous" style="position: absolute; top: 50%; left: 0.5rem; transform: translateY(-50%); background: rgba(0,0,0,0.55); color: #fff; border: 0; border-radius: 50%; width: 2.25rem; height: 2.25rem; font-size: 1.25rem; cursor: pointer;">‹</button>
+  <button type="button" class="model-next" aria-label="Next" style="position: absolute; top: 50%; right: 0.5rem; transform: translateY(-50%); background: rgba(0,0,0,0.55); color: #fff; border: 0; border-radius: 50%; width: 2.25rem; height: 2.25rem; font-size: 1.25rem; cursor: pointer;">›</button>
+  <div style="margin-top: 0.5rem; font-size: 0.9rem; color: #666;"><span class="model-label"></span> &middot; <span class="model-current">1</span> / {{ carousel_images | size }}</div>
+</div>
+<script>
+(function () {
+  if (window.__modelCarouselsWired) return;
+  window.__modelCarouselsWired = true;
+  function init() {
+    document.querySelectorAll('.model-carousel').forEach(function (root) {
+      var imgs = root.querySelectorAll('.model-carousel-track img');
+      if (!imgs.length) return;
+      var counter = root.querySelector('.model-current');
+      var label = root.querySelector('.model-label');
+      var i = 0;
+      function show(n) {
+        i = (n + imgs.length) % imgs.length;
+        imgs.forEach(function (img, idx) { img.style.opacity = idx === i ? '1' : '0'; });
+        if (counter) counter.textContent = i + 1;
+        if (label) label.textContent = imgs[i].dataset.label || '';
+      }
+      var prev = root.querySelector('.model-prev');
+      var next = root.querySelector('.model-next');
+      if (prev) prev.addEventListener('click', function () { show(i - 1); });
+      if (next) next.addEventListener('click', function () { show(i + 1); });
+      show(0);
+    });
+  }
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', init);
+  } else {
+    init();
+  }
+})();
+</script>
