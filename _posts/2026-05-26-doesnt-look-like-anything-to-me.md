@@ -42,17 +42,7 @@ Which means I can give the same concept image to multiple models, line the outpu
 
 {% include model-carousel.html path="/assets/doesnt-look-like-anything/halftruck/" alt_prefix="Half-track" %}
 
-Same input image. Four very different hosts running the same loop.
-
-**Meshy 6** is the only one that understood the word *half-track*. Tracks at the back, wheels at the front, the whole silhouette correct. When Meshy hallucinates the bits it can't see directly in the input image, it hallucinates *in character*. It has a sense of what a WWII half-track is and fills in the missing parts with something consistent. Jerry cans, stowage, period-appropriate clutter. The back of the vehicle exists, and the back of the vehicle looks like it belongs to the front of the vehicle.
-
-**Trellis** got the vehicle vibe right and then ruined the take on the cast. The body of the half-track is plausible, the crew are posed with intent, sitting properly in the troop compartment. But the heads are shaped strangely in a way that breaks the whole thing once you notice it. Composition right, anatomy off. It is doing something the others aren't, which is treating the scene as a scene rather than as an object plus passengers, and I want to like it more than I do.
-
-**Rodin** is the most restrained of the four. Clean, symmetric, prescriptive. It feels less like a generated artefact and more like something that was already in the model's head and the input image just nudged it to commit. The crew look fine but feel imported from somewhere else. There is also a quiet warning underneath the render that the mesh has more than a million triangles and might be slow to slice, which is its own little tell about how Rodin approaches the problem.
-
-**Hunyuan3d-2mv** is unrefined clay. The crew are oversized and cartoonish, the proportions of soldier-to-vehicle are off, and the whole thing has a roughed-in quality to it. You can see what it was reaching for. It just didn't get there.
-
-The personalities are real, and they are persistent. Each model has a way of being wrong that is recognisable across outputs. Once you have seen enough of them you can almost name which model produced a render without checking.
+Same input image. Very different models as output.
 
 ## The jeep
 
