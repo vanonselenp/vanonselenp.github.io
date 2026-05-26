@@ -11,7 +11,7 @@ categories: aios claudecode opencode
 
 ![Not all skills will fit your way of working](/assets/i-didnt-grok-it.png)
 
-The skills moment is happening. Matt Pollock's repo is blowing up. Superpowers, nwave.ai. Curated bundles of markdown being treated as installable expertise.
+The skills moment is happening. Matt Pocock's repo is blowing up. Superpowers, nwave.ai. Curated bundles of markdown being treated as installable expertise.
 
 I've spent the last year holding back. Not because I think any of these are bad. Because I've been very consciously trying to learn the fundamentals first. How do I frame the question I'm asking. How do I prompt. How do I write a spec. How do I build the context I need to get meaningful results out of an agent. Working with AI harnesses forces a kind of explicitness that working alone never demanded of me. You can't be vague with an agent and get good results, so the vagueness gets cooked out of how you think. That's been the project. Iterating on the way I phrase things, the way I decompose problems, the order I bring context in, until the patterns started showing themselves.
 
@@ -25,7 +25,7 @@ Superpowers isn't wrong about what it does. The outputs it produces are useful. 
 
 I didn't bounce off superpowers because it's a bad framework. From what I can see from the outside it is a great framework. I bounced off it because I didn't grok it. People are clearly getting real value out of these systems. My way of working with agents has been fundamentally different from how a lot of the loudest voices online are doing it, and that doesn't make either of us wrong. It just means borrowed intelligence doesn't transfer the way the marketing suggests. You can't take someone else's curated skills repo and have it magically make you think like them.
 
-So I'm doing the opposite. Pull a single skill. Try it. Keep it if it fits, drop it if it doesn't. There are two from Matt Pollock that I am definitely keeping.
+So I'm doing the opposite. Pull a single skill. Try it. Keep it if it fits, drop it if it doesn't. There are two from Matt Pocock that I am definitely keeping.
 
 The first is `handover`. It's almost a one-to-one fit with something I was already doing manually. I spend a context window in one terminal getting a spec right, then feed that spec to another terminal or agent to implement. Handover formalises that pattern, doesn't litter the workspace with random files, and stays out of the way otherwise. It clicked instantly because it named a practice I already had.
 
