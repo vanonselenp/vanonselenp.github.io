@@ -9,6 +9,8 @@ categories: aios claudecode opencode
 
 ---
 
+![doesn't look like anything to me](/assets/doesnt-look-like-anything/hero.png)
+
 I have been generating 3D models of World War II miniatures for printing. Concept image in, printable model out, slice it, print it on an A1 mini. The 3D model generation has been mostly Meshy, because Meshy has been mostly good enough, and good enough is a powerful drug.
 
 Then I ran out of credits.
