@@ -1,0 +1,5 @@
+{%- assign p = include.post -%}
+{%- if include.url -%}{%- assign p = site.posts | where: "url", include.url | first -%}{%- endif -%}
+{%- capture tag -%}{%- include tagline.html post=p -%}{%- endcapture -%}
+{%- assign tag = tag | strip -%}
+[{{ p.title }}]({{ p.url | relative_url }}){% if tag != "" %} — *{{ tag }}*{% endif %} — {{ p.date | date: "%B %Y" }}
