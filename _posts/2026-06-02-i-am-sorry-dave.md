@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "I'm Sorry, Dave"
+title: "The more an AI can break, the less you let it do."
 date: 2026-06-02 08:00:00 +0000
 categories: aios claudecode opencode
 redirect_from:
   - /2026/06/02/i-am-sorry-dave.md/
 ---
 
-*The more an AI can break, the less you let it do. Notes from a production incident.*
+* Notes from a production incident.*
 
 ---
 
