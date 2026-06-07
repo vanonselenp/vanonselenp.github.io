@@ -9,6 +9,8 @@ categories: aios claudecode opencode
 
 ---
 
+![reject the wrong pattern](/assets/encode-it-hero.png)
+
 How do you give an AI harness good guardrails? I have been poking at the question for a while. Then on a random Tuesday it stopped being theoretical, because I sat down to add observability to a web service I own.
 
 The service had the basics. Some logging, a couple of dashboards, enough to tell you roughly what was going on. Nothing fine grained. No OpenTelemetry, nothing tracing a request through its steps. I could infer, badly, from logs.
