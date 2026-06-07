@@ -2,7 +2,7 @@
 layout: post
 title: "The Best Part Has No AI in It"
 date: 2026-05-18 08:00:00 +0000
-categories: aios claudecode opencode
+categories: aios claudecode opencode softwarecraftsmanship
 ---
 
 *On building the plumbing between the prompts.*

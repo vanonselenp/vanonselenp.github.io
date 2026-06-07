@@ -2,7 +2,7 @@
 layout: post
 title: "The more an AI can break, the less you let it do."
 date: 2026-06-02 08:00:00 +0000
-categories: aios claudecode opencode
+categories: aios claudecode opencode softwarecraftsmanship
 redirect_from:
   - /2026/06/02/i-am-sorry-dave.md/
 ---
