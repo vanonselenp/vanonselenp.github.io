@@ -7,7 +7,7 @@ redirect_from:
   - /2026/06/02/i-am-sorry-dave.md/
 ---
 
-* Notes from a production incident.*
+*Notes from a production incident.*
 
 ---
 
