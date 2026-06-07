@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Encode It, Don't Remember It"
-date: 2026-06-07 08:00:00 +0000
+date: 2026-06-07 06:00:00 +0000
 categories: aios claudecode opencode softwarecraftsmanship
 ---
 
