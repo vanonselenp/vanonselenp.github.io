@@ -3,6 +3,8 @@ layout: post
 title: "How to Get Things Done When You Have Nothing but Process"
 date: 2025-11-13 08:00:00 +0000
 categories: godot vibecoding claudecode specdrivendevelopment
+image: /assets/no-energy-week/banner.png
+thread: gamedev
 ---
 
 _The tale of how a good System can carry you through the dark times..._

@@ -3,6 +3,7 @@ layout: post
 title: "What Does a Staff Engineer *Actually* Do?"
 date: 2025-08-02 10:00:00 +0000
 categories: personal staffplus
+thread: meta
 ---
 
 *Originally written as an internal working spec while I was at Cazoo, this post is my take on the responsibilities and mindset of a Staff Engineer. It helped me reflect on what the role requires, not just in terms of technical ability, but also leadership, communication, and constant adaptation.*

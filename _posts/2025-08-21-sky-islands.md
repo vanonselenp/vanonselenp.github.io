@@ -3,6 +3,8 @@ layout: post
 title: "Islands at War: Designing a Board Game with AI"
 date: 2025-08-21 11:00:00 +0000
 categories: personal python board-game
+image: /assets/netstorm.png
+thread: gamedev
 ---
 
 Or my on going adventures in playing with AI development tools ...

@@ -5,6 +5,8 @@ date: 2026-03-24 08:00:00 +0000
 categories: aios claudecode softwarecraftsmanship
 redirect_from:
   - /2026/03/24/the-smell-of-panic-while-you-thrash/
+image: /assets/panic.png
+thread: craft
 ---
 
 _High high hope for the code, shooting for a PR when I couldn't even make a commit..._

@@ -3,6 +3,8 @@ layout: post
 title: "The Beautiful Boring: How I Refactored a Game Without Breaking it"
 date: 2025-11-06 08:00:00 +0000
 categories: godot video-game claudecode vibecoding
+image: /assets/chill-refactor/banner.png
+thread: gamedev
 ---
 
 _Can an AI Do a Boring Refactor? A Case Study in Systematic Code Cleanup_

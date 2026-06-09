@@ -3,6 +3,8 @@ layout: post
 title: "The Boring Path to Actually Shipping with AI"
 date: 2025-10-31 08:00:00 +0000
 categories: personal godot video-game claudecode vibecoding
+image: /assets/boring/3-heroes.png
+thread: craft
 ---
 
 _Or: How I Learned to Stop Vibing and Love the Spec"_

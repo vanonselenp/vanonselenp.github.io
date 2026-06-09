@@ -3,6 +3,8 @@ layout: post
 title: "The Grand Plugin Trap"
 date: 2026-04-11 08:00:00 +0000
 categories: aios claudecode softwarecraftsmanship
+image: /assets/grand-plugin-trap/hero.png
+thread: craft
 ---
 
 _A modest meditation on plugins, portability, and the peculiar sorrow of a workflow that cannot leave the building._

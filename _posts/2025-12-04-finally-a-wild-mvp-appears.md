@@ -3,6 +3,8 @@ layout: post
 title: "Finally... A Wild MVP Appears"
 date: 2025-12-04 08:00:00 +0000
 categories: godot vibecoding claudecode specdrivendevelopment
+image: /assets/mvp/banner.png
+thread: gamedev
 ---
 
 _Three Months to MVP: What I Learned Building a Tactical Card Game with AI..._
@@ -19,7 +21,7 @@ When I started this project, I was pure vibe coding. But somewhere in the middle
 
 ![card driven](/assets/mvp/cards.png)
 
-Writing a clear specification before diving head first into a vibe changed everything. Suddenly the AI had guardrails. It stopped looping in circles. If you want to go deeper on this, I wrote about starting to figure out specs in [Chaos, Cards, and Claude](https://claude.ai/2025/10/03/chaos-cards-and-claude-copy/).
+Writing a clear specification before diving head first into a vibe changed everything. Suddenly the AI had guardrails. It stopped looping in circles. If you want to go deeper on this, I wrote about starting to figure out specs in [Chaos, Cards, and Claude](/2025/10/03/chaos-cards-and-claude-copy/).
 
 ## Months of Education
 

@@ -3,6 +3,8 @@ layout: post
 title: "How Many Times Do You Have to Build Too Much to Learn Scope Creep?"
 date: 2025-11-20 08:00:00 +0000
 categories: godot vibecoding claudecode specdrivendevelopment
+image: /assets/scope-creep-november/banner.png
+thread: gamedev
 ---
 
 _Scope Creep Keeps Teaching Me..._

@@ -5,6 +5,8 @@ date: 2026-06-02 08:00:00 +0000
 categories: aios claudecode opencode softwarecraftsmanship
 redirect_from:
   - /2026/06/02/i-am-sorry-dave.md/
+image: /assets/dave-hero.png
+thread: craft
 ---
 
 *Notes from a production incident.*

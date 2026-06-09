@@ -3,6 +3,8 @@ layout: post
 title: "Your Scientists Were So Preoccupied"
 date: 2026-05-04 08:00:00 +0000
 categories: aios claudecode opencode
+image: /assets/phone-doom.png
+thread: craft
 ---
 
 _That they forgot to ask whether SSHing into an AI coding agent from a phone was a good idea._

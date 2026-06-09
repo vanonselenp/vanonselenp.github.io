@@ -3,6 +3,8 @@ layout: post
 title: "Doesn't Look Like Anything to Me"
 date: 2026-05-27 08:00:00 +0000
 categories: aios claudecode opencode
+image: /assets/doesnt-look-like-anything/hero.png
+thread: craft
 ---
 
 *What happens when you point five 3D generation models at the same concept image.*

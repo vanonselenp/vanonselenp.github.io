@@ -4,6 +4,7 @@ title: A Blog of Dubious Intent
 date: 2025-08-01
 categories: [meta]
 excerpt: Why this blog exists and what you'll find here - the tangents, failures, and learning from building with AI.
+thread: meta
 ---
 
 ## What's This All About?

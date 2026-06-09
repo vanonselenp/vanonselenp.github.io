@@ -3,6 +3,8 @@ layout: post
 title: "Conscious Coverage"
 date: 2026-04-16 08:00:00 +0000
 categories: aios claudecode softwarecraftsmanship
+image: /assets/coverage.png
+thread: craft
 ---
 
 _We don't talk about Code coverage, no no no, we don't talk about coverage..._

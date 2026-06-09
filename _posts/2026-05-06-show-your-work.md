@@ -3,6 +3,8 @@ layout: post
 title: "Show Your Work"
 date: 2026-05-06 08:00:00 +0000
 categories: aios claudecode opencode softwarecraftsmanship
+image: /assets/show-your-work/hero.png
+thread: craft
 ---
 
 _On discovering that “show your work” is not the same thing as “do the work well.”_

@@ -3,6 +3,8 @@ layout: post
 title: "When Refactors Eat Your Game (and Your Evenings)"
 date: 2025-09-29 11:00:00 +0000
 categories: personal python board-game godot video-game
+image: /assets/grand-refactor/current.png
+thread: gamedev
 ---
 
 _From Buttons to Cards: A Sideways Journey_

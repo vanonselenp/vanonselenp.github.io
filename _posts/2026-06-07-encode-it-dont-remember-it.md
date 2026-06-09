@@ -3,6 +3,8 @@ layout: post
 title: "Encode It, Don't Remember It"
 date: 2026-06-07 06:00:00 +0000
 categories: aios claudecode opencode softwarecraftsmanship
+image: /assets/encode-it-hero.png
+thread: craft
 ---
 
 *Panic! at the SWC Compiler: cannot add pure comment to zero position.*

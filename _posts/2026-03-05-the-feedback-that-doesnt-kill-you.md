@@ -3,6 +3,8 @@ layout: post
 title: "The Feedback That Doesn't Care About Your Title"
 date: 2026-03-17 08:00:00 +0000
 categories: aios claudecode softwarecraftsmanship
+image: /assets/feedback-that-kills-you/image.png
+thread: craft
 ---
 
 _What doesn't kill you makes you stronger ... right?_

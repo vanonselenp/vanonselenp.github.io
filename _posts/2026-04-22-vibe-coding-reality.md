@@ -3,6 +3,8 @@ layout: post
 title: "I Built This In A Prompt Window! With A Box Of Filament!"
 date: 2026-04-22 08:00:00 +0000
 categories: aios claudecode softwarecraftsmanship
+image: /assets/reality/hero.jpg
+thread: meta
 ---
 
 _I Vibe Coded A Model Into My House_

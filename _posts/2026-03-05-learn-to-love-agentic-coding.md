@@ -3,6 +3,8 @@ layout: post
 title: "How I Learnt to Stop Worrying and Love Agentic Katas"
 date: 2026-03-05 08:00:00 +0000
 categories: claudecode specdrivendevelopment katas softwarecraftsmanship
+image: /assets/agentic-kata/kata1.png
+thread: craft
 ---
 
 _I don't know how to teach this. But I think I've figured out how to practice it..._

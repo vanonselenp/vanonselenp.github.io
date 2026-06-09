@@ -3,6 +3,8 @@ layout: post
 title: "I Actually Stayed On Task (For Once): A Dev Miracle"
 date: 2025-10-24 08:00:00 +0000
 categories: personal board-game godot video-game claudecode codex vibecoding
+image: /assets/stay-on-target/mage.png
+thread: gamedev
 ---
 
 _Breaking news: Developer completes planned features ... who would have thought?_

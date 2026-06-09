@@ -3,6 +3,8 @@ layout: post
 title: "I Just Wanted to Make a Board Game and Now There Are Procedural Islands"
 date: 2025-09-07 11:00:00 +0000
 categories: personal python board-game
+image: /assets/road_to_nowhere.png
+thread: gamedev
 ---
 
 _Why I Stopped Worrying and Learned to Love Chaos ...._

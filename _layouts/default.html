@@ -12,6 +12,32 @@
     <!-- SEO -->
     {% seo %}
 
+    {%- comment -%}
+    Social card image: prefer page.image (handled by jekyll-seo-tag above);
+    otherwise auto-extract the first <img> from the rendered content.
+    {%- endcomment -%}
+    {%- if page.image == nil or page.image == empty -%}
+      {%- assign _img_split = content | split: '<img ' -%}
+      {%- if _img_split.size > 1 -%}
+        {%- assign _img_tag = _img_split[1] | split: '>' | first -%}
+        {%- assign _img_src = "" -%}
+        {%- if _img_tag contains 'src="' -%}
+          {%- assign _img_src = _img_tag | split: 'src="' | last | split: '"' | first -%}
+        {%- elsif _img_tag contains "src='" -%}
+          {%- assign _img_src = _img_tag | split: "src='" | last | split: "'" | first -%}
+        {%- endif -%}
+        {%- if _img_src != "" -%}
+          {%- assign _abs_img = _img_src -%}
+          {%- unless _img_src contains "://" -%}
+            {%- assign _abs_img = _img_src | absolute_url -%}
+          {%- endunless -%}
+    <meta property="og:image" content="{{ _abs_img }}" />
+    <meta name="twitter:image" content="{{ _abs_img }}" />
+    <meta name="twitter:card" content="summary_large_image" />
+        {%- endif -%}
+      {%- endif -%}
+    {%- endif -%}
+
     <!-- Google Analytics 4 -->
     {% if site.google_analytics %}
     <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>

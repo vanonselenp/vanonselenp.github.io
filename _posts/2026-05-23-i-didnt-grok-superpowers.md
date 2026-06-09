@@ -3,6 +3,8 @@ layout: post
 title: "I Didn't Grok Superpowers"
 date: 2026-05-23 08:00:00 +0000
 categories: aios claudecode opencode softwarecraftsmanship
+image: /assets/i-didnt-grok-it.png
+thread: craft
 ---
 
 *You Can't Just Install Someone Else's Workflow and Level Up.*

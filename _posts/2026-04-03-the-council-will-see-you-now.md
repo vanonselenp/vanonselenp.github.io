@@ -3,6 +3,8 @@ layout: post
 title: "The Council Will See You Now..."
 date: 2026-04-03 08:00:00 +0000
 categories: aios claudecode softwarecraftsmanship
+image: /assets/council/council.png
+thread: craft
 ---
 
 _You were the chosen one! You were supposed to destroy the hallucinations, not join them!_

@@ -3,6 +3,8 @@ layout: post
 title: "14 PRs, 6 Repos, 1 Button: A Tale of Tumbling Down the Rabbit Hole"
 date: 2026-02-12 08:00:00 +0000
 categories: vibecoding claudecode specdrivendevelopment codex
+image: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Down_the_Rabbit_Hole_%28311526846%29.jpg/960px-Down_the_Rabbit_Hole_%28311526846%29.jpg"
+thread: craft
 ---
 
 _True stories from the front lines of the internet..._

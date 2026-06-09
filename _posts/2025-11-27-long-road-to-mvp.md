@@ -3,6 +3,8 @@ layout: post
 title: "The Long Road to MVP"
 date: 2025-11-27 08:00:00 +0000
 categories: godot vibecoding claudecode specdrivendevelopment
+image: /assets/long-road/banner.png
+thread: gamedev
 ---
 
 _How I learned to stop overthinking and ship the damn thing..._
