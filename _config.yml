@@ -1,5 +1,5 @@
 # Site settings
-title: "Peter van Onselen — Staff Engineering & AI"
+title: "Peter van Onselen: Staff Engineering & AI"
 description: "A staff engineer figuring out AI-assisted development in public."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.petervanonselen.com" # the base hostname & protocol for your site

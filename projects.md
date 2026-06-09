@@ -1,119 +1,85 @@
 ---
 layout: page
-title: Projects & Portfolio
+title: Projects
 permalink: /projects/
-description: Portfolio of Peter van Onselen's software projects including an intelligent MTG Jumpstart Cube Constructor, web development, and expertise in Python, TypeScript, AWS, and cloud architecture.
+description: A short, honest list of the things I have built. Tools you can clone, and builds with a story attached.
 ---
 
-## Magic: The Gathering Jumpstart Cube Constructor
+Two halves. The tools are small repos you can clone and use. The builds are bigger things I have been making, each with a thread of posts behind it.
 
-![magic splash](/assets/magic-splash.png)
+## Tools
 
-An intelligent deck construction system that automatically builds themed Magic: The Gathering Jumpstart cubes with perfect theme coherence and balanced gameplay from any card pool. This project features automated theme extraction, balanced color distribution, and comprehensive performance analysis.
+### harness-bench
 
-**Key bits of fun:**
-- **Theme Extraction:** Automatically discovers themes from card pools using advanced keyword analysis
-- **Specialized Scoring Integration:** Purpose-built scorers for different strategies (Equipment, Tribal, Control, Aggro) that understand specific gameplay patterns
-- **Auto-Download System:** Zero-setup experience with automatic MTG data management and caching
+[github.com/vanonselenp/harness-bench](https://github.com/vanonselenp/harness-bench)
 
-**Technical Implementation:**
+A rig for comparing AI coding harnesses against each other. Same prompt, same starting state, every harness and model combination, multiple runs each, all graded against a hidden Vitest suite the agent never sees. The point is to stop arguing about which harness is best from vibes and actually grade them, then look at the results and argue from those instead.
 
-- **Technologies:** Python, Pandas, Jupyter, Machine Learning, Data Analysis
-- **Architecture:** Modular 5-phase construction algorithm with constraint management
-- **Output:** Comprehensive analysis including performance metrics, improvement suggestions, and exportable data
+**Related reading:** [Show Your Work](/2026/05/06/show-your-work/)
 
-This was an experiment in "vibe coding" that solved a real problem I had at the time - the end result came out better than expected. The system can build themed cubes from any card pool without manually defining themes, while maintaining high theme coherence and balanced gameplay.
+### print-bench (`pb`)
 
-**Repository:** [github.com/vanonselenp/magic-jumpstart](https://github.com/vanonselenp/magic-jumpstart)
-**Live Example:** [Pauper Jumpstart Cube](https://cubecobra.com/cube/list/pauper-jumpstart-06-2025)
+[github.com/vanonselenp/print-bench](https://github.com/vanonselenp/print-bench)
 
-**Related Reading:**
-- [Jumpstart Cube Catastrophication](https://www.petervanonselen.com/2025/08/04/jumpstart-cube-catastrophication/) - Deep dive into the design problem
-- [Chaos Cards and Claude](https://www.petervanonselen.com/2025/10/05/chaos-cards-and-claude/) - Building with AI assistance
+A Python CLI for the concept-to-3D-print workflow I use for tabletop miniatures. A filesystem with opinions, a CLI with verbs. `style.md` for the things that stay stable across an army, `subjects.yaml` for the things that vary, `seed.png` for the visual anchor. Then a tiny set of commands to assemble the prompt, crop the front and back views, push them to Meshy, and fetch the model when it is ready. Deliberately contains no AI. The AI work happens in the chat windows it shepherds you between.
 
-## Table Mountain HEMA Website
+**Related reading:** [The Best Part Has No AI in It](/2026/05/18/best-part-has-no-ai-in-it/)
 
-![hema](/assets/hema.png)
+### zsh wrapper functions
 
-Created an affordable website for a HEMA club using Jekyll and GitHub Pages, focusing on cost-effective hosting and maintenance. I have now handed this over to the club and they have been running with it ever since.
+[github.com/vanonselenp/zsh-functions](https://github.com/vanonselenp/zsh-functions)
 
-**Technologies:** Jekyll, GitHub, Ruby
+Small portable wrappers around the harnesses I actually use. The reason they live in zsh instead of a harness plugin is that my workflow needs to survive across Claude Code, OpenCode and Codex, and tying it to any one of their plugin systems is how you end up rewriting everything the next time the wind shifts.
 
-**URL:** [Table Mountain HEMA](https://www.tablemountainhema.co.za/)
+**Related reading:** [The Grand Plugin Trap](/2026/04/11/the-grand-plugin-trap/)
 
----
+### agentic-katas
 
-## Currently Iterating On
+[github.com/vanonselenp/agentic-katas](https://github.com/vanonselenp/agentic-katas)
+
+A set of code-retreat-style exercises for practising agentic coding with another person. Each kata is a deliberately ambiguous brief with a privacy constraint and an extra-credit extension. The rule that does the work: you are not allowed to pick a language or framework until you have had a real conversation with the agent about the approach. The thing you build does not matter, the process does.
+
+## Builds
 
 ### Horizon's Edge
 
-![splash](/assets/splash.png)
+![Horizon's Edge splash](/assets/splash.png)
 
-A tactical wargame built in Godot exploring floating islands locked in conflict. What started as a simple board game prototype evolved into a digital game with procedural island generation, sophisticated combat systems, and height-based tactical gameplay.
+[github.com/vanonselenp/horizons-edge](https://github.com/vanonselenp/horizons-edge)
 
-**Current Features:**
-- Isometric hex-based grid with procedural island generation using Wave Function Collapse
-- Real-time tactical combat with specialized unit abilities (blink mechanics, ranged attacks)
-- Dynamic road networks with 3D models and rotation
-- Playable prototypes for both board game and digital versions
+A tactical wargame in Godot. Floating islands, hex grid, height-based combat, card-driven actions, procedurally generated maps using Wave Function Collapse. It began as a sensible cardboard prototype and immediately grew legs, then a digital version, then a combat system, then a road network, then several refactors I could probably have skipped. It is the thing I work on when I want to find out whether an AI-assisted process can carry a real project through the messy middle, not just the impressive opening.
 
-**Technologies:** Godot, GDScript, Procedural Generation, Game Design
+**Toolchain:** Godot, GDScript
 
-**Related Reading:**
-- [Sky Islands](https://www.petervanonselen.com/2025/08/21/sky-islands/) - Initial game design concept
-- [From Boardgame to Digital](https://www.petervanonselen.com/2025/09/15/boardgame-to-digital/) - Why I ended up building both versions
-- [Road to Combat Paved with Blink](https://www.petervanonselen.com/2025/10/17/road-to-combat-paved-with-blink/) - Combat system development
-- [The Boring Path to Shipping with AI](https://www.petervanonselen.com/2025/10/31/boring-path-to-shipping/) - Spec-driven development approach
-- [From AI Skeptic to Constant Collaborator](https://www.petervanonselen.com/2025/10/20/what-i-have-learnt/) - How AI-assisted development enabled this project
+**Related reading:**
+- [Sky Islands](/2025/08/21/sky-islands/)
+- [I Just Wanted to Make a Board Game and Now There Are Procedural Islands](/2025/09/07/boardgame-to-digital/)
+- [Road to Combat Paved with Blink](/2025/10/17/road-to-combat-paved-with-blink/)
+- [From AI Skeptic to Constant Collaborator](/2025/10/20/what-i-have-learnt/)
 
-### Bolt Action 3D Print Pipeline
+### Bolt Action 3D print pipeline
 
 ![Soviet army for Bolt Action](/assets/army-of-prompts/hero.jpg)
 
-A side project that turned into a process experiment: using a chain of generative tools to go from concept to physical miniature for the tabletop wargame Bolt Action. ChatGPT for concept images, Meshy to turn front-and-back views into 3D models, Bambu Studio to prepare them, and a Bambu printer to make them real. Two 1000-point armies, around fifty unique sculpts each, scaled down to centimetres so they fit on a kitchen table.
+A side project that turned into a process experiment. A chain of generative tools going from a concept image to a printable miniature for the tabletop wargame Bolt Action. ChatGPT for concept work, then a 3D model generator, then Bambu Studio to slice, then a printer to make the thing real. Two 1000-point armies so far, around fifty unique sculpts each, all scaled down so they actually fit on a kitchen table.
 
-**Toolchain:** ChatGPT (concepts), Meshy (image-to-3D), Bambu Studio (slicing), Bambu printer (FDM)
+The 3D step started as just Meshy, because Meshy was good enough and good enough is a powerful drug. It now sits behind an adapter so I can swap between Meshy and the Replicate-hosted alternatives (hyper3d/rodin, several Hunyuan variants, Trellis) without rewriting the workflow each time one of them improves.
 
-**Related Reading:**
-- [I Built This In A Prompt Window! With A Box Of Filament!](https://www.petervanonselen.com/2026/04/22/vibe-coding-reality/) - The moment the pipeline first worked end-to-end
-- [An Army of One Prompt](https://www.petervanonselen.com/2026/05/10/an-army-of-one-prompt/) - Scaling the process from one model to whole armies
+**Toolchain:** ChatGPT (concepts), Meshy and Replicate (image-to-3D, via an adapter covering hyper3d/rodin, Hunyuan variants and Trellis), Bambu Studio (slicing), Bambu printer (FDM). The plumbing for all of this lives in [print-bench](#print-bench-pb).
 
----
+**Related reading:**
+- [I Built This In A Prompt Window! With A Box Of Filament!](/2026/04/22/vibe-coding-reality/)
+- [An Army of One Prompt](/2026/05/10/an-army-of-one-prompt/)
+- [Doesn't Look Like Anything to Me](/2026/05/27/doesnt-look-like-anything-to-me/)
 
-## Technical Skills Showcase
+### MTG Jumpstart Cube Constructor
 
-Based on my 14+ years of experience as a Staff Engineer and technical leader, I've developed deep expertise across the full technology stack:
+![Magic splash](/assets/magic-splash.png)
 
-### Programming Languages & Frameworks
-- **Primary Languages:** TypeScript, Python, Java, C#
-- **Backend Development:** Node.js, serverless architectures, microservices
-- **Frontend Technologies:** React, modern web development, responsive design
-- **Data Processing:** Python (Pandas, NumPy), data analysis and visualization
+The project that started this whole arc. A Python tool that builds themed Magic: The Gathering Jumpstart cubes from an arbitrary card pool, with theme extraction and per-archetype scorers doing the heavy lifting. I built it because I wanted a cube and did not want to hand-curate one, and somewhere in the middle of it I realised I was working with the AI differently than I had before. Most of what I have written since traces back to that.
 
-### Cloud Infrastructure & DevOps
-- **AWS Ecosystem:** Lambda, CloudFormation, serverless framework, cloud architecture
-- **Infrastructure as Code:** Infrastructure automation and deployment
-- **Development Practices:** CI/CD pipelines, automated testing, deployment strategies
-- **Performance Optimization:** System performance tuning, scalability planning
+[github.com/vanonselenp/magic-jumpstart](https://github.com/vanonselenp/magic-jumpstart), with a [live cube on Cube Cobra](https://cubecobra.com/cube/list/pauper-jumpstart-06-2025).
 
-### Engineering Practices & Leadership
-- **Testing Methodologies:** Test-Driven Development (TDD), Behavior-Driven Development (BDD)
-- **Software Architecture:** Scalable system design, API architecture, microservices patterns
-- **Team Leadership:** Technical mentoring, code review practices, engineering culture
-- **Quality Assurance:** "Shift Left" approach, early quality integration
-
-### Databases & Data Management
-- **Database Design:** Relational and NoSQL database architecture
-- **Data Analysis:** Business intelligence, performance metrics, data-driven decisions
-- **API Development:** RESTful services, GraphQL, integration patterns
-
-### Specialized Expertise
-- **Developer Experience:** Tooling optimization, development workflow improvement
-- **Business Integration:** Technical strategy alignment with business objectives
-- **Problem Solving:** Complex system debugging, root cause analysis
-- **Communication:** Technical documentation, stakeholder management
-- **AI-Assisted Development:** Spec-driven development, AI collaboration workflows, prompt engineering for code generation
-
----
-
-*Interested in collaborating on a project or learning more about my work? [Get in touch!](/contact/)*
+**Related reading:**
+- [Jumpstart Cube Catastrophication](/2025/08/04/jumpstart-cube-catastrophication/)
+- [From AI Skeptic to Constant Collaborator](/2025/10/20/what-i-have-learnt/)
