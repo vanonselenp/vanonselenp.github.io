@@ -54,6 +54,11 @@ AI-Assisted Engineering — the craft
 - {% include post-listing.html url="/2026/04/16/concious-coverage/" %}
 - {% include post-listing.html url="/2026/05/04/your-scientists-were-preoccupied/" %}
 - {% include post-listing.html url="/2026/05/06/show-your-work/" %}
+- {% include post-listing.html url="/2026/05/18/best-part-has-no-ai-in-it/" %}
+- {% include post-listing.html url="/2026/05/23/i-didnt-grok-superpowers/" %}
+- {% include post-listing.html url="/2026/05/27/doesnt-look-like-anything-to-me/" %}
+- {% include post-listing.html url="/2026/06/02/i-am-sorry-dave/" %}
+- {% include post-listing.html url="/2026/06/07/encode-it-dont-remember-it/" %}
 
 </details>
 
