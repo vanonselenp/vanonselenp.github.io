@@ -3,7 +3,7 @@ layout: post
 title: "The Machine Had Been Keeping a Diary"
 date: 2026-06-12 06:00:00 +0000
 categories: claudecode opencode softwarecraftsmanship
-image: /assets/encode-it-hero.png
+image: /assets/machine-diary-hero.png
 thread: craft
 ---
 
