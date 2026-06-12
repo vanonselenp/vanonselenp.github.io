@@ -13,7 +13,7 @@ thread: craft
 
 ![machine keeps a dairy](/assets/machine-diary-hero.png)
 
-I wrote a while back that [skills are compressions of workflow](https://www.petervanonselen.com/2026/05/23/i-didnt-grok-superpowers/), and that importing someone else's rarely works because you never earned the patterns underneath. I was quite pleased with that argument. It took me until this month to notice it has a blindingly obvious second edge. If you asked me to describe my own workflows, the ones I would presumably be compressing, I could not have done it.
+I wrote a while back that [skills are compressions of workflow](https://www.petervanonselen.com/2026/05/23/i-didnt-grok-superpowers/), and that importing someone else's rarely works because you never earned the patterns underneath. It took me until this month to notice it has a blindingly obvious second edge. If you asked me to describe my own workflows, the ones I would presumably be compressing, I could not have done it.
 
 In my defence, the conditions for noticing have not been great. Since early spring I have been running at an intensity that leaves no room for the kind of reflection that wants a quiet afternoon and a notebook. Meta-thinking about process is the first thing that dies when every day contains three urgent things and no lunch. I knew, in the abstract, that months of daily work with Claude Code and OpenCode must have worn grooves into how I operate. I had no idea what the grooves looked like.
 
