@@ -1,11 +1,9 @@
 ---
 layout: page
-title: Get in Touch
+title: Get in Touch!
 permalink: /contact/
 description: Connect with Peter van Onselen, Staff Engineer based in London, UK. Available for professional opportunities, technical collaboration, and discussions about software engineering.
 ---
-
-# Get in Touch!
 
 If something here was useful, or wrong in an interesting way, I'd genuinely like to hear about it. The whole point of writing in public is that people write back.
 
