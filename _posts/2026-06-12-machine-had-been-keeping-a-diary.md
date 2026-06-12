@@ -11,7 +11,7 @@ thread: craft
 
 ---
 
-![machine keeps a dairy](/assets/machine-diary-hero.png)
+![The Machine Had Been Keeping a Diary](/assets/machine-diary-hero.png)
 
 I wrote a while back that [skills are compressions of workflow](https://www.petervanonselen.com/2026/05/23/i-didnt-grok-superpowers/), and that importing someone else's rarely works because you never earned the patterns underneath. It took me until this month to notice it has a blindingly obvious second edge. If you asked me to describe my own workflows, the ones I would presumably be compressing, I could not have done it.
 
