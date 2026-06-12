@@ -43,7 +43,7 @@ What I had not noticed is that the skill was one step in a five-step ritual I pe
 
 The report put a number on it. The pr-review skill had been loaded 92 times. The next most used skill in my entire setup had been loaded ten. Ninety-two repetitions of a ritual I would have told you, honestly, that I did not have. The skill I was proud of covered one step out of five, and the other four lived nowhere except my fingers.
 
-So I wrapped the whole ritual in [a skill](https://github.com/vanonselenp/skills/blob/main/skill/pr-review/SKILL.md), and the timing could not have been better. My final weeks at The Economist, and final is still a strange word to type, were almost nothing but review. Large AI-assisted pull requests, arriving faster than any one person was ever meant to read them. All day: read code, leave comments, read more code. The wrapped skill is the only reason my feedback stayed consistent at a volume where consistency is normally the first casualty.
+So I wrapped the whole ritual in [a skill](https://github.com/vanonselenp/skills/blob/main/skill/pr-review/SKILL.md), and the timing was almost cruel. My final weeks at The Economist, and final is still a strange word to type, were almost nothing but review. Large AI-assisted pull requests, arriving faster than any one person was ever meant to read them. All day: read code, leave comments, read more code. The wrapped skill is the only reason my feedback stayed consistent at a volume where consistency is normally the first casualty.
 
 ## The diary does not flatter
 
