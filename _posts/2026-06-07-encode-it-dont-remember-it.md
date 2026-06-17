@@ -58,3 +58,7 @@ Give the agent the same prompt and you get a different answer, and most days tha
 None of which is new. We have always known that people forget, that they do a thing one way on a Tuesday and another way a year later. Tests, types, linters, the build going red on a Friday afternoon, all of it exists because a human is a non-deterministic agent too, and always has been. The agent did not teach me anything I did not already know. It generated the change cheaply enough, and often enough, that I finally ran out of excuses for not encoding the discipline I should have encoded years ago. The lesson was never about the AI. The AI only made the right thing cheap, and the wrong thing harder to keep getting away with.
 
 I still do not know which guardrails are worth building, or which mistakes are even shaped so you can catch them this way. All I have is this one instance, sitting at the back of my head, encouraging me to look for more.
+
+---
+
+**Related reading:** [Money for Nothing](/2026/06/17/money-for-nothing/) — on feedback that arrives late, noisy, or wearing the wrong sign.

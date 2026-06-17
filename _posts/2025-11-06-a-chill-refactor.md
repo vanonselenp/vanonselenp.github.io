@@ -13,7 +13,7 @@ _Can an AI Do a Boring Refactor? A Case Study in Systematic Code Cleanup_
 
 ![banner](/assets/chill-refactor/banner.png)
 
-This week, my carefully-laid plans for rapid progress on **Horizons Edge**, a tactical wargame with card-driven combat on floating islands, collided headfirst with 2,255 lines of code and 94 functions living in a single file. Whoops. Just what I always wanted. I'd let a god class slowly brew and percolate while I focused on shipping features. Now it was time to pay the inevitable technical debt.
+This week, my carefully-laid plans for rapid progress on **Horizon's Edge**, a tactical wargame with card-driven combat on floating islands, collided headfirst with 2,255 lines of code and 94 functions living in a single file. Whoops. Just what I always wanted. I'd let a god class slowly brew and percolate while I focused on shipping features. Now it was time to pay the inevitable technical debt.
 
 The wonderful file in question: `game_manager.gd`. It was managing twelve distinct functional areas: turn management, combat, creatures, cards, abilities, territory, players, and more. The result was tight coupling and maintenance friction of epic proportions.
 
@@ -84,7 +84,7 @@ The lesson: AI isn't magic. It's a tool. And like any tool, it works best when y
 
 ## What's Next
 
-Now I can finally get back to what I actually want to be doing: making **Horizons Edge** a better game.
+Now I can finally get back to what I actually want to be doing: making **Horizon's Edge** a better game.
 
 ![voltage defender](/assets/chill-refactor/voltage-defender.png)
 

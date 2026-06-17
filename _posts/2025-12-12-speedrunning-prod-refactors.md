@@ -21,7 +21,7 @@ I'm currently on the e-comm-funnel team working on the checkout pipeline. One of
 
 My goal: break it into microservices.
 
-So naturally I did what I've been practicing with Horizons Edge and started with a spec. I had a very long conversation with Codex, analyzed the repo structure, identified the domains, mapped dependencies. From this chat we produced a solid 10 page high-level plan. 
+So naturally I did what I've been practicing with Horizon's Edge and started with a spec. I had a very long conversation with Codex, analyzed the repo structure, identified the domains, mapped dependencies. From this chat we produced a solid 10 page high-level plan. 
 
 And the first step of that plan was _Phase 1: extract common code into a shared library_.
 
@@ -68,6 +68,6 @@ Two things keep reinforcing themselves across contexts:
 
 **First**: AI amplifies your need for discipline. The easier it becomes to generate large amounts of code, the more critical it is to think carefully about scope, verification, and deployment strategy. One-shotting 280 files feels productive in the moment. It's not. It's just creating an unshippable mess you'll have to undo.
 
-**Second**: The "what's the smallest increment that adds value?" mindset pays off everywhere. It saved Horizons Edge when I was drowning in scope creep. It made this refactor safe and reviewable. It's not just a nice-to-have for side projects ... it's how you de-risk production changes in unfamiliar territory.
+**Second**: The "what's the smallest increment that adds value?" mindset pays off everywhere. It saved Horizon's Edge when I was drowning in scope creep. It made this refactor safe and reviewable. It's not just a nice-to-have for side projects ... it's how you de-risk production changes in unfamiliar territory.
 
 Next up is breaking out actual domains into microservices, starting with Identity & User. But that's a plan for next year, when I'm hopefully no longer coughing my lungs out.

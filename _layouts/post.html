@@ -24,6 +24,39 @@ layout: default
         <div class="post-author">
             {% include post-bio.html %}
         </div>
+        {% if page.previous or page.next %}
+        <nav class="post-nav" aria-label="More posts">
+            <ul>
+                {% if page.previous %}
+                <li class="post-nav-prev"><a href="{{ page.previous.url | relative_url }}" rel="prev">&larr; {{ page.previous.title }}</a></li>
+                {% endif %}
+                {% if page.next %}
+                <li class="post-nav-next"><a href="{{ page.next.url | relative_url }}" rel="next">{{ page.next.title }} &rarr;</a></li>
+                {% endif %}
+            </ul>
+        </nav>
+        {% endif %}
         <p><a href="{{ '/blog/' | relative_url }}">&larr; Back to Blog</a></p>
     </footer>
 </article>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "{{ site.url }}/about/#peter",
+  "name": "Peter van Onselen",
+  "url": "{{ site.url }}/about/",
+  "jobTitle": "Staff Engineer",
+  "sameAs": [
+    "https://github.com/vanonselenp",
+    "https://www.linkedin.com/in/peter-van-onselen-a46b1b2b"
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "London",
+    "addressCountry": "United Kingdom"
+  },
+  "description": "Staff Engineer in London writing learning-in-public essays about AI-assisted engineering."
+}
+</script>

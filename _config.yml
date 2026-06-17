@@ -35,6 +35,11 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  - specs/
+  - tasks/
+  - articles/
+  - blog-interpretation-audit.md
+  - README.md
 
 # Navigation
 navigation:

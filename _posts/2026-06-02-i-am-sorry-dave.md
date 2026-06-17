@@ -48,3 +48,7 @@ I wanted this to land neatly, and I can't.
 Because what I actually did was improvise a boundary out of separate terminals and copy and paste and a lot of manual running, and the reason I did it that way is that the proper version doesn't exist yet, at least not for me. The principled version of my paranoia isn't a careful human pasting things between windows for an afternoon. It's a real, scoped, read-only permission that makes the polite instruction unnecessary because the destructive action is architecturally impossible. I haven't built that. I paid the tax by hand instead, and I'm not even sure how much of the tax was prudence and how much was that I'm just twitchy about production and always have been.
 
 The boring, careful, slow path was the right one this time. It usually is when the consequences matter. I just don't have the clean version of how to do it yet, and until I do I'll keep being the slow human in the loop, pasting things between terminals, deciding when to press the button myself.
+
+---
+
+**Related reading:** [Money for Nothing](/2026/06/17/money-for-nothing/) — on feedback that arrives late, noisy, or wearing the wrong sign.
