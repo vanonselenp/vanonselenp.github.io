@@ -11,7 +11,7 @@ This blog exists in the spirit of Austin Kleon's *Show Your Work*. You won't fin
 
 ## Start here
 
-New here? [Pick the entry point that sounds most like you &rarr;](/start-here/)
+New here? [Find something that interests you... &rarr;](/start-here/)
 
 </div>
 
