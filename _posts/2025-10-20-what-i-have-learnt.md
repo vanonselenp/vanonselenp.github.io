@@ -5,6 +5,7 @@ date: 2025-10-20 08:00:00 +0000
 categories: personal board-game godot video-game claudecode codex vibecoding
 image: /assets/github.png
 thread: craft
+tags: [ai-assisted-engineering]
 ---
 
 _The Question That Started Everything... am I going to lose my job?_

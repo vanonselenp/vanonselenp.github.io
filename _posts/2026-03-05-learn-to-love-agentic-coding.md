@@ -5,6 +5,7 @@ date: 2026-03-05 08:00:00 +0000
 categories: claudecode specdrivendevelopment katas softwarecraftsmanship
 image: /assets/agentic-kata/kata1.png
 thread: craft
+tags: [agentic-katas]
 ---
 
 _I don't know how to teach this. But I think I've figured out how to practice it..._

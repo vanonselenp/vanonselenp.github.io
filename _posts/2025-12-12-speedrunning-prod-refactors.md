@@ -5,6 +5,7 @@ date: 2025-12-12 08:00:00 +0000
 categories: vibecoding claudecode specdrivendevelopment codex
 image: /assets/speedrun-refactor/this-is-fine.png
 thread: craft
+tags: [ai-assisted-engineering, case-study]
 ---
 
 _Learning the hard way that AI makes discipline more important, not less..._

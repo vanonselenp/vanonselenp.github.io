@@ -7,6 +7,7 @@ redirect_from:
   - /2026/06/02/i-am-sorry-dave.md/
 image: /assets/dave-hero.png
 thread: craft
+tags: [ai-assisted-engineering, case-study]
 ---
 
 *Notes from a production incident.*

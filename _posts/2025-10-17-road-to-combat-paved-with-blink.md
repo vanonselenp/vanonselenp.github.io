@@ -5,6 +5,7 @@ date: 2025-10-17 08:00:00 +0000
 categories: personal board-game godot video-game claudecode codex vibecoding
 image: /assets/road-to-combat/archer.png
 thread: gamedev
+tags: [game-development]
 ---
 
 _I set out to make a combat system. I returned with roads, models, and a blink ability..._

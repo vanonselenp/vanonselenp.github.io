@@ -5,6 +5,7 @@ date: 2026-05-10 08:00:00 +0000
 categories: aios claudecode opencode
 image: /assets/army-of-prompts/hero.jpg
 thread: meta
+tags: [print-pipeline]
 ---
 
 _On discovering that good process survives the jump from code to plastic._

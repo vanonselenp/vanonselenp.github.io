@@ -4,6 +4,7 @@ title: "Charting a Path to Senior Staff Engineer"
 date: 2025-08-03 10:00:00 +0000
 categories: personal staffplus
 thread: meta
+tags: [career-meta]
 ---
 
 *Reflections on defining and growing into a Senior Staff Engineer role at The Economist.*

@@ -5,6 +5,7 @@ date: 2026-04-22 08:00:00 +0000
 categories: aios claudecode softwarecraftsmanship
 image: /assets/reality/hero.jpg
 thread: meta
+tags: [print-pipeline]
 ---
 
 _I Vibe Coded A Model Into My House_

@@ -5,6 +5,7 @@ date: 2025-09-07 11:00:00 +0000
 categories: personal python board-game
 image: /assets/agentic_gone_wrong.png
 thread: gamedev
+tags: [game-development]
 ---
 
 _The curious case of Sky Islands and the Endless Roads leading nowhere ...._

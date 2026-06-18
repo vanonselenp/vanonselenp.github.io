@@ -47,6 +47,8 @@ navigation:
     url: /
   - title: About
     url: /about/
+  - title: Start Here
+    url: /start-here/
   - title: Projects
     url: /projects/
   - title: Blog

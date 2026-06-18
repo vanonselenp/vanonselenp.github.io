@@ -5,6 +5,7 @@ date: 2025-08-04 11:00:00 +0000
 categories: personal magic python
 image: /assets/vibe_coding.png
 thread: meta
+tags: [ai-assisted-engineering]
 ---
 
 *From Pauper to Pandemonium: Building a Magic Jumpstart cube when you can't change anything*

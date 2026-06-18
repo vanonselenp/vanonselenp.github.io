@@ -5,6 +5,7 @@ date: 2025-11-13 08:00:00 +0000
 categories: godot vibecoding claudecode specdrivendevelopment
 image: /assets/no-energy-week/banner.png
 thread: gamedev
+tags: [game-development, specs-and-process]
 ---
 
 _The tale of how a good System can carry you through the dark times..._

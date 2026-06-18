@@ -5,6 +5,7 @@ date: 2025-12-04 08:00:00 +0000
 categories: godot vibecoding claudecode specdrivendevelopment
 image: /assets/mvp/banner.png
 thread: gamedev
+tags: [game-development]
 ---
 
 _Three Months to MVP: What I Learned Building a Tactical Card Game with AI..._

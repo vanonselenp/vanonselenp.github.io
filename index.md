@@ -11,10 +11,7 @@ This blog exists in the spirit of Austin Kleon's *Show Your Work*. You won't fin
 
 ## Start here
 
-- **The origin story** — [A Blog of Dubious Intent](/2025/08/01/a-blog-of-dubious-intent/) — why this exists and what you'll find
-- **The game** — [Finally... A Wild MVP Appears](/2025/12/04/finally-a-wild-mvp-appears/) — three months of building a tactical wargame with AI
-- **The katas** — [How I Learnt to Stop Worrying and Love Agentic Katas](/2026/03/05/learn-to-love-agentic-coding/) — structured practice for AI-assisted development
-- **The craft** — [The Smell of Panic When You Context Thrash](/2026/03/24/the-smell-of-panic-when-you-context-thrash/) — what goes wrong when you skip understanding
+New here? [Pick the entry point that sounds most like you &rarr;](/start-here/)
 
 </div>
 

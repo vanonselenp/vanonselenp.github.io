@@ -5,6 +5,7 @@ date: 2026-04-12 08:00:00 +0000
 categories: aios claudecode softwarecraftsmanship
 image: /assets/canary-hero.png
 thread: craft
+tags: [ai-assisted-engineering, tools]
 ---
 
 _On discovering that your favourite tool got measurably worse, that you'd been blaming yourself for it, and that the only reason you noticed at all was because another harness was sitting right next to it behaving normally._

@@ -5,6 +5,7 @@ date: 2026-03-17 08:00:00 +0000
 categories: aios claudecode softwarecraftsmanship
 image: /assets/feedback-that-kills-you/image.png
 thread: craft
+tags: [ai-assisted-engineering]
 ---
 
 _What doesn't kill you makes you stronger ... right?_

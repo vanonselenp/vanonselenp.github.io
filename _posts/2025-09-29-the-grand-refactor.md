@@ -5,6 +5,7 @@ date: 2025-09-29 11:00:00 +0000
 categories: personal python board-game godot video-game
 image: /assets/grand-refactor/current.png
 thread: gamedev
+tags: [game-development]
 ---
 
 _From Buttons to Cards: A Sideways Journey_

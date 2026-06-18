@@ -5,6 +5,7 @@ date: 2025-10-03 11:00:00 +0000
 categories: personal board-game godot video-game claudecode codex vibecoding
 image: /assets/cards-chaos-claude/cards.png
 thread: gamedev
+tags: [game-development, ai-assisted-engineering]
 ---
 
 _Last Time on Madness Boulevard..._

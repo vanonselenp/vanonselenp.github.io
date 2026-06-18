@@ -5,6 +5,7 @@ date: 2025-10-31 08:00:00 +0000
 categories: personal godot video-game claudecode vibecoding
 image: /assets/boring/3-heroes.png
 thread: craft
+tags: [specs-and-process, ai-assisted-engineering]
 ---
 
 _Or: How I Learned to Stop Vibing and Love the Spec"_

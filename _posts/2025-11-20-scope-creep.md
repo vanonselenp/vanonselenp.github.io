@@ -5,6 +5,7 @@ date: 2025-11-20 08:00:00 +0000
 categories: godot vibecoding claudecode specdrivendevelopment
 image: /assets/scope-creep-november/banner.png
 thread: gamedev
+tags: [game-development, specs-and-process]
 ---
 
 _Scope Creep Keeps Teaching Me..._

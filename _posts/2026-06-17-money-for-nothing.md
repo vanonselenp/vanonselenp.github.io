@@ -5,6 +5,7 @@ date: 2026-06-17 06:00:00 +0000
 categories: claudecode opencode softwarecraftsmanship
 image: /assets/money-for-nothing-hero.png
 thread: craft
+tags: [ai-assisted-engineering, case-study]
 ---
 
 *When feedback arrives late, noisy, or wearing the wrong sign.*

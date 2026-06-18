@@ -5,6 +5,7 @@ date: 2025-10-24 08:00:00 +0000
 categories: personal board-game godot video-game claudecode codex vibecoding
 image: /assets/stay-on-target/mage.png
 thread: gamedev
+tags: [game-development]
 ---
 
 _Breaking news: Developer completes planned features ... who would have thought?_

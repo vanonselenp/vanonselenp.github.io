@@ -5,6 +5,7 @@ date: 2025-10-10 11:00:00 +0000
 categories: personal board-game godot video-game claudecode codex vibecoding
 image: /assets/scope-creep/current.png
 thread: gamedev
+tags: [game-development]
 ---
 
 _Crouching Creature Combat, hidden tangents..._

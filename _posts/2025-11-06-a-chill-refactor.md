@@ -5,6 +5,7 @@ date: 2025-11-06 08:00:00 +0000
 categories: godot video-game claudecode vibecoding
 image: /assets/chill-refactor/banner.png
 thread: gamedev
+tags: [game-development, specs-and-process]
 ---
 
 _Can an AI Do a Boring Refactor? A Case Study in Systematic Code Cleanup_

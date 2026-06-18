@@ -5,6 +5,7 @@ date: 2026-06-12 06:00:00 +0000
 categories: claudecode opencode softwarecraftsmanship
 image: /assets/machine-diary-hero.png
 thread: craft
+tags: [ai-assisted-engineering]
 ---
 
 *Burn the land and boil the sea; the skills, I hope, come with me.*

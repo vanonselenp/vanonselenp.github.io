@@ -5,6 +5,7 @@ date: 2026-02-10 08:00:00 +0000
 categories: vibecoding claudecode specdrivendevelopment codex
 image: /assets/agentic-play/image.png
 thread: craft
+tags: [ai-assisted-engineering]
 ---
 
 _How I learned to do AI Katas and make disposable code helped me recover from burnout_
