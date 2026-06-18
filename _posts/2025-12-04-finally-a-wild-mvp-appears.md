@@ -22,7 +22,7 @@ When I started this project, I was pure vibe coding. But somewhere in the middle
 
 ![card driven](/assets/mvp/cards.png)
 
-Writing a clear specification before diving head first into a vibe changed everything. Suddenly the AI had guardrails. It stopped looping in circles. If you want to go deeper on this, I wrote about starting to figure out specs in [Chaos, Cards, and Claude](/2025/10/03/chaos-cards-and-claude-copy/).
+Writing a clear specification before diving head first into a vibe changed everything. Suddenly the AI had guardrails. It stopped looping in circles. If you want to go deeper on this, I wrote about starting to figure out specs in [Chaos, Cards, and Claude](/2025/10/03/chaos-cards-and-claude/).
 
 ## Months of Education
 

@@ -33,6 +33,13 @@ jobs:
         run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
         env:
           JEKYLL_ENV: production
+      - name: Check site with HTMLProofer
+        run: |
+          bundle exec htmlproofer ./_site \
+            --disable-external \
+            --checks "Links,Images,Scripts,OpenGraph" \
+            --enforce-https \
+            --ignore-urls "/^https?:\/\/localhost/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
 
