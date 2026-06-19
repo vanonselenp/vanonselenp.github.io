@@ -33,12 +33,10 @@ This site is automatically deployed to GitHub Pages via GitHub Actions when you 
 │   └── 2025-08-01-welcome.md
 ├── assets/
 │   ├── css/styles.css   # Custom styles
-│   └── resume.pdf       # Your resume (to be added)
 ├── index.md             # Home page
 ├── about.md             # About page
 ├── projects.md          # Projects/Portfolio
 ├── blog.md              # Blog index
-├── resume.md            # Resume page
 ├── contact.md           # Contact page
 └── .github/workflows/   # GitHub Actions for auto-deployment
 ```
@@ -61,10 +59,6 @@ Edit `_config.yml` to update:
 **Projects Page (`projects.md`):**
 - Add your actual projects from your portfolio
 - Include GitHub links and live demo URLs
-
-**Resume Page (`resume.md`):**
-- Add your complete work history and skills
-- Upload your PDF resume to `assets/resume.pdf`
 
 **Contact Page (`contact.md`):**
 - Add your actual email address
@@ -114,7 +108,6 @@ bundle exec jekyll build
 ## 📝 Next Steps
 
 1. **Add your LinkedIn information** to all the placeholder sections
-2. **Upload your resume PDF** to `assets/resume.pdf`
 3. **Update contact information** with your actual email
 4. **Add your project details** with real GitHub links
 5. **Customize the styling** to match your preferences
