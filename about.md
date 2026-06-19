@@ -11,7 +11,7 @@ That means the posts are usually written from the middle of the mess. Sometimes 
 
 If you are sceptical of AI hype but still using the tools, you are probably who I am writing for. If you have an agent open in one window and a growing suspicion that your process matters more than your prompt, definitely. If you lead engineers and are trying to separate useful change from theatre, also yes. I do not have the clean answers. I do have receipts, false starts, and a habit of overbuilding small experiments until they become educational.
 
-I am Peter, a South African engineer living in London and a Staff Engineer, working on the e-commerce funnel. That perspective leaks into the writing: production constraints, real users, old systems, team context, and the boring verification work that decides whether a clever idea survives contact with reality.
+I am Peter, a South African engineer living in London and a Staff Software Engineer. I've just joined Orbital.tech; before that I was at The Economist, most recently working on the e-commerce funnel. That perspective leaks into the writing: production constraints, real users, old systems, team context, and the boring verification work that decides whether a clever idea survives contact with reality.
 
 Expect irregular essays, not tutorials. Some posts are about code, some about games, some about the uncomfortable bit where process, judgement, and tooling collide. There will be no promotional content, no neat victory laps, and no pretend certainty. If something worked, I will say so. If it went sideways, that is usually the better post.
 
@@ -27,7 +27,7 @@ Expect irregular essays, not tutorials. Some posts are about code, some about ga
   "@context": "https://schema.org",
   "@type": "Person",
   "name": "Peter van Onselen",
-  "jobTitle": "Staff Engineer",
+  "jobTitle": "Staff Software Engineer",
   "worksFor": {
     "@type": "Organization",
     "name": "Orbital.tech"
@@ -59,6 +59,6 @@ Expect irregular essays, not tutorials. Some posts are about code, some about ga
     "Python",
     "Node.js"
   ],
-  "description": "Staff Engineer. Writes learning-in-public essays about AI-assisted engineering, real systems, and the craft of working with AI tools."
+  "description": "Staff Software Engineer. Writes learning-in-public essays about AI-assisted engineering, real systems, and the craft of working with AI tools."
 }
 </script>
