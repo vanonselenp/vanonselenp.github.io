@@ -29,4 +29,4 @@ The [case studies tag](/tags/case-study/) has the named-incident posts: the trad
 
 ---
 
-For everything else: the [blog](/blog/) is chronological with thread groupings, and [topics](/tags/) is the cross-cutting view.
+For everything else: the [blog](/blog/) is the plain chronological view, and [topics](/tags/) cuts the writing by series and by theme.

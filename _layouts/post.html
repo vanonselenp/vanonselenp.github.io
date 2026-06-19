@@ -25,14 +25,22 @@ layout: default
         <div class="post-author">
             {% include post-bio.html %}
         </div>
-        {% if page.previous or page.next %}
-        <nav class="post-nav" aria-label="More posts">
+        {% assign series = site.posts | where: "thread", page.thread | sort: "date" %}
+        {% assign series_size = series | size %}
+        {% if series_size > 1 %}
+        {% assign cur = 0 %}
+        {% for p in series %}{% if p.url == page.url %}{% assign cur = forloop.index0 %}{% endif %}{% endfor %}
+        {% assign prev_idx = cur | minus: 1 %}
+        {% assign next_idx = cur | plus: 1 %}
+        <nav class="post-nav" aria-label="More in this series">
             <ul>
-                {% if page.previous %}
-                <li class="post-nav-prev"><a href="{{ page.previous.url | relative_url }}" rel="prev">&larr; {{ page.previous.title }}</a></li>
+                {% if cur > 0 %}
+                {% assign prev_post = series[prev_idx] %}
+                <li class="post-nav-prev"><a href="{{ prev_post.url | relative_url }}" rel="prev">&larr; {{ prev_post.title }}</a></li>
                 {% endif %}
-                {% if page.next %}
-                <li class="post-nav-next"><a href="{{ page.next.url | relative_url }}" rel="next">{{ page.next.title }} &rarr;</a></li>
+                {% if next_idx < series_size %}
+                {% assign next_post = series[next_idx] %}
+                <li class="post-nav-next"><a href="{{ next_post.url | relative_url }}" rel="next">{{ next_post.title }} &rarr;</a></li>
                 {% endif %}
             </ul>
         </nav>

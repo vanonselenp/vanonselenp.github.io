@@ -5,7 +5,7 @@ permalink: /blog/
 description: Posts about AI-assisted development, game development with Godot, agentic katas, and the craft of working alongside AI agents.
 ---
 
-This is chronological order of the blog and [topics](/tags/) is the cross-cutting view.
+Everything in chronological order. [Topics](/tags/) is the cut by series and by theme.
 
 ## All posts
 

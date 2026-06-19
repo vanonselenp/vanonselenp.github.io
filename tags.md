@@ -2,10 +2,43 @@
 layout: page
 title: Topics
 permalink: /tags/
-description: Browse posts by topic — AI-assisted engineering, game development, the Bolt Action print pipeline, agentic katas, and more.
+description: Browse the writing by series (the arcs) or by topic (cross-cutting tags) — AI-assisted engineering, game development, the Bolt Action print pipeline, agentic katas, and more.
 ---
 
-A different cut through the writing here. Threads on the blog page group by series; tags group by topic.
+Two cuts through the writing: by **series**, which follows each arc, and by **topic**, which groups across them. The [blog](/blog/) is the plain chronological view.
+
+## By series
+
+{% assign thread_order = "craft,gamedev,meta" | split: "," %}
+{% for t in thread_order %}
+{% assign thread_posts = site.posts | where: "thread", t %}
+{% if thread_posts.size > 0 %}
+{% case t %}
+{% when "craft" %}
+### AI-assisted engineering
+
+{% assign blurb = "What actually changes when you work with AI tools every day, where the interesting failures live, and the small disciplines that keep production sane." %}
+{% assign ordered = thread_posts | sort: "date" | reverse %}
+{% when "gamedev" %}
+### Horizon's Edge
+
+{% assign blurb = "The game-dev devlog: a tactical wargame in Godot that began as a board game and grew legs. In order, so the arc reads start to finish." %}
+{% assign ordered = thread_posts | sort: "date" %}
+{% when "meta" %}
+### Side projects &amp; meta
+
+{% assign blurb = "Where it started (a Magic: The Gathering cube), the Bolt Action 3D-print pipeline, and why this blog exists." %}
+{% assign ordered = thread_posts | sort: "date" | reverse %}
+{% endcase %}
+_{{ blurb }}_
+
+{% for post in ordered %}
+- {% include post-listing.html post=post %}
+{% endfor %}
+{% endif %}
+{% endfor %}
+
+## By topic
 
 {% assign all_tags = "" | split: "" %}
 {% for post in site.posts %}

@@ -39,6 +39,7 @@ exclude:
   - tasks/
   - articles/
   - blog-interpretation-audit.md
+  - analysis.md
   - README.md
 
 # Navigation
