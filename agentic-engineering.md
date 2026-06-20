@@ -12,6 +12,8 @@ image: /assets/agentic-engineering.png
 
 Across these posts one argument keeps surfacing, so here it is plainly, once. Software gets written by non-deterministic entities that forget, tire, and get clever, whether the entity is a person or an agent, which is the entire reason the rails exist: tests, types, linters, a build that goes red early. AI did not create the need for them. It made skipping them expensive, by collapsing the distance between a decision and its cost from years to seconds. The harness you run the agent inside matters more than the model inside it, and the more an agent can break, the less you let it do. The one place the rails stop is judgement: a wrong call that arrives looking exactly like a right one. You can cap what that costs. You cannot automatically catch it in advance. Below is where each of these was actually learned.
 
+![Agentic Engineering](/assets/agentic-engineering.png)
+
 ## Build the rails
 
 - [Encode It, Don't Remember It](https://www.petervanonselen.com/2026/06/07/encode-it-dont-remember-it/). On moving discipline out of your head and into the harness, where a forgetful thing has to meet it before the cost lands. The mechanics of it.
