@@ -3,7 +3,7 @@ layout: page
 title: Agentic Engineering
 permalink: /agentic-engineering/
 description: The argument running through the AI-assisted engineering posts, stated once. Non-deterministic things need deterministic rails, and AI only made skipping them expensive.
-image: /assets/agentic-engineering-hero.png
+image: /assets/agentic-engineering.png
 ---
 
 *none of it is new. AI just took the slack out.*
