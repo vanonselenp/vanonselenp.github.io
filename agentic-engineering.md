@@ -6,7 +6,7 @@ description: The argument running through the AI-assisted engineering posts, sta
 image: /assets/agentic-engineering.png
 ---
 
-*none of it is new. AI just took the slack out.*
+*None of it is new. AI just took the slack out.*
 
 ---
 
