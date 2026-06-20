@@ -5,6 +5,8 @@ permalink: /start-here/
 description: New here? This is the entry route I'd suggest — three or four posts depending on what you came for.
 ---
 
+If you only read one thing, [here is my primer on what I have learnt about Agentic Engineering.](https://www.petervanonselen.com/agentic-engineering/).
+
 If you have just landed here, this is the entry route I would suggest. Pick the line that sounds most like you.
 
 ## I am sceptical of AI hype but I use the tools daily

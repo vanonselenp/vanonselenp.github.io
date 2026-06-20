@@ -11,6 +11,8 @@ This blog exists in the spirit of Austin Kleon's *Show Your Work*. You won't fin
 
 ## Start here
 
+Want a primer of what I have learnt about agentic engineering? [Agentic Engineering &rarr;](/agentic-engineering/)
+
 New here? [Find something that interests you... &rarr;](/start-here/)
 
 </div>

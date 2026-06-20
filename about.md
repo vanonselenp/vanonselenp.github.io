@@ -5,6 +5,8 @@ permalink: /about/
 description: "About this blog: learning in public about AI-assisted engineering, game development, and the craft of working alongside AI agents."
 ---
 
+The clearest primer of what I have learnt about Agentic Engineering is [here](/agentic-engineering/).
+
 This is a learning-in-public blog about figuring out AI-assisted engineering from the inside, with all the flattering lighting turned off. I am not trying to sell you a framework, a course, or the idea that the future has conveniently resolved itself. I am trying to notice what actually changes when you work with AI tools every day, what stays stubbornly human, and where the craft gets stranger than expected.
 
 That means the posts are usually written from the middle of the mess. Sometimes that mess is a tactical wargame that started as a sensible board game prototype and immediately grew legs. Sometimes it is an agentic coding kata, a benchmark harness, or a production-shaped problem from the day job that made me realise I had been using the tool wrong. The point is not to emerge looking clever. The point is to leave a trail that another engineer can recognise.
