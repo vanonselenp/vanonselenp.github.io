@@ -3,7 +3,7 @@ layout: default
 description: A staff engineer figuring out AI-assisted development in public — the tangents, the failures, and the learning.
 ---
 
-<p class="site-tagline">A staff engineer figuring out AI-assisted development in public — the tangents, the failures, and the learning.</p>
+<p class="site-tagline">A staff engineer figuring out AI-assisted development in public ... the tangents, the failures, and the learning.</p>
 
 This blog exists in the spirit of Austin Kleon's *Show Your Work*. You won't find polished tutorials here. Instead: scope creep documented in real-time, refactors that went sideways, a game that probably should have been paper-prototyped first, and the slow realisation that AI changes how you work but not how hard it is.
 
