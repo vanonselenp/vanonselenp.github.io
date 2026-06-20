@@ -21,17 +21,31 @@ New here? [Find something that interests you... &rarr;](/start-here/)
 {% assign latest_post = site.posts.first %}
 <div class="latest-post">
 <h2>Latest</h2>
+<div class="latest-post-body">
+
+{% if latest_post.image %}
+{% assign latest_image = latest_post.image %}
+{% unless latest_image contains '://' %}{% assign latest_image = latest_image | relative_url %}{% endunless %}
+<a class="latest-post-image" href="{{ latest_post.url | relative_url }}" aria-label="Read {{ latest_post.title }}">
+    <img src="{{ latest_image }}" alt="" loading="lazy">
+</a>
+{% endif %}
+
+<div class="latest-post-text">
 <h3><a href="{{ latest_post.url | relative_url }}">{{ latest_post.title }}</a></h3>
-<p class="post-meta">
-    <time datetime="{{ latest_post.date | date_to_xmlschema }}">{{ latest_post.date | date: "%B %d, %Y" }}</time>
-</p>
 
 {% assign latest_tagline = nil %}{% capture latest_tagline %}{% include tagline.html post=latest_post %}{% endcapture %}{% assign latest_tagline = latest_tagline | strip %}
 {% if latest_tagline != "" %}<p class="post-tagline"><em>{{ latest_tagline }}</em></p>{% endif %}
 
+<p class="post-meta">
+    <time datetime="{{ latest_post.date | date_to_xmlschema }}">{{ latest_post.date | date: "%B %d, %Y" }}</time>
+</p>
+
 <p>{% include first_paragraph.html post=latest_post %}</p>
 
 <p><a href="{{ latest_post.url | relative_url }}">Read more &rarr;</a></p>
+</div>
+</div>
 </div>
 
 {% if site.posts.size > 1 %}
@@ -40,17 +54,31 @@ New here? [Find something that interests you... &rarr;](/start-here/)
 {% assign recent_posts = site.posts | slice: 1, 3 %}
 {% for post in recent_posts %}
 <div class="recently-post">
+<div class="recently-post-body">
+
+{% if post.image %}
+{% assign post_image = post.image %}
+{% unless post_image contains '://' %}{% assign post_image = post_image | relative_url %}{% endunless %}
+<a class="recently-post-image" href="{{ post.url | relative_url }}" aria-label="Read {{ post.title }}">
+    <img src="{{ post_image }}" alt="" loading="lazy">
+</a>
+{% endif %}
+
+<div class="recently-post-text">
 <h3><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h3>
-<p class="post-meta">
-    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
-</p>
 
 {% capture post_tagline %}{% include tagline.html post=post %}{% endcapture %}{% assign post_tagline = post_tagline | strip %}
 {% if post_tagline != "" %}<p class="post-tagline"><em>{{ post_tagline }}</em></p>{% endif %}
 
+<p class="post-meta">
+    <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%B %d, %Y" }}</time>
+</p>
+
 <p>{% include first_paragraph.html post=post %}</p>
 
 <p><a href="{{ post.url | relative_url }}">Read more &rarr;</a></p>
+</div>
+</div>
 </div>
 {% endfor %}
 <p><a href="{{ '/blog/' | relative_url }}">See all posts &rarr;</a></p>
