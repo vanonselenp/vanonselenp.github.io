@@ -58,11 +58,19 @@
         <div class="container">
             <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
             <nav class="site-nav" aria-label="Main navigation">
-                <ul>
+                <ul class="site-nav-list site-nav-list-desktop">
                     {% for item in site.navigation %}
                     <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
                     {% endfor %}
                 </ul>
+                <details class="site-nav-menu">
+                    <summary>Menu</summary>
+                    <ul class="site-nav-list">
+                        {% for item in site.navigation %}
+                        <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+                        {% endfor %}
+                    </ul>
+                </details>
             </nav>
         </div>
     </header>
