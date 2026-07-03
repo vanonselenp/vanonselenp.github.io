@@ -34,7 +34,7 @@ What an outside, disinterested read gives you is the thing your own head cannot:
 
 Say that plainly and it sounds like career-hacking, like I gamed my own hiring funnel with a chatbot and now I'm here to sell you the technique. What I actually built wasn't a trick for winning interviews. It was a way of stopping any single interview from being a referendum on my worth as an engineer. Most people go in treating each one as exactly that. Pass or fail, worthy or not, this is the interview and if it goes badly then something has been proven about you. That's a boom and bust way to live through nine months, and it's brutal, and I know because I used to do it that way too.
 
-The alternative isn't confidence. It's process. You stop investing emotionally in any single roll and start investing in the thing that generates the rolls, the habits that keep working whether this particular interview goes well or catastrophically. That interview was catastrophic. The process didn't care. It logged the data point, got the outside read, extracted what was useful, and moved to the next one.
+The alternative isn't confidence. It's process. You stop investing emotionally in any single role and start investing in the thing that generates the roles, the habits that keep working whether this particular interview goes well or catastrophically. That interview was catastrophic. The process didn't care. It logged the data point, got the outside read, extracted what was useful, and moved to the next one.
 
 The machinery was not complicated. Here it is, said plainly:
 
