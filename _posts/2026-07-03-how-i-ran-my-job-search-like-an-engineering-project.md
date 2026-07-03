@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "How I Ran My Job Search Like an Engineering Project"
-date: 2026-06-17 06:00:00 +0000
+date: 2026-07-03 06:00:00 +0000
 categories:  personal claudecode softwarecraftsmanship
 image: /assets/how-i-ran-my-job-search-like-an-engineering-project-hero.png
 thread: craft
