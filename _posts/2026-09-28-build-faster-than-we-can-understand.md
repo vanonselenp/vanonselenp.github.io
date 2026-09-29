@@ -32,7 +32,7 @@ The second attempt was wrong too, the other way. I overcorrected, locked it down
 
 This time it landed, and it was almost embarrassing how small the answer was. It was never an ethical wall. It was never anything clever. It was a view permission. A bog-standard sharing problem. That's the whole thing. It just took two elaborate wrong answers to see it.
 
-It would be nice to tell you I started over twice because I was deliberately spiking it out of discipline. I wasn't. I started over twice because I kept building the wrong thing, and only caught it because I insisted on understanding what each change was actually doing. The habit gets the credit, not me.
+It would be nice to tell you I started over twice because I was deliberately spiking it out of discipline. I wasn't. I started over twice because I kept building the wrong thing, and only caught it because I insisted on understanding what each change was actually doing. 
 
 I could build the wrong thing all the way to done, twice, because each attempt only cost a day. When being wrong costs an agile team two weeks, the cost forces the argument early. Someone stands up before the work starts and asks who's actually going to use this. When being wrong costs a day, nobody asks. Cheap building took away the point where the cost used to force the right question.
 
